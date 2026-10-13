@@ -1,0 +1,34 @@
+{
+ "title": "Stick 3D action test",
+ "settings": {"language": "en-IN", "art": "stick3d", "stick_look": "flat", "music": "tense"},
+ "characters": {
+  "deepak": {"name": "Deepak", "shirt": "#4f9aad", "pants": "#36435f", "voice": {"name": "en-IN-PrabhatNeural"}},
+  "raghav": {"name": "Raghav", "shirt": "#7aa84a", "pants": "#e9e2cf", "mustache": true}
+ },
+ "scenes": [
+  {"id": "storm", "stick_place": "field_2026", "stick_spot": "station", "stick_shot": "station_wide", "mood": "danger",
+   "stick_hail": {"start": 6, "end": 11}, "background": {"preset": "plain"},
+   "characters": [{"id": "deepak", "x": 860, "z": 230}],
+   "events": [{"weather": "storm_comes", "over": 6},
+              {"who": "deepak", "do": "look_up"},
+              {"wait": 2.5},
+              {"effect": "sparks", "x": 1340, "y": 330, "z": 600, "duration": 1.5},
+              {"who": "deepak", "say": "No, no, no! The station!", "emotion": "scared"},
+              {"who": "deepak", "do": "run", "to": {"x": 600, "z": 120}},
+              {"effect": "fire", "x": 1340, "y": 300, "z": 600, "duration": 4},
+              {"wait": 3}]},
+  {"id": "boom", "stick_place": "highway", "stick_spot": "road", "stick_shot": "roadside", "mood": "danger",
+   "background": {"preset": "plain"}, "characters": [],
+   "events": [{"weather": "storm", "over": 1}, {"wait": 1.5},
+              {"effect": "explosion", "x": 1300, "z": 300, "intensity": 1.2}, {"wait": 3.5}]},
+  {"id": "morning", "stick_place": "farm_2026", "stick_spot": "path", "stick_time": "morning", "mood": "warm",
+   "background": {"preset": "plain"},
+   "characters": [{"id": "deepak", "x": 900, "z": 150}, {"id": "raghav", "x": 1150, "z": 160}],
+   "events": [{"who": "deepak", "do": "stretch"}, {"who": "deepak", "do": "brush_teeth"},
+              {"who": "raghav", "do": "sweep", "with": "prev"},
+              {"who": "deepak", "do": "wash_face"},
+              {"who": "raghav", "say": "Good morning, weather man! Rain today?", "emotion": "happy"},
+              {"who": "deepak", "say": "Sky looks clear. But I don't trust it anymore.", "emotion": "worried"},
+              {"who": "deepak", "do": "bathe"}, {"who": "raghav", "do": "stir"}]}
+ ]
+}

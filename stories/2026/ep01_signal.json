@@ -1,0 +1,593 @@
+{
+ "title": "2026 · Episode 1: Signal",
+ "settings": {
+  "language": "hi-IN",
+  "art": "stick3d",
+  "stick_look": "flat",
+  "music": "mystery",
+  "subtitle": "Deepak aur uske 133 weather stations"
+ },
+ "characters": {
+  "deepak": {
+   "name": "Deepak",
+   "shirt": "#4f9aad",
+   "pants": "#36435f"
+  },
+  "imran": {
+   "name": "Imran",
+   "shirt": "#e07a3a",
+   "pants": "#3a3a3a"
+  },
+  "sunita": {
+   "name": "Sunita",
+   "gender": "female",
+   "shirt": "#8a5cc2",
+   "pants": "#e9e2cf"
+  },
+  "raghav": {
+   "name": "Raghav",
+   "shirt": "#7aa84a",
+   "pants": "#e9e2cf",
+   "mustache": true
+  },
+  "ramesh": {
+   "name": "Ramesh Kaka",
+   "age": "old",
+   "shirt": "#f1ece0",
+   "pants": "#f1ece0",
+   "beard": true
+  }
+ },
+ "scenes": [
+  {
+   "id": "tehkhana",
+   "stick_place": "basement_2026",
+   "stick_camera": {
+    "move": "push",
+    "yaw": -70,
+    "height": "eye"
+   },
+   "background": {
+    "preset": "plain",
+    "time": "night"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1055,
+     "z": 855
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "narrate": "Bhopal, 2026. Ek saadharan sa ghar. Aur uske neeche, ek tehkhana."
+    },
+    {
+     "narrate": "Yahan Deepak kaam karta tha. Mausam vaigyanik. Aur shauk se engineer."
+    },
+    {
+     "who": "deepak",
+     "say": "Har mausam ek kahani kehta hai. Bas sunne wala chahiye.",
+     "emotion": "happy"
+    },
+    {
+     "who": "deepak",
+     "say": "Isliye maine apne sunne wale banaye hain. Ek nahi... sau se zyada.",
+     "emotion": "happy"
+    }
+   ]
+  },
+  {
+   "id": "workshop",
+   "stick_place": "home_2026",
+   "background": {
+    "preset": "plain",
+    "time": "day"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1450
+    },
+    {
+     "id": "imran",
+     "x": 1150
+    }
+   ],
+   "props": [
+    {
+     "id": "station_50",
+     "type": "crate",
+     "held_by": "deepak"
+    },
+    {
+     "id": "toolbox",
+     "type": "crate",
+     "x": 1300,
+     "y": 0
+    }
+   ],
+   "events": [
+    {
+     "who": "imran",
+     "say": "Deepak bhai, yeh pachaasvaan station hai. Haath dard karne lage!",
+     "emotion": "happy"
+    },
+    {
+     "who": "deepak",
+     "say": "Bas thode aur, Imran. Har zile mein ek. Har pachaas kilometre par.",
+     "emotion": "happy"
+    },
+    {
+     "who": "imran",
+     "say": "Aur yeh sab aapas mein baat kaise karenge?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "deepak",
+     "say": "LoRa radio. Ek station agle se baat karega, woh agle se. Seedha mere tehkhane tak.",
+     "emotion": "happy",
+     "do": "point"
+    },
+    {
+     "who": "imran",
+     "say": "Matlab poora Madhya Pradesh ek jaal ban jayega!",
+     "emotion": "overjoyed",
+     "do": "celebrate"
+    },
+    {
+     "who": "deepak",
+     "do": "put",
+     "prop": "station_50"
+    }
+   ]
+  },
+  {
+   "id": "khet",
+   "stick_place": "field_2026",
+   "stick_camera": {
+    "move": "orbit"
+   },
+   "background": {
+    "preset": "plain",
+    "time": "day"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 500
+    },
+    {
+     "id": "ramesh",
+     "x": 1350
+    }
+   ],
+   "props": [
+    {
+     "id": "station_dabba",
+     "type": "crate",
+     "held_by": "deepak"
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 1050
+     }
+    },
+    {
+     "who": "ramesh",
+     "say": "Beta, yeh dabba kya hai? Khet mein kya laga rahe ho?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "deepak",
+     "say": "Kaka, yeh mausam ka chowkidar hai. Garmi, hawa, dhoop, sab naapega.",
+     "emotion": "happy"
+    },
+    {
+     "who": "ramesh",
+     "say": "Hamare liye toh aasmaan hi chowkidar hai. Par theek hai, laga do.",
+     "emotion": "happy",
+     "do": "laugh"
+    },
+    {
+     "who": "deepak",
+     "do": "put",
+     "prop": "station_dabba"
+    },
+    {
+     "who": "deepak",
+     "say": "Station number ek sau teentees. Online!",
+     "emotion": "overjoyed",
+     "do": "celebrate"
+    }
+   ]
+  },
+  {
+   "id": "jaal",
+   "stick_screen": {
+    "kind": "mp_map",
+    "grow": 11
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [],
+   "events": [
+    {
+     "narrate": "Ek saal mein poore Madhya Pradesh mein uske stations jaag uthe."
+    },
+    {
+     "narrate": "Har station apna data agle ko deta. Aur sab kuch Deepak ke tehkhane tak pahunchta."
+    },
+    {
+     "narrate": "Pehle sab normal tha."
+    }
+   ]
+  },
+  {
+   "id": "raat",
+   "stick_place": "basement_2026",
+   "stick_camera": {
+    "move": "orbit",
+    "yaw": -60
+   },
+   "background": {
+    "preset": "plain",
+    "time": "night"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1055,
+     "z": 855
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "narrate": "Phir ek raat..."
+    },
+    {
+     "who": "deepak",
+     "say": "Yeh UV ka number... itna zyada? Sardiyon mein?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "deepak",
+     "say": "Sensor kharab hoga. Nahi... ek nahi, chaalis station yahi dikha rahe hain.",
+     "emotion": "worried"
+    }
+   ]
+  },
+  {
+   "id": "data",
+   "stick_screen": {
+    "kind": "data",
+    "grow": 8,
+    "warn": "UV ABNORMAL",
+    "series": [
+     {
+      "name": "UV index",
+      "from": 7,
+      "to": 13
+     },
+     {
+      "name": "Ozone (DU)",
+      "from": 290,
+      "to": 238,
+      "unit": "Dobson units"
+     },
+     {
+      "name": "Magnetic field (nT)",
+      "from": 45100,
+      "to": 43800,
+      "unit": "nanotesla"
+     }
+    ]
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [],
+   "events": [
+    {
+     "narrate": "UV badh raha tha. Ozone ghat rahi thi."
+    },
+    {
+     "narrate": "Aur sabse ajeeb: dharti ka magnetic field bhi kamzor ho raha tha. Bahut tezi se."
+    }
+   ]
+  },
+  {
+   "id": "forum",
+   "stick_screen": {
+    "kind": "forum",
+    "title": "Forum · r/geomagnetism",
+    "every": 3,
+    "posts": [
+     [
+      "u/solar_watch",
+      "Anyone else seeing the field drop this fast? My magnetometer shows -2% this year.",
+      412
+     ],
+     [
+      "u/ozone_nerd",
+      "Satellite ozone over the tropics is falling too. Some models say gone by 2100.",
+      388
+     ],
+     [
+      "u/deepak_mp",
+      "My 133 stations in Madhya Pradesh show the same. Something big is happening.",
+      950
+     ]
+    ]
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [],
+   "events": [
+    {
+     "narrate": "Deepak ne apna data forum par daala. Aur jawab aaye. Duniya bhar se."
+    },
+    {
+     "narrate": "Sabko wahi dikh raha tha. Ozone aur magnetic field, dono khatam ho rahe the."
+    },
+    {
+     "narrate": "Shayad sau saal mein. Shayad usse bhi jaldi."
+    }
+   ]
+  },
+  {
+   "id": "group",
+   "stick_screen": {
+    "kind": "chat",
+    "title": "Purane Dost",
+    "me": "Deepak",
+    "every": 2.6,
+    "messages": [
+     [
+      "Deepak",
+      "Kal shaam mere ghar aao. Sab. Bahut zaroori baat hai."
+     ],
+     [
+      "Imran",
+      "Sab theek hai bhai?"
+     ],
+     [
+      "Sunita",
+      "Main hospital se seedha aaungi."
+     ],
+     [
+      "Raghav",
+      "Aata hoon. Kheti ki baat hai kya?"
+     ],
+     [
+      "Deepak",
+      "Zindagi ki baat hai."
+     ]
+    ]
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [],
+   "events": [
+    {
+     "narrate": "Us raat Deepak so nahi paaya."
+    },
+    {
+     "narrate": "Subah hote hi usne apne sabse purane doston ko bulaaya."
+    }
+   ]
+  },
+  {
+   "id": "baithak",
+   "stick_place": "home_2026",
+   "background": {
+    "preset": "plain",
+    "time": "evening"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1100
+    },
+    {
+     "id": "imran",
+     "x": 700
+    },
+    {
+     "id": "sunita",
+     "x": 1400
+    },
+    {
+     "id": "raghav",
+     "x": 1650
+    }
+   ],
+   "props": [
+    {
+     "id": "laptop",
+     "type": "crate",
+     "held_by": "deepak"
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "say": "Yeh mera data hai. Aur yeh duniya bhar ka. Ozone ghat rahi hai. Magnetic field bhi.",
+     "emotion": "worried",
+     "do": "point"
+    },
+    {
+     "who": "sunita",
+     "say": "Bina ozone ke dhoop jalayegi. Aankhen, chamdi... main yeh roz dekhti hoon.",
+     "emotion": "worried"
+    },
+    {
+     "who": "imran",
+     "say": "Aur bina magnetic field ke, suraj ke toofan seedhe zameen tak aayenge.",
+     "emotion": "scared"
+    },
+    {
+     "who": "raghav",
+     "say": "Toh hum kya karein? Sarkaar ko batao!",
+     "emotion": "angry",
+     "do": "shout"
+    },
+    {
+     "who": "deepak",
+     "say": "Bataunga. Par intezaar nahi karunga. Hamein apni jagah banani hogi.",
+     "emotion": "neutral"
+    },
+    {
+     "who": "deepak",
+     "say": "Zameen ke neeche. Jahan dhoop na pahunche. Paani, khaana, bijli, sab apna.",
+     "emotion": "happy",
+     "do": "point"
+    },
+    {
+     "who": "deepak",
+     "do": "put",
+     "prop": "laptop"
+    },
+    {
+     "who": "raghav",
+     "say": "Mere paas das acre hai. Shuru wahan se karo.",
+     "emotion": "happy",
+     "do": "nod"
+    },
+    {
+     "who": "sunita",
+     "say": "Main bhi saath hoon.",
+     "emotion": "happy"
+    },
+    {
+     "who": "imran",
+     "say": "Aur main bhi. Bijli ka kaam mera.",
+     "emotion": "happy",
+     "do": "celebrate"
+    }
+   ]
+  },
+  {
+   "id": "zameen_badhi",
+   "stick_screen": {
+    "kind": "land",
+    "grow": 12,
+    "from": 10,
+    "to": 300,
+    "from_year": 2026,
+    "to_year": 2027
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [],
+   "events": [
+    {
+     "narrate": "Das acre se shuruaat hui."
+    },
+    {
+     "narrate": "Phir aur dost jude. Aur parivaar. Har mahine thodi aur zameen."
+    },
+    {
+     "narrate": "Ek saal mein: teen sau acre. Paanch sau bigha."
+    }
+   ]
+  },
+  {
+   "id": "neenv",
+   "stick_place": "land_2027",
+   "stick_camera": {
+    "move": "crane",
+    "height": "high"
+   },
+   "background": {
+    "preset": "plain",
+    "time": "day"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 900
+    },
+    {
+     "id": "imran",
+     "x": 650
+    },
+    {
+     "id": "sunita",
+     "x": 1150
+    },
+    {
+     "id": "raghav",
+     "x": 1400
+    }
+   ],
+   "props": [
+    {
+     "id": "plan_map",
+     "type": "crate",
+     "held_by": "deepak"
+    }
+   ],
+   "events": [
+    {
+     "narrate": "2027. Pehli khudai shuru hui."
+    },
+    {
+     "who": "raghav",
+     "say": "Itna bada gaddha! Yahan kya banega, Deepak?",
+     "emotion": "surprised",
+     "do": "point"
+    },
+    {
+     "who": "deepak",
+     "say": "Hamara ghar. Zameen ke neeche. Teen sau logon ke liye.",
+     "emotion": "happy"
+    },
+    {
+     "who": "sunita",
+     "say": "Aur agar tumhara data galat nikla?",
+     "emotion": "worried"
+    },
+    {
+     "who": "deepak",
+     "say": "Toh hum ek bahut mehenga tehkhana banayenge. Aur hasenge.",
+     "emotion": "happy",
+     "do": "laugh"
+    },
+    {
+     "who": "deepak",
+     "say": "Par agar sahi nikla... toh yahi jagah hamein bachayegi.",
+     "emotion": "worried",
+     "do": "look_up"
+    },
+    {
+     "narrate": "Aur Deepak ka data galat nahi tha."
+    }
+   ]
+  }
+ ],
+ "end": {
+  "text": "Episode 2 jald aa raha hai",
+  "sub": "2026 · Signal"
+ }
+}

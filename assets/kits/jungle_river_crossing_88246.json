@@ -1,0 +1,162 @@
+{
+ "id": "jungle_river_crossing_88246",
+ "idea": "jungle river crossing",
+ "title": "jungle river crossing",
+ "style": "cartoon",
+ "place": "river",
+ "time": "day",
+ "by": "template",
+ "pieces": [
+  {
+   "role": "background",
+   "name": "jungle_river_crossing_bg",
+   "prompt": "2D cartoon illustration for a children's animated series, flat vector style with soft shading, clean shapes, bright friendly colours, light coming from the top right. A wide 16:9 background scene of a jungle river bank with a wide open dirt bank in India, bright daylight. dense jungle far away, tall trees at both edges. A calm river along the right third of the ground, its near bank on the flat front ground so characters can stand right next to the water; clear water surface. Layout rules: the flat open ground where characters stand is at about 80% of the image height and runs across the whole width; the middle 60% of the ground is EMPTY (only a path or grass, no objects on it); big trees, buildings and rocks only near the left and right edges; the horizon at about 45% height with distant hills or trees; the top part is open sky. Straight-on eye-level view, not from above. 1920x1080. no people, no animals, no characters, no text, no letters, no logo, no watermark, no frame, no border.",
+   "tips": [
+    "If the characters float or sink when you preview it, change the floor line (0.75 - 0.88).",
+    "Keep the middle ground empty - characters stand and walk there.",
+    "After upload the Studio turns it into 🧊 2.5D depth layers (Depth Anything V2): with \"camera_mode\": \"3d\" the camera moves through your picture with real parallax.",
+    "Always keep the same style words in every prompt so all your pictures look like one family."
+   ],
+   "upload": {
+    "kind": "background",
+    "name": "jungle_river_crossing_bg",
+    "height": null,
+    "ground": 0.8,
+    "abilities": [],
+    "description": "jungle river crossing background - a jungle river bank with a wide open dirt bank"
+   },
+   "water": "river",
+   "uploaded_as": "jungle_river_crossing_bg"
+  },
+  {
+   "role": "object",
+   "name": "fallen_tree_log",
+   "prompt": "A single fallen tree log, 2D cartoon illustration for a children's animated series, flat vector style with soft shading, clean shapes, bright friendly colours, light coming from the top right. The complete object from top to bottom, straight side-front view at eye level, standing upright on its flat base, centred, filling about 80% of the image height, isolated on a plain PURE WHITE background, no ground, no shadow, no other objects, thick clean outline so it is easy to cut out. Match the exact art style, outline thickness, colours and lighting of the background picture of the same scene. Square 1:1, 1024x1024. no people, no animals, no characters, no text, no letters, no logo, no watermark, no frame, no border.",
+   "tips": [
+    "Paste the BACKGROUND picture into the image tool too and say: draw this object in exactly the same style, alone on white.",
+    "Remove the white background (remove.bg or photopea.com) and save as PNG before uploading.",
+    "Height is in story units: an adult is about 300, a child 245.",
+    "Always keep the same style words in every prompt so all your pictures look like one family."
+   ],
+   "upload": {
+    "kind": "object",
+    "name": "fallen_tree_log",
+    "height": 80,
+    "ground": null,
+    "abilities": [
+     "movable",
+     "heavy",
+     "sit",
+     "stand",
+     "floats"
+    ],
+    "description": "fallen tree log"
+   },
+   "x": 420,
+   "z": 60,
+   "uploaded_as": "fallen_tree_log"
+  },
+  {
+   "role": "object",
+   "name": "big_leafy_climbing_tree",
+   "prompt": "A single big leafy climbing tree, 2D cartoon illustration for a children's animated series, flat vector style with soft shading, clean shapes, bright friendly colours, light coming from the top right. The complete object from top to bottom, straight side-front view at eye level, standing upright on its flat base, centred, filling about 80% of the image height, isolated on a plain PURE WHITE background, no ground, no shadow, no other objects, thick clean outline so it is easy to cut out. Match the exact art style, outline thickness, colours and lighting of the background picture of the same scene. Square 1:1, 1024x1024. no people, no animals, no characters, no text, no letters, no logo, no watermark, no frame, no border.",
+   "tips": [
+    "Paste the BACKGROUND picture into the image tool too and say: draw this object in exactly the same style, alone on white.",
+    "Remove the white background (remove.bg or photopea.com) and save as PNG before uploading.",
+    "Height is in story units: an adult is about 300, a child 245.",
+    "Always keep the same style words in every prompt so all your pictures look like one family."
+   ],
+   "upload": {
+    "kind": "object",
+    "name": "big_leafy_climbing_tree",
+    "height": 650,
+    "ground": null,
+    "abilities": [
+     "climb",
+     "hide"
+    ],
+    "description": "big leafy climbing tree"
+   },
+   "x": 568,
+   "z": 170,
+   "uploaded_as": "big_leafy_climbing_tree"
+  },
+  {
+   "role": "object",
+   "name": "small_round_river_stone",
+   "prompt": "A single small round river stone, 2D cartoon illustration for a children's animated series, flat vector style with soft shading, clean shapes, bright friendly colours, light coming from the top right. The complete object from top to bottom, straight side-front view at eye level, standing upright on its flat base, centred, filling about 80% of the image height, isolated on a plain PURE WHITE background, no ground, no shadow, no other objects, thick clean outline so it is easy to cut out. Match the exact art style, outline thickness, colours and lighting of the background picture of the same scene. Square 1:1, 1024x1024. no people, no animals, no characters, no text, no letters, no logo, no watermark, no frame, no border.",
+   "tips": [
+    "Paste the BACKGROUND picture into the image tool too and say: draw this object in exactly the same style, alone on white.",
+    "Remove the white background (remove.bg or photopea.com) and save as PNG before uploading.",
+    "Height is in story units: an adult is about 300, a child 245.",
+    "Always keep the same style words in every prompt so all your pictures look like one family."
+   ],
+   "upload": {
+    "kind": "object",
+    "name": "small_round_river_stone",
+    "height": 32,
+    "ground": null,
+    "abilities": [
+     "movable",
+     "light",
+     "round",
+     "throw",
+     "sinks"
+    ],
+    "description": "small round river stone"
+   },
+   "x": 1272,
+   "z": 280,
+   "uploaded_as": "small_round_river_stone"
+  },
+  {
+   "role": "object",
+   "name": "big_mossy_boulder",
+   "prompt": "A single big mossy boulder, 2D cartoon illustration for a children's animated series, flat vector style with soft shading, clean shapes, bright friendly colours, light coming from the top right. The complete object from top to bottom, straight side-front view at eye level, standing upright on its flat base, centred, filling about 80% of the image height, isolated on a plain PURE WHITE background, no ground, no shadow, no other objects, thick clean outline so it is easy to cut out. Match the exact art style, outline thickness, colours and lighting of the background picture of the same scene. Square 1:1, 1024x1024. no people, no animals, no characters, no text, no letters, no logo, no watermark, no frame, no border.",
+   "tips": [
+    "Paste the BACKGROUND picture into the image tool too and say: draw this object in exactly the same style, alone on white.",
+    "Remove the white background (remove.bg or photopea.com) and save as PNG before uploading.",
+    "Height is in story units: an adult is about 300, a child 245.",
+    "Always keep the same style words in every prompt so all your pictures look like one family."
+   ],
+   "upload": {
+    "kind": "object",
+    "name": "big_mossy_boulder",
+    "height": 230,
+    "ground": null,
+    "abilities": [
+     "movable",
+     "heavy",
+     "round",
+     "hide",
+     "stand"
+    ],
+    "description": "big mossy boulder"
+   },
+   "x": 1624,
+   "z": 60
+  },
+  {
+   "role": "animated",
+   "name": "waterfall",
+   "prompt": "A short seamless looping animation of a single waterfall, 2D cartoon illustration for a children's animated series, flat vector style with soft shading, clean shapes, bright friendly colours, light coming from the top right. The complete object from top to bottom, straight side-front view at eye level, standing upright on its flat base, centred, filling about 80% of the image height, isolated on a plain PURE WHITE background, no ground, no shadow, no other objects, thick clean outline so it is easy to cut out. Match the exact art style, outline thickness, colours and lighting of the background picture of the same scene. Square 1:1, 1024x1024. no people, no animals, no characters, no text, no letters, no logo, no watermark, no frame, no border. Animation: 2 seconds, seamless loop (the last frame matches the first), the object stays in the same place, only its own motion (flames flicker / water flows / cloth waves). Export as GIF, animated WebP or MP4.",
+   "tips": [
+    "Image tools: make the still first, then animate it in a video tool (Kling, Runway, Pika, Luma) with 'seamless loop, camera fixed, white background'.",
+    "Remove the white background (remove.bg / Photopea) before saving as GIF or WebP, or upload the MP4 - it will be used as it is.",
+    "Height is in story units: an adult is about 300, a child 245.",
+    "Always keep the same style words in every prompt so all your pictures look like one family."
+   ],
+   "upload": {
+    "kind": "object",
+    "name": "waterfall",
+    "height": 500,
+    "ground": null,
+    "abilities": [],
+    "description": "waterfall (animated)"
+   },
+   "x": 1900,
+   "z": 900
+  }
+ ],
+ "created": 1790588246
+}

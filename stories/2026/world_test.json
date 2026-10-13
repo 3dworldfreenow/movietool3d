@@ -1,0 +1,51 @@
+{
+ "title": "2026 · World test",
+ "settings": { "language": "hi-IN", "art": "stick3d", "stick_look": "flat", "music": "calm" },
+ "characters": {
+  "deepak": { "name": "Deepak", "shirt": "#4f9aad", "pants": "#36435f" },
+  "ravi":   { "name": "Ravi", "age": "teen", "shirt": "#e0a33a", "pants": "#4a4a4a" }
+ },
+ "scenes": [
+  { "id": "workshop", "stick_place": "home_2026",
+    "background": { "preset": "village", "time": "day" },
+    "characters": [ { "id": "deepak", "x": 1500 }, { "id": "ravi", "x": 1150 } ],
+    "events": [
+     { "narrate": "Bhopal, 2026. Deepak, mausam vaigyanik. Aur shauk se engineer." },
+     { "who": "deepak", "say": "Yeh mera weather station hai. Garmi, hawa, UV, aur magnetic field.", "emotion": "happy", "do": "point" },
+     { "who": "ravi", "say": "Aur yeh lamba antenna?", "emotion": "surprised", "do": "look_up" },
+     { "who": "deepak", "say": "LoRa. Pachaas kilometre tak baat karta hai.", "emotion": "happy" }
+    ] },
+  { "id": "khet", "stick_place": "field_2026",
+    "background": { "preset": "village", "time": "day" },
+    "characters": [ { "id": "deepak", "x": 600 } ],
+    "events": [
+     { "who": "deepak", "do": "walk", "to": { "x": 1150 } },
+     { "narrate": "Har zile mein ek station. Har pachaas kilometre par." },
+     { "who": "deepak", "say": "Ek aur station online!", "emotion": "happy", "do": "celebrate" }
+    ] },
+  { "id": "naksha", "stick_screen": { "kind": "mp_map", "grow": 10 },
+    "background": { "preset": "plain" }, "characters": [],
+    "events": [
+     { "narrate": "Ek saal mein, poore Madhya Pradesh mein uske stations jag uthe." },
+     { "narrate": "Har station apna data agle ko bhejta, aur sab Bhopal pahunchta." }
+    ] },
+  { "id": "data", "stick_screen": { "kind": "data", "grow": 7, "warn": "UV ABNORMAL",
+      "series": [ { "name": "UV index", "from": 7, "to": 13 },
+                  { "name": "Ozone (DU)", "from": 290, "to": 238, "unit": "Dobson units" },
+                  { "name": "Magnetic field (nT)", "from": 45100, "to": 43800, "unit": "nanotesla" } ] },
+    "background": { "preset": "plain" }, "characters": [],
+    "events": [
+     { "narrate": "Par data kuch ajeeb keh raha tha." },
+     { "narrate": "UV badh raha tha. Ozone ghat rahi thi. Aur dharti ka magnetic field bhi." }
+    ] },
+  { "id": "forum", "stick_screen": { "kind": "forum", "title": "Forum · r/geomagnetism", "every": 2.5,
+      "posts": [ [ "u/solar_watch", "Anyone else seeing the field drop this fast? My magnetometer shows -2% this year.", 412 ],
+                 [ "u/ozone_nerd", "Satellite ozone over the tropics is falling too. Some models say gone by 2100.", 388 ],
+                 [ "u/deepak_mp", "My 133 stations in Madhya Pradesh show the same. Something big is happening.", 950 ] ] },
+    "background": { "preset": "plain" }, "characters": [],
+    "events": [
+     { "narrate": "Raat bhar Deepak forum padhta raha." },
+     { "narrate": "Aur use samajh aaya: yeh sirf MP ki baat nahi thi." }
+    ] }
+ ]
+}

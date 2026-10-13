@@ -1,0 +1,5662 @@
+{
+ "title": "The Last Signal",
+ "settings": {
+  "language": "en-IN",
+  "art": "stick3d",
+  "stick_look": "flat",
+  "music": "mystery",
+  "subtitle": "Episode 1 · the first seven minutes",
+  "stick_cinema": true
+ },
+ "characters": {
+  "deepak": {
+   "name": "Deepak",
+   "shirt": "#4f9aad",
+   "pants": "#36435f",
+   "voice": {
+    "name": "en-IN-PrabhatNeural"
+   },
+   "hood": false,
+   "cloth": "#1e2125",
+   "cap": true
+  },
+  "mark": {
+   "name": "Dr. Mark Ellis",
+   "shirt": "#f2c230",
+   "pants": "#2b2f38",
+   "skin": "light",
+   "voice": {
+    "name": "en-US-GuyNeural"
+   },
+   "hood": "rain",
+   "cloth": "#f2c230",
+   "to_camera": true
+  },
+  "carlos": {
+   "name": "Carlos",
+   "shirt": "#e0a33a",
+   "pants": "#3a3a3a",
+   "voice": {
+    "name": "en-US-DavisNeural"
+   }
+  },
+  "rathore": {
+   "name": "Agent Rathore",
+   "shirt": "#1b1d22",
+   "pants": "#1b1d22",
+   "shades": true,
+   "mustache": true,
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -10
+   }
+  },
+  "agent2": {
+   "name": "Agent",
+   "shirt": "#1b1d22",
+   "pants": "#1b1d22",
+   "shades": true
+  },
+  "agent3": {
+   "name": "Agent",
+   "shirt": "#1b1d22",
+   "pants": "#1b1d22",
+   "shades": true
+  },
+  "raghav": {
+   "name": "Raghav",
+   "shirt": "#7aa84a",
+   "pants": "#e9e2cf",
+   "mustache": true,
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -4
+   }
+  },
+  "kavya": {
+   "name": "Dr. Kavya Iyer",
+   "gender": "female",
+   "shirt": "#ffffff",
+   "pants": "#3b4252",
+   "voice": {
+    "name": "en-IN-NeerjaNeural"
+   }
+  },
+  "verma": {
+   "name": "Mr. Verma",
+   "age": "old",
+   "shirt": "#2e3440",
+   "pants": "#2e3440",
+   "mustache": true,
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -8
+   }
+  },
+  "anchor": {
+   "name": "News anchor",
+   "gender": "female",
+   "voice": {
+    "name": "en-US-JennyNeural"
+   }
+  },
+  "worker": {
+   "name": "Worker",
+   "shirt": "#e0a33a",
+   "pants": "#4a4a4a",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": 4
+   }
+  },
+  "res1": {
+   "name": "Resident",
+   "shirt": "#3d6fb0",
+   "pants": "#2a2a2a",
+   "gender": "male"
+  },
+  "res2": {
+   "name": "Resident",
+   "shirt": "#c8553d",
+   "pants": "#3b3b3b",
+   "gender": "female"
+  },
+  "res3": {
+   "name": "Resident",
+   "shirt": "#5a8f3c",
+   "pants": "#2b2f38",
+   "gender": "male",
+   "age": "adult"
+  },
+  "res4": {
+   "name": "Resident",
+   "shirt": "#e0b03a",
+   "pants": "#404040",
+   "gender": "female"
+  },
+  "res5": {
+   "name": "Resident",
+   "shirt": "#7a4fa0",
+   "pants": "#2a2a2a",
+   "gender": "male"
+  },
+  "res6": {
+   "name": "Resident",
+   "shirt": "#2f8f8a",
+   "pants": "#3a3a3a",
+   "gender": "female"
+  },
+  "res7": {
+   "name": "Resident",
+   "shirt": "#b0b0b0",
+   "pants": "#222",
+   "gender": "male"
+  },
+  "res8": {
+   "name": "Resident",
+   "shirt": "#d97a9a",
+   "pants": "#333",
+   "gender": "female"
+  },
+  "kid1": {
+   "name": "Child",
+   "age": "toddler",
+   "shirt": "#f0d04a",
+   "pants": "#3a5fa0"
+  },
+  "agent4": {
+   "name": "Agent",
+   "shirt": "#1b1d22",
+   "pants": "#1b1d22",
+   "shades": true
+  },
+  "agent5": {
+   "name": "Agent",
+   "shirt": "#1b1d22",
+   "pants": "#1b1d22",
+   "shades": true,
+   "mustache": true
+  },
+  "anchor_hi": {
+   "name": "Bharat Samachar anchor",
+   "gender": "female",
+   "voice": {
+    "name": "hi-IN-SwaraNeural"
+   }
+  },
+  "rao": {
+   "name": "Dr. A. K. Rao",
+   "age": "old",
+   "shirt": "#3b3f4a",
+   "pants": "#3b3f4a",
+   "mustache": true,
+   "hair_col": "#d8d8d8",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -8
+   }
+  },
+  "sharma": {
+   "name": "Dr. Sharma",
+   "shirt": "#c9b48a",
+   "pants": "#4a4a4a",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -3
+   }
+  },
+  "banerjee": {
+   "name": "Prof. Banerjee",
+   "gender": "female",
+   "dress": "#7a2e3a",
+   "hair": "bob",
+   "voice": {
+    "name": "en-IN-NeerjaNeural",
+    "pitch": -2
+   }
+  },
+  "mark_delhi": {
+   "name": "Dr. Mark Ellis",
+   "skin": "light",
+   "shirt": "#2b3a55",
+   "pants": "#5a5a62",
+   "voice": {
+    "name": "en-US-GuyNeural"
+   }
+  },
+  "sci1": {
+   "name": "Scientist",
+   "shirt": "#5a7da8",
+   "pants": "#333",
+   "gender": "male",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -2
+   }
+  },
+  "sci2": {
+   "name": "Scientist",
+   "shirt": "#8a5a44",
+   "pants": "#333",
+   "gender": "female",
+   "voice": {
+    "name": "en-IN-NeerjaNeural",
+    "pitch": -1
+   }
+  },
+  "sci3": {
+   "name": "Scientist",
+   "shirt": "#e0d8c8",
+   "pants": "#333",
+   "gender": "male",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": 0
+   }
+  },
+  "sci4": {
+   "name": "Scientist",
+   "shirt": "#3d6b4a",
+   "pants": "#333",
+   "gender": "male",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": 1
+   }
+  },
+  "sci5": {
+   "name": "Scientist",
+   "shirt": "#6a6a72",
+   "pants": "#333",
+   "gender": "female",
+   "voice": {
+    "name": "en-IN-NeerjaNeural",
+    "pitch": -2
+   }
+  },
+  "sci6": {
+   "name": "Scientist",
+   "shirt": "#c8a050",
+   "pants": "#333",
+   "gender": "male",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -1
+   }
+  },
+  "sci7": {
+   "name": "Scientist",
+   "shirt": "#7a4fa0",
+   "pants": "#333",
+   "gender": "male",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": 0
+   }
+  },
+  "sci8": {
+   "name": "Scientist",
+   "shirt": "#2f8f8a",
+   "pants": "#333",
+   "gender": "female",
+   "voice": {
+    "name": "en-IN-NeerjaNeural",
+    "pitch": 1
+   }
+  },
+  "sci9": {
+   "name": "Scientist",
+   "shirt": "#b04a4a",
+   "pants": "#333",
+   "gender": "male",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -2
+   }
+  },
+  "sci10": {
+   "name": "Scientist",
+   "shirt": "#4a4a8a",
+   "pants": "#333",
+   "gender": "male",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -1
+   }
+  },
+  "noaa1": {
+   "name": "NOAA analyst",
+   "shirt": "#5a7da8",
+   "pants": "#2a2d35",
+   "skin": "light",
+   "gender": "male",
+   "voice": {
+    "name": "en-US-GuyNeural",
+    "pitch": -2
+   }
+  },
+  "noaa2": {
+   "name": "NOAA analyst",
+   "shirt": "#dfe6ee",
+   "pants": "#2a2d35",
+   "skin": "light",
+   "gender": "female",
+   "voice": {
+    "name": "en-US-JennyNeural",
+    "pitch": -1
+   }
+  },
+  "noaa3": {
+   "name": "NOAA analyst",
+   "shirt": "#3b4a5a",
+   "pants": "#2a2d35",
+   "skin": "brown",
+   "gender": "male",
+   "voice": {
+    "name": "en-US-GuyNeural",
+    "pitch": 0
+   }
+  },
+  "noaa4": {
+   "name": "NOAA analyst",
+   "shirt": "#a8c0d8",
+   "pants": "#2a2d35",
+   "skin": "light",
+   "gender": "male",
+   "voice": {
+    "name": "en-US-GuyNeural",
+    "pitch": 1
+   }
+  },
+  "noaa5": {
+   "name": "NOAA analyst",
+   "shirt": "#e6d7c3",
+   "pants": "#2a2d35",
+   "skin": "dark",
+   "gender": "female",
+   "voice": {
+    "name": "en-US-JennyNeural",
+    "pitch": 2
+   }
+  },
+  "villager1": {
+   "name": "Old farmer",
+   "shirt": "#efe9dc",
+   "pants": "#efe9dc",
+   "gender": "male",
+   "mustache": true,
+   "voice": {
+    "name": "hi-IN-MadhurNeural",
+    "pitch": -6
+   }
+  },
+  "villager2": {
+   "name": "Village woman",
+   "shirt": "#b8452f",
+   "pants": "#b8452f",
+   "gender": "female",
+   "voice": {
+    "name": "hi-IN-SwaraNeural"
+   }
+  },
+  "villager3": {
+   "name": "Village boy",
+   "shirt": "#d9a441",
+   "pants": "#4a4a52",
+   "gender": "male",
+   "kid": true
+  }
+ },
+ "scenes": [
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_sing",
+   "stick_spot": "track",
+   "mood": "monsoon",
+   "music": "happy",
+   "transition": "cut",
+   "stick_follow": {
+    "car": "car",
+    "side": "profile"
+   },
+   "stick_cars": [
+    {
+     "id": "car",
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -1400,
+       "z": 225
+      },
+      {
+       "x": -200,
+       "z": 225
+      }
+     ],
+     "start": 0,
+     "end": 6.5,
+     "ease": 0,
+     "mud": true
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": 0
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "wait": 0.3
+    },
+    {
+     "who": "deepak",
+     "say": "Baarish aayi... baarish aayi... mitti ki khushboo laayi...",
+     "emotion": "happy",
+     "voice_file": "voices/deepak_take2.mp3",
+     "from": 0.0,
+     "to": 3.92
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_ots",
+   "stick_spot": "track",
+   "mood": "monsoon",
+   "transition": "cut",
+   "stick_follow": {
+    "car": "car",
+    "side": "shoulder"
+   },
+   "stick_nav": {
+    "arrive": 2.6,
+    "to": "Weather Station 133"
+   },
+   "stick_cars": [
+    {
+     "id": "car",
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -500,
+       "z": 225
+      },
+      {
+       "x": 700,
+       "z": 225
+      }
+     ],
+     "start": 0,
+     "end": 4.5,
+     "ease": 0.3,
+     "mud": true
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": 0
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "wait": 2.6
+    },
+    {
+     "sfx": "ding"
+    },
+    {
+     "wait": 0.3
+    }
+   ],
+   "tail": 0.1
+  },
+  {
+   "id": "s1_nav",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "calm",
+   "transition": "cut",
+   "tail": 0.1,
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "car_nav",
+    "to": "Weather Station 133",
+    "arrive": 0.3
+   },
+   "events": [
+    {
+     "who": "deepak",
+     "say": "Aa gaye.",
+     "emotion": "happy",
+     "voice_file": "voices/deepak_take2.mp3",
+     "from": 4.34,
+     "to": 5.1
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_drive",
+   "stick_spot": "track",
+   "mood": "monsoon",
+   "stick_follow": {
+    "car": "car",
+    "side": "drone_behind",
+    "height": 9,
+    "height_to": 2.2,
+    "dist": 14,
+    "dist_to": 8,
+    "over": 4.5
+   },
+   "stick_cars": [
+    {
+     "id": "car",
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -300,
+       "z": 225
+      },
+      {
+       "x": 1340,
+       "z": 225
+      }
+     ],
+     "start": 0,
+     "end": 5.0,
+     "ease": 0.5,
+     "mud": true
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": 0
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "wait": 5.2
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_stop",
+   "stick_spot": "track",
+   "stick_shot": "track_side",
+   "stick_shot_hold": true,
+   "mood": "monsoon",
+   "transition": "cut",
+   "stick_cars": [
+    {
+     "id": "car2",
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "rider": null,
+     "mud": true,
+     "to": {
+      "x": 1340,
+      "z": 225
+     },
+     "heading": 0,
+     "door": [
+      0.5,
+      2.1
+     ]
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1430,
+     "z": -95,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "wait": 0.5
+    },
+    {
+     "sfx": "car_door"
+    },
+    {
+     "wait": 0.3
+    },
+    {
+     "who": "deepak",
+     "do": "appear"
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 860,
+      "z": -200
+     }
+    },
+    {
+     "sfx": "car_door"
+    }
+   ],
+   "stick_muddy": [
+    "deepak"
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_mud",
+   "stick_spot": "track",
+   "stick_shot": "mud_low",
+   "stick_shot_hold": true,
+   "stick_talk": false,
+   "mood": "monsoon",
+   "transition": "cut",
+   "stick_muddy": [
+    "deepak"
+   ],
+   "stick_cars": [
+    {
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "id": "car2",
+     "rider": null,
+     "to": {
+      "x": 1340,
+      "z": 225
+     },
+     "heading": 0
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 860,
+     "z": -200
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "right",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "check_shoe",
+     "at": 0.3
+    },
+    {
+     "who": "deepak",
+     "say": "Kya din hai yaar... ek toh yeh mausam, upar se yeh road... aur ab yeh shoes!",
+     "emotion": "angry",
+     "at": 0.4,
+     "voice_file": "voices/deepak_take2.mp3",
+     "from": 5.38,
+     "to": 10.9
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_gust",
+   "stick_spot": "track",
+   "stick_shot": "verge_wide",
+   "mood": "monsoon",
+   "transition": "cut",
+   "stick_cars": [
+    {
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "id": "car2",
+     "rider": null,
+     "to": {
+      "x": 1340,
+      "z": 225
+     },
+     "heading": 0
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 860,
+     "z": -200
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 1200,
+      "z": -180
+     }
+    },
+    {
+     "weather": "storm",
+     "over": 0.6,
+     "react": false
+    },
+    {
+     "sfx": "whoosh"
+    },
+    {
+     "who": "deepak",
+     "do": "brace"
+    },
+    {
+     "who": "deepak",
+     "do": "run",
+     "to": {
+      "x": 2050,
+      "z": 330
+     }
+    }
+   ],
+   "stick_muddy": [
+    "deepak"
+   ],
+   "stick_talk": false,
+   "stick_shot_hold": true
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_box",
+   "stick_spot": "station",
+   "stick_shot": "station_truck",
+   "mood": "monsoon",
+   "transition": "cut",
+   "props": [
+    {
+     "id": "tablet",
+     "type": "phone",
+     "held_by": "deepak"
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 860,
+     "z": 230
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "right",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "Chalo, one-three-three. Show me.",
+     "emotion": "neutral",
+     "voice_file": "voices/deepak_take2.mp3",
+     "from": 11.26,
+     "to": 13.96
+    },
+    {
+     "who": "deepak",
+     "do": "put",
+     "prop": "tablet"
+    }
+   ],
+   "stick_muddy": [
+    "deepak"
+   ],
+   "stick_cars": [
+    {
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "id": "car2",
+     "rider": null,
+     "to": {
+      "x": 200,
+      "z": -39
+     },
+     "heading": 0
+    }
+   ]
+  },
+  {
+   "id": "s1_inside",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "calm",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "station_box",
+    "open": 0.6
+   },
+   "events": [
+    {
+     "sound": "door"
+    },
+    {
+     "wait": 1.9
+    }
+   ],
+   "tail": 0.1
+  },
+  {
+   "id": "s1_log",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hope",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "station_log",
+    "station": 133,
+    "per": 0.12
+   },
+   "events": [
+    {
+     "wait": 2.0
+    }
+   ],
+   "tail": 0.1
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_ok",
+   "stick_spot": "station",
+   "stick_shot": "station_truck",
+   "mood": "monsoon",
+   "transition": "cut",
+   "props": [
+    {
+     "id": "phone",
+     "type": "phone",
+     "held_by": "deepak"
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "Dry inside, battery full... sab readings sahi hain. Good boy.",
+     "emotion": "happy",
+     "voice_file": "voices/deepak_take2.mp3",
+     "from": 14.34,
+     "to": 18.76
+    },
+    {
+     "sound": "phone"
+    },
+    {
+     "who": "deepak",
+     "do": "look_down"
+    },
+    {
+     "who": "deepak",
+     "say": "Mark? It's six in the morning in Texas...",
+     "emotion": "surprised",
+     "voice_file": "voices/deepak_take2.mp3",
+     "from": 19.08,
+     "to": 21.88
+    }
+   ],
+   "stick_muddy": [
+    "deepak"
+   ],
+   "stick_cars": [
+    {
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "id": "car2",
+     "rider": null,
+     "to": {
+      "x": 200,
+      "z": -39
+     },
+     "heading": 0
+    }
+   ]
+  },
+  {
+   "id": "m2_mark1",
+   "stick_place": "storm_coast",
+   "stick_spot": "street",
+   "stick_shot": "reporter",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hurricane",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "res1",
+     "x": 2501,
+     "z": 2284
+    },
+    {
+     "id": "res2",
+     "x": 1652,
+     "z": 1754
+    },
+    {
+     "id": "res3",
+     "x": 1797,
+     "z": 2044
+    },
+    {
+     "id": "res4",
+     "x": 1163,
+     "z": 2376
+    },
+    {
+     "id": "res5",
+     "x": 2228,
+     "z": 2141
+    },
+    {
+     "id": "res6",
+     "x": 941,
+     "z": 1667
+    },
+    {
+     "id": "res7",
+     "x": 2003,
+     "z": 1792
+    },
+    {
+     "id": "res8",
+     "x": 1407,
+     "z": 1712
+    },
+    {
+     "id": "kid1",
+     "x": 1682,
+     "z": 1754
+    }
+   ],
+   "events": [
+    {
+     "weather": "cyclone",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "mark",
+     "do": "brace_wind",
+     "facing": "camera",
+     "at": 0,
+     "for": 9
+    },
+    {
+     "who": "mark",
+     "say": "Deepak! Can you hear me?! Look at this hurricane! Check WhatsApp... now!",
+     "emotion": "scared",
+     "at": 0.3
+    },
+    {
+     "who": "mark",
+     "do": "put",
+     "prop": "mphone"
+    },
+    {
+     "who": "res1",
+     "do": "run",
+     "to": {
+      "x": 1419,
+      "z": 2036
+     },
+     "at": 1.62
+    },
+    {
+     "who": "res2",
+     "do": "walk",
+     "to": {
+      "x": 344,
+      "z": 2227
+     },
+     "at": 0.2
+    },
+    {
+     "who": "res3",
+     "do": "run",
+     "to": {
+      "x": 714,
+      "z": 1905
+     },
+     "at": 0.86
+    },
+    {
+     "who": "res4",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 2121
+     },
+     "at": 0.73
+    },
+    {
+     "who": "res5",
+     "do": "run",
+     "to": {
+      "x": 963,
+      "z": 1689
+     },
+     "at": 0.66
+    },
+    {
+     "who": "res6",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 1738
+     },
+     "at": 1.64
+    },
+    {
+     "who": "res7",
+     "do": "run",
+     "to": {
+      "x": 685,
+      "z": 1895
+     },
+     "at": 0.96
+    },
+    {
+     "who": "res8",
+     "do": "run",
+     "to": {
+      "x": 195,
+      "z": 1935
+     },
+     "at": 0.53
+    },
+    {
+     "who": "kid1",
+     "do": "carried",
+     "by": "res2",
+     "on": "hip",
+     "at": 0
+    },
+    {
+     "who": "res6",
+     "do": "fall",
+     "at": 2.94
+    },
+    {
+     "who": "res6",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 1738
+     },
+     "at": 4.04
+    },
+    {
+     "who": "res7",
+     "do": "point",
+     "at": 1.96
+    },
+    {
+     "who": "res8",
+     "do": "cover_head",
+     "at": 2.03
+    }
+   ],
+   "stick_live": {
+    "channel": "WNN 24",
+    "name": "Dr. Mark Ellis",
+    "role": "Climate scientist · Galveston, Texas",
+    "place": "GALVESTON · LIVE",
+    "ticker": "Hurricane Delia: category 4 · Extreme winds and coastal flooding · El Niño returns two years early · Gulf water 31 °C"
+   },
+   "props": [
+    {
+     "id": "mphone",
+     "type": "phone",
+     "held_by": "mark"
+    },
+    {
+     "id": "bag4",
+     "type": "bag",
+     "held_by": "res4"
+    }
+   ],
+   "stick_debris": 0.25,
+   "stick_cars": [
+    {
+     "id": "parked",
+     "kind": "pickup",
+     "color": "#7a7d82",
+     "to": {
+      "x": 200,
+      "z": 1763
+     },
+     "heading": 0,
+     "lights": true
+    },
+    {
+     "id": "police1",
+     "kind": "police",
+     "from": {
+      "x": 4200,
+      "z": 1333
+     },
+     "to": {
+      "x": -3200,
+      "z": 1333
+     },
+     "start": 0.3,
+     "end": 4.5
+    },
+    {
+     "id": "evac1",
+     "kind": "suv",
+     "color": "#2f4f6f",
+     "from": {
+      "x": 5200,
+      "z": 1713
+     },
+     "to": {
+      "x": -2600,
+      "z": 1713
+     },
+     "start": 0.0,
+     "end": 5.5
+    },
+    {
+     "id": "heli",
+     "kind": "apache",
+     "color": "#5b6e3c",
+     "from": {
+      "x": 3800,
+      "z": 3800
+     },
+     "to": {
+      "x": 900,
+      "z": 4200
+     },
+     "start": 0,
+     "end": 7.5,
+     "alt": 16
+    }
+   ],
+   "stick_shot_hold": true,
+   "stick_panic": 1.0,
+   "stick_lens_rain": 1.0
+  },
+  {
+   "id": "m2_laptop",
+   "stick_place": "corn_field",
+   "stick_spot": "station",
+   "stick_shot": "laptop",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "tense",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "storm",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "look_down"
+    },
+    {
+     "sound": "phone"
+    },
+    {
+     "who": "deepak",
+     "say": "Mark...? Okay, okay... opening it.",
+     "emotion": "worried"
+    }
+   ],
+   "stick_muddy": [
+    "deepak"
+   ],
+   "stick_cars": [
+    {
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "id": "car2",
+     "rider": null,
+     "to": {
+      "x": 200,
+      "z": -39
+     },
+     "heading": 0
+    }
+   ],
+   "props": [
+    {
+     "id": "case",
+     "type": "toolbox",
+     "x": 1060,
+     "z": 80,
+     "scale": 2.2
+    },
+    {
+     "id": "laptop",
+     "type": "laptop",
+     "x": 1060,
+     "z": 80,
+     "y": 60,
+     "scale": 2.2
+    }
+   ]
+  },
+  {
+   "id": "m2_csv",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "tense",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "sheet",
+    "file": "uv_all_sensors.csv",
+    "bad": 10,
+    "chat": [
+     [
+      "Mark",
+      "Check your stations tonight."
+     ]
+    ],
+    "me": "Deepak",
+    "reply": "UV and O3 not similar on all places. Something is wrong...",
+    "type_at": 2.6
+   },
+   "events": [
+    {
+     "wait": 0.8
+    },
+    {
+     "who": "deepak",
+     "say": "Twenty point four...? Ozone two hundred twenty?! No... no, that's not possible.",
+     "emotion": "scared"
+    },
+    {
+     "wait": 0.7
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m2_eye",
+   "stick_place": "storm_coast",
+   "stick_spot": "street",
+   "stick_shot": "coast_high",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hurricane",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "cyclone",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "sound": "thunder"
+    },
+    {
+     "effect": "lightning",
+     "x": 1400
+    },
+    {
+     "wait": 2.0
+    }
+   ],
+   "stick_hurricane": {
+    "eye": [
+     0.46,
+     0.5
+    ],
+    "size": 0.85,
+    "squash": 0.5
+   },
+   "stick_debris": 0.2
+  },
+  {
+   "id": "m2_fly",
+   "stick_place": "storm_coast",
+   "stick_spot": "street",
+   "stick_shot": "storm_low",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hurricane",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "res1",
+     "x": 2290,
+     "z": 1851
+    },
+    {
+     "id": "res2",
+     "x": 1648,
+     "z": 2504
+    },
+    {
+     "id": "res3",
+     "x": 975,
+     "z": 2783
+    },
+    {
+     "id": "res4",
+     "x": 1418,
+     "z": 1856
+    },
+    {
+     "id": "res5",
+     "x": 2016,
+     "z": 2178
+    },
+    {
+     "id": "res6",
+     "x": 2421,
+     "z": 1753
+    },
+    {
+     "id": "res7",
+     "x": 1219,
+     "z": 1755
+    },
+    {
+     "id": "res8",
+     "x": 1818,
+     "z": 2527
+    },
+    {
+     "id": "kid1",
+     "x": 1678,
+     "z": 2504
+    }
+   ],
+   "events": [
+    {
+     "weather": "cyclone",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "wait": 3.2
+    },
+    {
+     "who": "res1",
+     "do": "run",
+     "to": {
+      "x": 922,
+      "z": 2041
+     },
+     "at": 1.0
+    },
+    {
+     "who": "res2",
+     "do": "walk",
+     "to": {
+      "x": 610,
+      "z": 1909
+     },
+     "at": 0.2
+    },
+    {
+     "who": "res3",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 2295
+     },
+     "at": 0.56
+    },
+    {
+     "who": "res4",
+     "do": "run",
+     "to": {
+      "x": 236,
+      "z": 2170
+     },
+     "at": 0.74
+    },
+    {
+     "who": "res5",
+     "do": "run",
+     "to": {
+      "x": 700,
+      "z": 2015
+     },
+     "at": 1.23
+    },
+    {
+     "who": "res6",
+     "do": "run",
+     "to": {
+      "x": 1382,
+      "z": 2289
+     },
+     "at": 1.27
+    },
+    {
+     "who": "res7",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 1868
+     },
+     "at": 0.08
+    },
+    {
+     "who": "res8",
+     "do": "run",
+     "to": {
+      "x": 476,
+      "z": 1959
+     },
+     "at": 0.22
+    },
+    {
+     "who": "kid1",
+     "do": "carried",
+     "by": "res2",
+     "on": "hip",
+     "at": 0
+    },
+    {
+     "who": "res6",
+     "do": "fall",
+     "at": 2.57
+    },
+    {
+     "who": "res6",
+     "do": "run",
+     "to": {
+      "x": 1382,
+      "z": 2289
+     },
+     "at": 3.67
+    },
+    {
+     "who": "res7",
+     "do": "point",
+     "at": 1.08
+    },
+    {
+     "who": "res8",
+     "do": "cover_head",
+     "at": 1.72
+    }
+   ],
+   "stick_debris": 1.4,
+   "stick_shake": [
+    {
+     "start": 0,
+     "end": 3.4,
+     "amount": 0.5
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "evac1",
+     "kind": "suv",
+     "color": "#2f4f6f",
+     "from": {
+      "x": 5200,
+      "z": 1713
+     },
+     "to": {
+      "x": -2600,
+      "z": 1713
+     },
+     "start": 0.0,
+     "end": 4.4
+    },
+    {
+     "id": "heli",
+     "kind": "apache",
+     "color": "#5b6e3c",
+     "from": {
+      "x": 3800,
+      "z": 3800
+     },
+     "to": {
+      "x": 900,
+      "z": 4200
+     },
+     "start": 0,
+     "end": 6.4,
+     "alt": 16
+    },
+    {
+     "id": "red",
+     "kind": "suv",
+     "color": "red",
+     "from": {
+      "x": 700,
+      "z": 1663
+     },
+     "to": {
+      "x": 900,
+      "z": 1733
+     },
+     "start": 0,
+     "end": 3.4,
+     "lights": false,
+     "fly": {
+      "mode": "shake",
+      "at": 0.0,
+      "rock": 10
+     }
+    },
+    {
+     "id": "white",
+     "kind": "pickup",
+     "color": "#e8e8e4",
+     "from": {
+      "x": 200,
+      "z": 1393
+     },
+     "to": {
+      "x": 330,
+      "z": 1433
+     },
+     "start": 0,
+     "end": 3.4,
+     "lights": false,
+     "fly": {
+      "mode": "shake",
+      "at": 0.4,
+      "rock": 7
+     }
+    }
+   ],
+   "stick_panic": 1.0
+  },
+  {
+   "id": "m2_live1",
+   "stick_place": "storm_coast",
+   "stick_spot": "street",
+   "stick_shot": "reporter_close",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hurricane",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "res1",
+     "x": 1872,
+     "z": 2180
+    },
+    {
+     "id": "res2",
+     "x": 2292,
+     "z": 2337
+    },
+    {
+     "id": "res3",
+     "x": 1443,
+     "z": 2753
+    },
+    {
+     "id": "res4",
+     "x": 1687,
+     "z": 2726
+    },
+    {
+     "id": "res5",
+     "x": 2528,
+     "z": 2326
+    },
+    {
+     "id": "res6",
+     "x": 957,
+     "z": 2254
+    },
+    {
+     "id": "res7",
+     "x": 1237,
+     "z": 2399
+    },
+    {
+     "id": "res8",
+     "x": 2021,
+     "z": 2024
+    },
+    {
+     "id": "kid1",
+     "x": 2322,
+     "z": 2337
+    }
+   ],
+   "events": [
+    {
+     "weather": "cyclone",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "mark",
+     "do": "brace_wind",
+     "facing": "camera",
+     "at": 0,
+     "for": 9
+    },
+    {
+     "who": "mark",
+     "say": "I have never seen anything like this! The wind is insane... everything is flying! This is a monster storm!",
+     "emotion": "scared",
+     "at": 0.3
+    },
+    {
+     "who": "res1",
+     "do": "run",
+     "to": {
+      "x": 475,
+      "z": 1736
+     },
+     "at": 0.69
+    },
+    {
+     "who": "res2",
+     "do": "walk",
+     "to": {
+      "x": 1046,
+      "z": 2250
+     },
+     "at": 0.2
+    },
+    {
+     "who": "res3",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 2265
+     },
+     "at": 0.59
+    },
+    {
+     "who": "res4",
+     "do": "run",
+     "to": {
+      "x": 411,
+      "z": 2010
+     },
+     "at": 0.76
+    },
+    {
+     "who": "res5",
+     "do": "run",
+     "to": {
+      "x": 1323,
+      "z": 2111
+     },
+     "at": 1.55
+    },
+    {
+     "who": "res6",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 1777
+     },
+     "at": 0.08
+    },
+    {
+     "who": "res7",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 2183
+     },
+     "at": 1.34
+    },
+    {
+     "who": "res8",
+     "do": "run",
+     "to": {
+      "x": 872,
+      "z": 1990
+     },
+     "at": 1.47
+    },
+    {
+     "who": "kid1",
+     "do": "carried",
+     "by": "res2",
+     "on": "hip",
+     "at": 0
+    },
+    {
+     "who": "res6",
+     "do": "fall",
+     "at": 1.38
+    },
+    {
+     "who": "res6",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 1777
+     },
+     "at": 2.48
+    },
+    {
+     "who": "res7",
+     "do": "point",
+     "at": 2.34
+    },
+    {
+     "who": "res8",
+     "do": "cover_head",
+     "at": 2.97
+    }
+   ],
+   "stick_live": {
+    "channel": "WNN 24",
+    "name": "Dr. Mark Ellis",
+    "role": "Climate scientist · Galveston, Texas",
+    "place": "GALVESTON · LIVE",
+    "ticker": "Hurricane Delia: category 4 · Extreme winds and coastal flooding · El Niño returns two years early · Gulf water 31 °C"
+   },
+   "props": [
+    {
+     "id": "mic",
+     "type": "mic",
+     "held_by": "mark"
+    }
+   ],
+   "stick_debris": 0.5,
+   "stick_cars": [
+    {
+     "id": "police1",
+     "kind": "police",
+     "from": {
+      "x": 4200,
+      "z": 1333
+     },
+     "to": {
+      "x": -3200,
+      "z": 1333
+     },
+     "start": 0.3,
+     "end": 4.5
+    },
+    {
+     "id": "evac1",
+     "kind": "suv",
+     "color": "#2f4f6f",
+     "from": {
+      "x": 5200,
+      "z": 1713
+     },
+     "to": {
+      "x": -2600,
+      "z": 1713
+     },
+     "start": 0.0,
+     "end": 5.5
+    },
+    {
+     "id": "heli",
+     "kind": "apache",
+     "color": "#5b6e3c",
+     "from": {
+      "x": 3800,
+      "z": 3800
+     },
+     "to": {
+      "x": 900,
+      "z": 4200
+     },
+     "start": 0,
+     "end": 7.5,
+     "alt": 16
+    }
+   ],
+   "stick_shot_hold": true,
+   "stick_panic": 1.0,
+   "stick_lens_rain": 1.0
+  },
+  {
+   "id": "m2_live2",
+   "stick_place": "storm_coast",
+   "stick_spot": "street",
+   "stick_shot": "reporter",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hurricane",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "res1",
+     "x": 2520,
+     "z": 1936
+    },
+    {
+     "id": "res2",
+     "x": 1179,
+     "z": 2073
+    },
+    {
+     "id": "res3",
+     "x": 1466,
+     "z": 2099
+    },
+    {
+     "id": "res4",
+     "x": 1595,
+     "z": 2049
+    },
+    {
+     "id": "res5",
+     "x": 2270,
+     "z": 2602
+    },
+    {
+     "id": "res6",
+     "x": 965,
+     "z": 2412
+    },
+    {
+     "id": "res7",
+     "x": 2027,
+     "z": 2816
+    },
+    {
+     "id": "res8",
+     "x": 1887,
+     "z": 1644
+    },
+    {
+     "id": "kid1",
+     "x": 1209,
+     "z": 2073
+    }
+   ],
+   "events": [
+    {
+     "weather": "cyclone",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "mark",
+     "do": "brace_wind",
+     "facing": "camera",
+     "at": 0,
+     "for": 9
+    },
+    {
+     "who": "mark",
+     "say": "This is El Niño... two years early! The Gulf is thirty-one degrees, it's feeding the storm like fuel... whoa—!",
+     "emotion": "scared",
+     "at": 0.3
+    },
+    {
+     "wait": 2.4
+    },
+    {
+     "who": "res1",
+     "do": "run",
+     "to": {
+      "x": 1439,
+      "z": 2179
+     },
+     "at": 0.95
+    },
+    {
+     "who": "res2",
+     "do": "walk",
+     "to": {
+      "x": 150,
+      "z": 2181
+     },
+     "at": 0.2
+    },
+    {
+     "who": "res3",
+     "do": "run",
+     "to": {
+      "x": 387,
+      "z": 1789
+     },
+     "at": 0.0
+    },
+    {
+     "who": "res4",
+     "do": "run",
+     "to": {
+      "x": 315,
+      "z": 1889
+     },
+     "at": 0.76
+    },
+    {
+     "who": "res5",
+     "do": "run",
+     "to": {
+      "x": 1244,
+      "z": 1812
+     },
+     "at": 1.52
+    },
+    {
+     "who": "res6",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 1975
+     },
+     "at": 0.6
+    },
+    {
+     "who": "res7",
+     "do": "run",
+     "to": {
+      "x": 916,
+      "z": 1768
+     },
+     "at": 1.83
+    },
+    {
+     "who": "res8",
+     "do": "run",
+     "to": {
+      "x": 694,
+      "z": 1843
+     },
+     "at": 1.16
+    },
+    {
+     "who": "kid1",
+     "do": "carried",
+     "by": "res2",
+     "on": "hip",
+     "at": 0
+    },
+    {
+     "who": "res6",
+     "do": "fall",
+     "at": 1.9
+    },
+    {
+     "who": "res6",
+     "do": "run",
+     "to": {
+      "x": 150,
+      "z": 1975
+     },
+     "at": 3.0
+    },
+    {
+     "who": "res7",
+     "do": "point",
+     "at": 2.83
+    },
+    {
+     "who": "res8",
+     "do": "cover_head",
+     "at": 2.66
+    },
+    {
+     "who": "mark",
+     "do": "stumble",
+     "at": 5.7
+    }
+   ],
+   "stick_live": {
+    "channel": "WNN 24",
+    "name": "Dr. Mark Ellis",
+    "role": "Climate scientist · Galveston, Texas",
+    "place": "GALVESTON · LIVE",
+    "ticker": "Hurricane Delia: category 4 · Extreme winds and coastal flooding · El Niño returns two years early · Gulf water 31 °C",
+    "fall_at": 6.6
+   },
+   "stick_debris": 0.7,
+   "stick_shake": [
+    {
+     "start": 5.6,
+     "end": 6.8,
+     "amount": 0.8
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "police1",
+     "kind": "police",
+     "from": {
+      "x": 4200,
+      "z": 1333
+     },
+     "to": {
+      "x": -3200,
+      "z": 1333
+     },
+     "start": 0.3,
+     "end": 4.5
+    },
+    {
+     "id": "evac1",
+     "kind": "suv",
+     "color": "#2f4f6f",
+     "from": {
+      "x": 5200,
+      "z": 1713
+     },
+     "to": {
+      "x": -2600,
+      "z": 1713
+     },
+     "start": 0.0,
+     "end": 5.5
+    },
+    {
+     "id": "heli",
+     "kind": "apache",
+     "color": "#5b6e3c",
+     "from": {
+      "x": 3800,
+      "z": 3800
+     },
+     "to": {
+      "x": 900,
+      "z": 4200
+     },
+     "start": 0,
+     "end": 7.5,
+     "alt": 16
+    }
+   ],
+   "stick_shot_hold": true,
+   "stick_panic": 1.0,
+   "stick_lens_rain": 1.0
+  },
+  {
+   "id": "m2_flood",
+   "stick_place": "storm_coast",
+   "stick_spot": "street",
+   "stick_shot": "aerial",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hurricane",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "anchor",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "cyclone",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "anchor",
+     "say": "We... have lost our signal from Galveston.",
+     "emotion": "worried"
+    },
+    {
+     "wait": 0.3
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "heli",
+     "kind": "apache",
+     "color": "#5b6e3c",
+     "from": {
+      "x": -1500,
+      "z": -2500
+     },
+     "to": {
+      "x": 1800,
+      "z": -1200
+     },
+     "start": 0,
+     "end": 4,
+     "alt": 22
+    }
+   ]
+  },
+  {
+   "id": "m2_call",
+   "stick_place": "corn_field",
+   "stick_spot": "station",
+   "stick_shot": "station_close",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "tense",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "storm",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "Mark? Mark! ...Mark, answer me!",
+     "emotion": "scared"
+    },
+    {
+     "wait": 0.8
+    },
+    {
+     "who": "deepak",
+     "say": "Ten sensors... can't all be wrong.",
+     "emotion": "worried"
+    },
+    {
+     "wait": 0.6
+    },
+    {
+     "who": "deepak",
+     "do": "look_up"
+    },
+    {
+     "who": "deepak",
+     "say": "Something is very wrong with our sky.",
+     "emotion": "scared"
+    }
+   ],
+   "stick_muddy": [
+    "deepak"
+   ],
+   "stick_cars": [
+    {
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "id": "car2",
+     "rider": null,
+     "to": {
+      "x": 200,
+      "z": -39
+     },
+     "heading": 0
+    }
+   ]
+  },
+  {
+   "id": "m2_end",
+   "stick_place": "storm_coast",
+   "stick_spot": "street",
+   "stick_shot": "coast_high",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hurricane",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "cyclone",
+     "over": 0.0,
+     "react": false
+    },
+    {
+     "wait": 3.2
+    }
+   ],
+   "stick_hurricane": {
+    "eye": [
+     0.62,
+     0.45
+    ],
+    "size": 0.95,
+    "squash": 0.5,
+    "glow": true
+   }
+  },
+  {
+   "id": "m3_drive",
+   "stick_place": "highway",
+   "stick_spot": "road",
+   "stick_shot": "long",
+   "stick_time": "sunset",
+   "mood": "sad",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "truck",
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "from": {
+      "x": -1800,
+      "z": 120
+     },
+     "to": {
+      "x": 3200,
+      "z": 120
+     },
+     "start": 0,
+     "end": 4.0,
+     "lights": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "drizzle",
+     "over": 0,
+     "react": false
+    },
+    {
+     "wait": 3.6
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m3_home",
+   "stick_place": "farm_2026",
+   "stick_spot": "gate",
+   "stick_shot": "farm_wide",
+   "stick_time": "evening",
+   "mood": "sad",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "truck",
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "to": {
+      "x": 1245,
+      "z": -908
+     },
+     "heading": 0,
+     "lights": true,
+     "from": {
+      "x": 3430,
+      "z": -3230
+     },
+     "start": 0,
+     "end": 3.0
+    }
+   ],
+   "events": [
+    {
+     "weather": "drizzle",
+     "over": 0,
+     "react": false
+    },
+    {
+     "wait": 3.0
+    }
+   ],
+   "tail": 0.3
+  },
+  {
+   "id": "m3_tv",
+   "stick_place": "farm_2026",
+   "stick_spot": "tv_seat",
+   "stick_shot": [
+    [
+     -1.5,
+     1.55,
+     1.1
+    ],
+    [
+     1.9,
+     0.95,
+     -0.1
+    ]
+   ],
+   "stick_time": "night",
+   "mood": "tense",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "anchor_hi",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "wait": 2.0
+    }
+   ],
+   "tail": 0.1
+  },
+  {
+   "id": "m3_news",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "anchor_hi",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "news",
+    "channel": "भारत समाचार",
+    "headline": "अमेरिका में महातूफ़ान: कम से कम 10,000 की मौत",
+    "place": "Galveston, USA",
+    "ticker": "टेक्सास तट तबाह · लाखों बेघर · El Niño दो साल पहले लौटा · कई राज्यों में UV अलर्ट",
+    "footage": "hurricane"
+   },
+   "events": [
+    {
+     "who": "anchor_hi",
+     "say": "Amerika mein aaye mahatoofaan ne bhaari tabaahi machaayi hai... kam se kam das hazaar logon ki maut ki khabar hai.",
+     "emotion": "worried"
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m3_face",
+   "stick_place": "farm_2026",
+   "stick_spot": "tv_seat",
+   "stick_shot": "tv_face",
+   "stick_time": "night",
+   "mood": "tense",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "wait": 0.4
+    },
+    {
+     "who": "deepak",
+     "say": "Das hazaar...",
+     "emotion": "sad"
+    },
+    {
+     "wait": 0.6
+    }
+   ],
+   "stick_to_camera": [
+    "deepak"
+   ]
+  },
+  {
+   "id": "m3_desk",
+   "stick_place": "farm_2026",
+   "stick_spot": "desk",
+   "stick_shot": "desk",
+   "stick_time": "night",
+   "mood": "secret",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "wait": 1.0
+    }
+   ],
+   "tail": 0.1
+  },
+  {
+   "id": "m3_logs",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "secret",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "station_log",
+    "station": 133,
+    "per": 0.12
+   },
+   "events": [
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "say": "Sab normal... toh phir yeh sab kya ho raha hai?",
+     "emotion": "worried"
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m3_village1",
+   "stick_place": "village_road",
+   "stick_spot": "road",
+   "stick_shot": "lane",
+   "stick_time": "night",
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "villager1",
+     "x": 1450,
+     "z": 700
+    },
+    {
+     "id": "villager2",
+     "x": 1600,
+     "z": 760
+    },
+    {
+     "id": "villager3",
+     "x": 1530,
+     "z": 640
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "black1",
+     "kind": "agent",
+     "mud": true,
+     "from": {
+      "x": -2600,
+      "z": 120
+     },
+     "to": {
+      "x": 3600,
+      "z": 120
+     },
+     "start": 0.4,
+     "end": 3.6,
+     "lights": true
+    },
+    {
+     "id": "black2",
+     "kind": "agent",
+     "mud": true,
+     "from": {
+      "x": -3900,
+      "z": 120
+     },
+     "to": {
+      "x": 2300,
+      "z": 120
+     },
+     "start": 0.4,
+     "end": 3.6,
+     "lights": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "drizzle",
+     "over": 0,
+     "react": false
+    },
+    {
+     "sound": "dog",
+     "at": 0.2
+    },
+    {
+     "who": "villager1",
+     "do": "look",
+     "at": 1.2
+    },
+    {
+     "who": "villager3",
+     "do": "point",
+     "at": 1.6
+    },
+    {
+     "who": "villager2",
+     "say": "Itni raat ko... ye kaali gaadiyan kiski hain?",
+     "emotion": "worried",
+     "at": 2.2
+    },
+    {
+     "who": "villager1",
+     "say": "Sarkari lagti hain. Meena ji ke ghar ki taraf ja rahi hain.",
+     "emotion": "worried"
+    },
+    {
+     "sound": "dog"
+    }
+   ],
+   "tail": 0.2,
+   "stick_shot_hold": true
+  },
+  {
+   "id": "m3_village2",
+   "stick_place": "village_road",
+   "stick_spot": "road",
+   "stick_shot": "road_low",
+   "stick_time": "night",
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "black1",
+     "kind": "agent",
+     "mud": true,
+     "from": {
+      "x": -3200,
+      "z": 120
+     },
+     "to": {
+      "x": 4400,
+      "z": 120
+     },
+     "start": 0,
+     "end": 2.6,
+     "lights": true
+    },
+    {
+     "id": "black2",
+     "kind": "agent",
+     "mud": true,
+     "from": {
+      "x": -4600,
+      "z": 120
+     },
+     "to": {
+      "x": 3000,
+      "z": 120
+     },
+     "start": 0,
+     "end": 2.6,
+     "lights": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "drizzle",
+     "over": 0,
+     "react": false
+    },
+    {
+     "sound": "splash",
+     "at": 1.7
+    },
+    {
+     "sound": "splash",
+     "at": 2.2
+    },
+    {
+     "wait": 2.8
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m3_lights",
+   "stick_place": "farm_2026",
+   "stick_spot": "gate",
+   "stick_shot": "window_out",
+   "stick_time": "night",
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "truck",
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "to": {
+      "x": 1245,
+      "z": -908
+     },
+     "heading": 0,
+     "lights": false
+    },
+    {
+     "id": "black1",
+     "kind": "agent",
+     "from": {
+      "x": -3790,
+      "z": -380
+     },
+     "to": {
+      "x": 675,
+      "z": -274
+     },
+     "start": 0,
+     "end": 3.0,
+     "lights": true
+    },
+    {
+     "id": "black2",
+     "kind": "agent",
+     "from": {
+      "x": -5690,
+      "z": -591
+     },
+     "to": {
+      "x": -655,
+      "z": -486
+     },
+     "start": 0.3,
+     "end": 3.3,
+     "lights": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 3.4
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m3_agents",
+   "stick_place": "farm_2026",
+   "stick_spot": "gate",
+   "stick_shot": "gate_night",
+   "stick_time": "night",
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "rathore",
+     "x": 485,
+     "z": 63
+    },
+    {
+     "id": "agent2",
+     "x": 675,
+     "z": 116
+    },
+    {
+     "id": "agent3",
+     "x": 865,
+     "z": 63
+    },
+    {
+     "id": "agent4",
+     "x": 1055,
+     "z": 116
+    },
+    {
+     "id": "agent5",
+     "x": 1245,
+     "z": 63
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "truck",
+     "kind": "pickup",
+     "color": "#e6e4dc",
+     "mud": true,
+     "to": {
+      "x": 1245,
+      "z": -908
+     },
+     "heading": 0,
+     "lights": false
+    },
+    {
+     "id": "black1",
+     "kind": "agent",
+     "to": {
+      "x": 675,
+      "z": -274
+     },
+     "heading": 0,
+     "lights": true,
+     "door": [
+      0.1,
+      0.9
+     ]
+    },
+    {
+     "id": "black2",
+     "kind": "agent",
+     "to": {
+      "x": -655,
+      "z": -486
+     },
+     "heading": 0,
+     "lights": true,
+     "door": [
+      0.3,
+      1.1
+     ]
+    }
+   ],
+   "events": [
+    {
+     "sound": "car_door"
+    },
+    {
+     "sound": "car_door",
+     "at": 0.3
+    },
+    {
+     "who": "rathore",
+     "do": "walk",
+     "to": {
+      "x": 10,
+      "z": 781
+     },
+     "at": 0.6
+    },
+    {
+     "who": "agent2",
+     "do": "walk",
+     "to": {
+      "x": 143,
+      "z": 844
+     },
+     "at": 0.8
+    },
+    {
+     "who": "agent3",
+     "do": "walk",
+     "to": {
+      "x": 276,
+      "z": 908
+     },
+     "at": 1.0
+    },
+    {
+     "who": "agent4",
+     "do": "walk",
+     "to": {
+      "x": 409,
+      "z": 971
+     },
+     "at": 1.2
+    },
+    {
+     "who": "agent5",
+     "do": "walk",
+     "to": {
+      "x": 542,
+      "z": 1034
+     },
+     "at": 1.4
+    },
+    {
+     "wait": 3.0,
+     "at": 0.6
+    }
+   ],
+   "props": [
+    {
+     "id": "gun_agent2",
+     "type": "gun",
+     "held_by": "agent2"
+    },
+    {
+     "id": "gun_agent3",
+     "type": "gun",
+     "held_by": "agent3"
+    },
+    {
+     "id": "gun_agent4",
+     "type": "gun",
+     "held_by": "agent4"
+    },
+    {
+     "id": "gun_agent5",
+     "type": "gun",
+     "held_by": "agent5"
+    }
+   ]
+  },
+  {
+   "id": "m3_door",
+   "stick_place": "farm_2026",
+   "stick_spot": "porch",
+   "stick_shot": [
+    [
+     1.6,
+     1.6,
+     -3.4
+    ],
+    [
+     -0.6,
+     1.4,
+     0.5
+    ]
+   ],
+   "stick_time": "night",
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 770,
+     "z": 232
+    },
+    {
+     "id": "rathore",
+     "x": 941,
+     "z": 21
+    },
+    {
+     "id": "agent2",
+     "x": 1093,
+     "z": 53
+    },
+    {
+     "id": "agent3",
+     "x": 1245,
+     "z": 84
+    },
+    {
+     "id": "agent4",
+     "x": 1397,
+     "z": 116
+    },
+    {
+     "id": "agent5",
+     "x": 1549,
+     "z": 148
+    }
+   ],
+   "events": [
+    {
+     "sound": "knock"
+    },
+    {
+     "sound": "door",
+     "at": 0.6
+    },
+    {
+     "who": "rathore",
+     "say": "Deepak Meena? The micro weather station guy?",
+     "emotion": "calm",
+     "to": "deepak"
+    },
+    {
+     "who": "deepak",
+     "say": "Haan... yes. Aap kaun?",
+     "emotion": "worried"
+    },
+    {
+     "who": "rathore",
+     "say": "You need to come with us. To Delhi. Right now.",
+     "emotion": "calm"
+    },
+    {
+     "who": "deepak",
+     "say": "Delhi? Abhi? But why—",
+     "emotion": "surprised"
+    },
+    {
+     "who": "rathore",
+     "say": "In the car, please.",
+     "emotion": "angry",
+     "do": "point"
+    }
+   ]
+  },
+  {
+   "id": "m3_convoy",
+   "stick_place": "highway",
+   "stick_spot": "road",
+   "stick_shot": "long",
+   "stick_time": "night",
+   "mood": "secret",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "rathore",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "black1",
+     "kind": "agent",
+     "from": {
+      "x": -2400,
+      "z": 120
+     },
+     "to": {
+      "x": 3000,
+      "z": 120
+     },
+     "start": 0,
+     "end": 5.0,
+     "lights": true
+    },
+    {
+     "id": "black2",
+     "kind": "agent",
+     "from": {
+      "x": -3400,
+      "z": 120
+     },
+     "to": {
+      "x": 2000,
+      "z": 120
+     },
+     "start": 0,
+     "end": 5.0,
+     "lights": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 0.8
+    },
+    {
+     "who": "deepak",
+     "say": "Kahan le ja rahe ho? Kya hua hai?",
+     "emotion": "scared"
+    },
+    {
+     "wait": 1.6
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m3_airstrip",
+   "stick_place": "airstrip",
+   "stick_spot": "apron",
+   "stick_shot": "apron_wide",
+   "stick_time": "night",
+   "mood": "secret",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "vip",
+     "kind": "jet",
+     "to": {
+      "x": -1054,
+      "z": 1794
+     },
+     "heading": 0,
+     "stairs": true
+    },
+    {
+     "id": "black1",
+     "kind": "agent",
+     "from": {
+      "x": -5880,
+      "z": -802
+     },
+     "to": {
+      "x": 865,
+      "z": -169
+     },
+     "start": 0,
+     "end": 3.2,
+     "lights": true
+    }
+   ],
+   "events": [
+    {
+     "sound": "jet"
+    },
+    {
+     "wait": 3.4
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m3_stairs",
+   "stick_place": "airstrip",
+   "stick_spot": "stairs",
+   "stick_shot": "stairs",
+   "stick_time": "night",
+   "mood": "secret",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1264,
+     "z": -338
+    },
+    {
+     "id": "rathore",
+     "x": 1036,
+     "z": 0
+    },
+    {
+     "id": "agent2",
+     "x": 1492,
+     "z": -380
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "vip",
+     "kind": "jet",
+     "to": {
+      "x": -294,
+      "z": 697
+     },
+     "heading": 0,
+     "stairs": true
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "say": "Kam se kam batao toh... hua kya hai?!",
+     "emotion": "angry",
+     "to": "rathore"
+    },
+    {
+     "wait": 1.4
+    },
+    {
+     "who": "rathore",
+     "do": "point"
+    },
+    {
+     "wait": 1.2
+    }
+   ],
+   "props": [
+    {
+     "id": "rifle_agent2",
+     "type": "rifle",
+     "held_by": "agent2"
+    }
+   ]
+  },
+  {
+   "id": "m3_cabin",
+   "stick_place": "jet_cabin",
+   "stick_spot": "seat",
+   "stick_shot": "deepak",
+   "mood": "secret",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "rathore",
+     "x": 960,
+     "z": 521
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rathore",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "wait": 0.6
+    },
+    {
+     "who": "deepak",
+     "say": "Please... kya hua hai?",
+     "emotion": "sad",
+     "to": "rathore"
+    },
+    {
+     "wait": 2.2
+    }
+   ],
+   "stick_to_camera": [
+    "deepak"
+   ]
+  },
+  {
+   "id": "m3_takeoff",
+   "stick_place": "airstrip",
+   "stick_spot": "runway",
+   "stick_shot": "takeoff",
+   "stick_time": "night",
+   "mood": "secret",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "vip",
+     "kind": "jet",
+     "from": {
+      "x": 13000,
+      "z": 120
+     },
+     "to": {
+      "x": -6600,
+      "z": 120
+     },
+     "start": 0,
+     "end": 7.0,
+     "climb": {
+      "at": 3.0,
+      "rate": 2.2
+     }
+    }
+   ],
+   "events": [
+    {
+     "wait": 6.0
+    }
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "m4_delhi",
+   "stick_place": "city_street",
+   "stick_spot": "road",
+   "stick_shot": "ministry",
+   "stick_time": "morning",
+   "mood": "secret",
+   "transition": "cut",
+   "stick_title": "NEW DELHI · 6:10 AM",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "black1",
+     "kind": "agent",
+     "from": {
+      "x": -1800,
+      "z": 120
+     },
+     "to": {
+      "x": 900,
+      "z": 120
+     },
+     "start": 0,
+     "end": 3.5,
+     "lights": true
+    },
+    {
+     "id": "black2",
+     "kind": "agent",
+     "from": {
+      "x": -2900,
+      "z": 120
+     },
+     "to": {
+      "x": -200,
+      "z": 120
+     },
+     "start": 0.2,
+     "end": 3.7,
+     "lights": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 4.2
+    }
+   ],
+   "tail": 0.2
+  },
+  {
+   "id": "m4_hall",
+   "stick_place": "auditorium",
+   "stick_spot": "aisle",
+   "stick_shot": "hall_back",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "sci2",
+     "x": 633,
+     "z": 1492
+    },
+    {
+     "id": "sci3",
+     "x": 1169,
+     "z": 1492
+    },
+    {
+     "id": "sci4",
+     "x": 1287,
+     "z": 1492
+    },
+    {
+     "id": "sci5",
+     "x": 751,
+     "z": 1249
+    },
+    {
+     "id": "sci6",
+     "x": 633,
+     "z": 1249
+    },
+    {
+     "id": "sci7",
+     "x": 1169,
+     "z": 1249
+    },
+    {
+     "id": "sci8",
+     "x": 1287,
+     "z": 1249
+    },
+    {
+     "id": "sci9",
+     "x": 751,
+     "z": 1007
+    },
+    {
+     "id": "sci10",
+     "x": 633,
+     "z": 1007
+    },
+    {
+     "id": "sharma",
+     "x": 1910,
+     "z": 2337
+    },
+    {
+     "id": "rao",
+     "x": 295,
+     "z": 2864
+    },
+    {
+     "id": "banerjee",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "mark_delhi",
+     "x": 633,
+     "z": 278
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rao",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "banerjee",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sharma",
+     "say": "Delia is not the end. It is the beginning.",
+     "emotion": "worried",
+     "at": 0.5
+    },
+    {
+     "who": "sharma",
+     "say": "Our ensemble is clear. The monsoon will fail. No useful rain over India... for five years.",
+     "emotion": "worried"
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "sharma",
+     "at": 0
+    }
+   ],
+   "stick_bigscreen": {
+    "kind": "data",
+    "fit": true,
+    "title": "IMD ensemble · All-India monsoon rainfall, % of normal",
+    "grow": 1.5,
+    "warn": "5-YEAR DROUGHT",
+    "series": [
+     {
+      "name": "Monsoon rain (% of normal)",
+      "from": 100,
+      "to": 38,
+      "unit": "%"
+     },
+     {
+      "name": "Reservoir storage (% of capacity)",
+      "from": 71,
+      "to": 22,
+      "unit": "%"
+     }
+    ]
+   },
+   "stick_murmur": {
+    "at": 0,
+    "end": 0.4,
+    "volume": 0.5
+   },
+   "stick_shot_hold": true
+  },
+  {
+   "id": "m4_slide",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sharma",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "data",
+    "fit": true,
+    "title": "IMD ensemble · All-India monsoon rainfall, % of normal",
+    "grow": 1.5,
+    "warn": "5-YEAR DROUGHT",
+    "series": [
+     {
+      "name": "Monsoon rain (% of normal)",
+      "from": 100,
+      "to": 38,
+      "unit": "%"
+     },
+     {
+      "name": "Reservoir storage (% of capacity)",
+      "from": 71,
+      "to": 22,
+      "unit": "%"
+     }
+    ]
+   },
+   "events": [
+    {
+     "wait": 2.2
+    }
+   ],
+   "tail": 0.1
+  },
+  {
+   "id": "m4_uproar",
+   "stick_place": "auditorium",
+   "stick_spot": "aisle",
+   "stick_shot": "audience",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "sci2",
+     "x": 633,
+     "z": 1492
+    },
+    {
+     "id": "sci3",
+     "x": 1169,
+     "z": 1492
+    },
+    {
+     "id": "sci4",
+     "x": 1287,
+     "z": 1492
+    },
+    {
+     "id": "sci5",
+     "x": 751,
+     "z": 1249
+    },
+    {
+     "id": "sci6",
+     "x": 633,
+     "z": 1249
+    },
+    {
+     "id": "sci7",
+     "x": 1169,
+     "z": 1249
+    },
+    {
+     "id": "sci8",
+     "x": 1287,
+     "z": 1249
+    },
+    {
+     "id": "sci9",
+     "x": 751,
+     "z": 1007
+    },
+    {
+     "id": "sci10",
+     "x": 633,
+     "z": 1007
+    },
+    {
+     "id": "sharma",
+     "x": 1910,
+     "z": 2337
+    },
+    {
+     "id": "rao",
+     "x": 295,
+     "z": 2864
+    },
+    {
+     "id": "banerjee",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "mark_delhi",
+     "x": 633,
+     "z": 278
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rao",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "banerjee",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "banerjee",
+     "do": "stand",
+     "at": 0.3
+    },
+    {
+     "who": "banerjee",
+     "say": "Five years? That is not science, Dr. Sharma, that is panic! One storm is not a pattern.",
+     "emotion": "angry",
+     "to": "sharma"
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "sharma",
+     "at": 0
+    }
+   ],
+   "stick_murmur": {
+    "at": 0,
+    "volume": 0.9
+   }
+  },
+  {
+   "id": "m4_sharma",
+   "stick_place": "auditorium",
+   "stick_spot": "lectern",
+   "stick_shot": "lectern",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sharma",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "sharma",
+     "say": "One storm? Ten thousand dead in three days, Professor.",
+     "emotion": "angry",
+     "to": "banerjee"
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "sharma",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "m4_rao",
+   "stick_place": "auditorium",
+   "stick_spot": "panel",
+   "stick_shot": "panel",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "rao",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "sci9",
+     "x": 684,
+     "z": 120
+    },
+    {
+     "id": "sci10",
+     "x": 1236,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rao",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rao",
+     "say": "Enough. Both of you used the same models... and both models missed Delia.",
+     "emotion": "calm"
+    },
+    {
+     "wait": 0.5
+    },
+    {
+     "who": "rao",
+     "say": "Only one model saw it coming.",
+     "emotion": "calm"
+    }
+   ]
+  },
+  {
+   "id": "m4_doors",
+   "stick_place": "auditorium",
+   "stick_spot": "doors",
+   "stick_shot": "doors",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1017,
+     "z": 162
+    },
+    {
+     "id": "rathore",
+     "x": 846,
+     "z": 141
+    }
+   ],
+   "events": [
+    {
+     "sound": "door"
+    },
+    {
+     "wait": 0.6
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 998,
+      "z": 542
+     }
+    },
+    {
+     "who": "rathore",
+     "do": "walk",
+     "to": {
+      "x": 827,
+      "z": 458
+     },
+     "with": "prev"
+    },
+    {
+     "wait": 0.8
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "deepak",
+     "at": 0
+    }
+   ],
+   "tail": 0.3
+  },
+  {
+   "id": "m4_turn",
+   "stick_place": "auditorium",
+   "stick_spot": "aisle",
+   "stick_shot": "stage_view",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "sci2",
+     "x": 633,
+     "z": 1492
+    },
+    {
+     "id": "sci3",
+     "x": 1169,
+     "z": 1492
+    },
+    {
+     "id": "sci4",
+     "x": 1287,
+     "z": 1492
+    },
+    {
+     "id": "sci5",
+     "x": 751,
+     "z": 1249
+    },
+    {
+     "id": "sci6",
+     "x": 633,
+     "z": 1249
+    },
+    {
+     "id": "sci7",
+     "x": 1169,
+     "z": 1249
+    },
+    {
+     "id": "sci8",
+     "x": 1287,
+     "z": 1249
+    },
+    {
+     "id": "sci9",
+     "x": 751,
+     "z": 1007
+    },
+    {
+     "id": "sci10",
+     "x": 633,
+     "z": 1007
+    },
+    {
+     "id": "sharma",
+     "x": 1910,
+     "z": 2337
+    },
+    {
+     "id": "rao",
+     "x": 295,
+     "z": 2864
+    },
+    {
+     "id": "banerjee",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "mark_delhi",
+     "x": 633,
+     "z": 278
+    },
+    {
+     "id": "deepak",
+     "x": 998,
+     "z": 36
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rao",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "banerjee",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "wait": 0.4
+    },
+    {
+     "who": "sci1",
+     "say": "That's him...",
+     "emotion": "surprised",
+     "at": 1.0
+    },
+    {
+     "who": "sci2",
+     "say": "Meena? The station boy from MP?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "sci4",
+     "say": "He's so young...",
+     "emotion": "surprised"
+    },
+    {
+     "wait": 0.6
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "sharma",
+     "at": 0
+    },
+    {
+     "target": "deepak",
+     "at": 0.3
+    }
+   ],
+   "stick_whispers": {
+    "at": 0.6,
+    "volume": 0.8
+   },
+   "stick_shot_hold": true
+  },
+  {
+   "id": "m4_walk",
+   "stick_place": "auditorium",
+   "stick_spot": "doors",
+   "stick_shot": "aisle_front",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci9",
+     "x": 751,
+     "z": 2864
+    },
+    {
+     "id": "sci10",
+     "x": 633,
+     "z": 2864
+    },
+    {
+     "id": "deepak",
+     "x": 979,
+     "z": 500
+    }
+   ],
+   "events": [
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 960,
+      "z": 1556
+     },
+     "at": 0
+    },
+    {
+     "wait": 0.8,
+     "at": 0.2
+    },
+    {
+     "who": "deepak",
+     "say": "Sab mujhe aise kyun dekh rahe hain...?",
+     "emotion": "worried",
+     "at": 1.0
+    },
+    {
+     "wait": 1.0
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "deepak",
+     "at": 0
+    }
+   ],
+   "stick_whispers": {
+    "at": 0,
+    "volume": 0.7
+   },
+   "stick_shot_hold": true
+  },
+  {
+   "id": "m4_rows",
+   "stick_place": "auditorium",
+   "stick_spot": "aisle",
+   "stick_shot": "rows_close",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "sci2",
+     "x": 633,
+     "z": 1492
+    },
+    {
+     "id": "sci3",
+     "x": 1169,
+     "z": 1492
+    },
+    {
+     "id": "sci4",
+     "x": 1287,
+     "z": 1492
+    },
+    {
+     "id": "sci5",
+     "x": 751,
+     "z": 1249
+    },
+    {
+     "id": "sci6",
+     "x": 633,
+     "z": 1249
+    },
+    {
+     "id": "sci7",
+     "x": 1169,
+     "z": 1249
+    },
+    {
+     "id": "sci8",
+     "x": 1287,
+     "z": 1249
+    },
+    {
+     "id": "sci9",
+     "x": 751,
+     "z": 1007
+    },
+    {
+     "id": "sci10",
+     "x": 633,
+     "z": 1007
+    },
+    {
+     "id": "deepak",
+     "x": 979,
+     "z": 78
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "wait": 2.0
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "deepak",
+     "at": 0
+    }
+   ],
+   "stick_whispers": {
+    "at": 0,
+    "volume": 0.9
+   }
+  },
+  {
+   "id": "m4_paper",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "wonder",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "doc",
+    "title": "Feedback Loops as Early Signals of Extreme Weather",
+    "stamp": "M.Sc. THESIS · 2025",
+    "every": 0.6,
+    "highlight": 3,
+    "lines": [
+     "Deepak Meena · Department of Physics · Bhopal",
+     "A network of low-cost LoRa weather stations (₹3,000 each) over Madhya Pradesh, 50 km apart",
+     "Forecasts served free online for farmers",
+     "Small feedbacks - soil moisture, ocean warmth, UV and ozone - add up and warn of big events days ahead"
+    ]
+   },
+   "events": [
+    {
+     "wait": 3.0
+    }
+   ],
+   "tail": 0.1
+  },
+  {
+   "id": "m4_sees",
+   "stick_place": "auditorium",
+   "stick_spot": "aisle",
+   "stick_shot": "screen",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "sci2",
+     "x": 633,
+     "z": 1492
+    },
+    {
+     "id": "sci3",
+     "x": 1169,
+     "z": 1492
+    },
+    {
+     "id": "sci4",
+     "x": 1287,
+     "z": 1492
+    },
+    {
+     "id": "sci5",
+     "x": 751,
+     "z": 1249
+    },
+    {
+     "id": "sci6",
+     "x": 633,
+     "z": 1249
+    },
+    {
+     "id": "sci7",
+     "x": 1169,
+     "z": 1249
+    },
+    {
+     "id": "sci8",
+     "x": 1287,
+     "z": 1249
+    },
+    {
+     "id": "sci9",
+     "x": 751,
+     "z": 1007
+    },
+    {
+     "id": "sci10",
+     "x": 633,
+     "z": 1007
+    },
+    {
+     "id": "deepak",
+     "x": 979,
+     "z": 373
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "wait": 0.4
+    },
+    {
+     "who": "deepak",
+     "say": "Yeh... yeh toh meri MSc thesis hai...",
+     "emotion": "surprised"
+    },
+    {
+     "wait": 0.4
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "deepak",
+     "at": 0
+    }
+   ],
+   "stick_bigscreen": {
+    "kind": "doc",
+    "title": "Feedback Loops as Early Signals of Extreme Weather",
+    "stamp": "M.Sc. THESIS · 2025",
+    "every": 0.6,
+    "highlight": 3,
+    "lines": [
+     "Deepak Meena · Department of Physics · Bhopal",
+     "A network of low-cost LoRa weather stations (₹3,000 each) over Madhya Pradesh, 50 km apart",
+     "Forecasts served free online for farmers",
+     "Small feedbacks - soil moisture, ocean warmth, UV and ozone - add up and warn of big events days ahead"
+    ]
+   }
+  },
+  {
+   "id": "m4_mark",
+   "stick_place": "auditorium",
+   "stick_spot": "mark_seat",
+   "stick_shot": "mark_seat_wide",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 960,
+     "z": 1334
+    },
+    {
+     "id": "sci2",
+     "x": 842,
+     "z": 1334
+    },
+    {
+     "id": "sci3",
+     "x": 1378,
+     "z": 1334
+    },
+    {
+     "id": "sci4",
+     "x": 1496,
+     "z": 1334
+    },
+    {
+     "id": "sci5",
+     "x": 960,
+     "z": 1091
+    },
+    {
+     "id": "sci6",
+     "x": 842,
+     "z": 1091
+    },
+    {
+     "id": "sci7",
+     "x": 1378,
+     "z": 1091
+    },
+    {
+     "id": "sci8",
+     "x": 1496,
+     "z": 1091
+    },
+    {
+     "id": "sci9",
+     "x": 960,
+     "z": 848
+    },
+    {
+     "id": "sci10",
+     "x": 842,
+     "z": 848
+    },
+    {
+     "id": "mark_delhi",
+     "x": 842,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": 1150,
+     "z": 57
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "do": "wave",
+     "at": 0.2
+    },
+    {
+     "who": "mark_delhi",
+     "say": "Deepak! Over here.",
+     "emotion": "happy",
+     "at": 0.4
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 960,
+      "z": 120
+     }
+    },
+    {
+     "who": "deepak",
+     "do": "sit"
+    },
+    {
+     "who": "deepak",
+     "say": "Mark?! Tum yahan? What is going on?",
+     "emotion": "surprised",
+     "to": "mark_delhi"
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "deepak",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "m4_talk1",
+   "stick_place": "auditorium",
+   "stick_spot": "mark_seat",
+   "stick_shot": "mark_seat",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 960,
+     "z": 1334
+    },
+    {
+     "id": "sci2",
+     "x": 842,
+     "z": 1334
+    },
+    {
+     "id": "sci3",
+     "x": 1378,
+     "z": 1334
+    },
+    {
+     "id": "sci4",
+     "x": 1496,
+     "z": 1334
+    },
+    {
+     "id": "sci5",
+     "x": 960,
+     "z": 1091
+    },
+    {
+     "id": "sci6",
+     "x": 842,
+     "z": 1091
+    },
+    {
+     "id": "sci7",
+     "x": 1378,
+     "z": 1091
+    },
+    {
+     "id": "sci8",
+     "x": 1496,
+     "z": 1091
+    },
+    {
+     "id": "sci9",
+     "x": 960,
+     "z": 848
+    },
+    {
+     "id": "sci10",
+     "x": 842,
+     "z": 848
+    },
+    {
+     "id": "mark_delhi",
+     "x": 842,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "say": "Remember your feedback-loop model? The one you put on that free server?",
+     "emotion": "calm",
+     "to": "deepak"
+    },
+    {
+     "who": "deepak",
+     "say": "The MP forecast? Woh toh bas kisanon ke liye tha...",
+     "emotion": "surprised",
+     "to": "mark_delhi"
+    },
+    {
+     "who": "deepak",
+     "say": "Kya hua, Mark? Batao na...",
+     "emotion": "worried",
+     "to": "mark_delhi"
+    },
+    {
+     "who": "mark_delhi",
+     "say": "Three weeks ago... in our Miami centre.",
+     "emotion": "sad",
+     "to": "deepak"
+    }
+   ]
+  },
+  {
+   "id": "m4_noaa",
+   "stick_place": "weather_center",
+   "stick_spot": "floor",
+   "stick_shot": "ops_wide",
+   "mood": "secret",
+   "transition": "cut",
+   "stick_title": "NOAA · MIAMI · THREE WEEKS AGO",
+   "stick_bigscreen": [
+    {
+     "kind": "radar",
+     "label": "DELIA · +9 DAYS · MEENA MODEL: 300+ KM/H · MIAMI"
+    },
+    {
+     "kind": "radar",
+     "style": "sat",
+     "seed": 5,
+     "label": "GOES-16 · GULF OF MEXICO"
+    },
+    {
+     "kind": "radar",
+     "seed": 9,
+     "size": 0.32,
+     "label": "GFS: TROPICAL STORM"
+    },
+    {
+     "kind": "radar",
+     "seed": 11,
+     "size": 0.3,
+     "label": "ECMWF: TROPICAL STORM"
+    },
+    {
+     "kind": "radar",
+     "style": "sat",
+     "seed": 7,
+     "size": 0.28,
+     "track": false
+    }
+   ],
+   "stick_shot_hold": true,
+   "stick_murmur": {
+    "volume": 0.3
+   },
+   "characters": [
+    {
+     "id": "noaa1",
+     "x": 105,
+     "z": 1429
+    },
+    {
+     "id": "noaa2",
+     "x": 1815,
+     "z": 1429
+    },
+    {
+     "id": "noaa3",
+     "x": 105,
+     "z": 373
+    },
+    {
+     "id": "noaa4",
+     "x": 1815,
+     "z": 373
+    },
+    {
+     "id": "noaa5",
+     "x": 1188,
+     "z": 2062
+    },
+    {
+     "id": "mark_delhi",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "noaa1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "noaa2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "noaa3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "noaa4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "noaa5",
+     "do": "point",
+     "at": 1.5
+    },
+    {
+     "who": "noaa2",
+     "do": "laugh",
+     "at": 2.5
+    },
+    {
+     "who": "mark_delhi",
+     "say": "We were running every big model on the Gulf. Then someone said... run the student's model too. As a joke.",
+     "emotion": "sad",
+     "at": 1.0
+    },
+    {
+     "who": "mark_delhi",
+     "say": "A model on a free server. Forty-dollar boxes in cornfields.",
+     "emotion": "sad"
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "noaa5",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "m4_noaa2",
+   "stick_place": "weather_center",
+   "stick_spot": "desk",
+   "stick_shot": "desk",
+   "mood": "secret",
+   "transition": "cut",
+   "stick_bigscreen": [
+    {
+     "kind": "radar",
+     "label": "DELIA · +9 DAYS · MEENA MODEL: 300+ KM/H · MIAMI"
+    },
+    {
+     "kind": "radar",
+     "style": "sat",
+     "seed": 5,
+     "label": "GOES-16 · GULF OF MEXICO"
+    },
+    {
+     "kind": "radar",
+     "seed": 9,
+     "size": 0.32,
+     "label": "GFS: TROPICAL STORM"
+    },
+    {
+     "kind": "radar",
+     "seed": 11,
+     "size": 0.3,
+     "label": "ECMWF: TROPICAL STORM"
+    },
+    {
+     "kind": "radar",
+     "style": "sat",
+     "seed": 7,
+     "size": 0.28,
+     "track": false
+    }
+   ],
+   "characters": [
+    {
+     "id": "noaa1",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "noaa5",
+     "x": 1207,
+     "z": 480
+    },
+    {
+     "id": "mark_delhi",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "noaa1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "noaa1",
+     "do": "surprised",
+     "at": 0.8
+    },
+    {
+     "who": "noaa5",
+     "do": "shrug",
+     "at": 3.0
+    },
+    {
+     "who": "mark_delhi",
+     "say": "Every big model said a weak storm. Yours said three hundred kilometres an hour... right over Miami. Nine days out.",
+     "emotion": "worried",
+     "at": 0.4
+    },
+    {
+     "who": "mark_delhi",
+     "say": "We laughed. We logged it... and we moved on.",
+     "emotion": "sad"
+    }
+   ]
+  },
+  {
+   "id": "m4_compare",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark_delhi",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "data",
+    "fit": true,
+    "title": "Hurricane Delia · forecasts made 9 days before landfall (peak wind over Miami, km/h)",
+    "grow": 1.2,
+    "warn": "ONLY ONE WAS RIGHT",
+    "series": [
+     {
+      "name": "NOAA GFS",
+      "from": 70,
+      "to": 95,
+      "unit": "km/h"
+     },
+     {
+      "name": "ECMWF",
+      "from": 75,
+      "to": 105,
+      "unit": "km/h"
+     },
+     {
+      "name": "Meena feedback model (free server, MP)",
+      "from": 80,
+      "to": 310,
+      "unit": "km/h",
+      "bad_up": true
+     }
+    ]
+   },
+   "events": [
+    {
+     "wait": 0.5
+    },
+    {
+     "who": "mark_delhi",
+     "say": "Delia hit exactly where you said. Exactly when you said.",
+     "emotion": "worried"
+    }
+   ],
+   "tail": 0.3
+  },
+  {
+   "id": "m4_talk2",
+   "stick_place": "auditorium",
+   "stick_spot": "mark_seat",
+   "stick_shot": "mark_seat",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 960,
+     "z": 1334
+    },
+    {
+     "id": "sci2",
+     "x": 842,
+     "z": 1334
+    },
+    {
+     "id": "sci3",
+     "x": 1378,
+     "z": 1334
+    },
+    {
+     "id": "sci4",
+     "x": 1496,
+     "z": 1334
+    },
+    {
+     "id": "sci5",
+     "x": 960,
+     "z": 1091
+    },
+    {
+     "id": "sci6",
+     "x": 842,
+     "z": 1091
+    },
+    {
+     "id": "sci7",
+     "x": 1378,
+     "z": 1091
+    },
+    {
+     "id": "sci8",
+     "x": 1496,
+     "z": 1091
+    },
+    {
+     "id": "sci9",
+     "x": 960,
+     "z": 848
+    },
+    {
+     "id": "sci10",
+     "x": 842,
+     "z": 848
+    },
+    {
+     "id": "mark_delhi",
+     "x": 842,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "Nine days... aur kisi ne nahi maana?",
+     "emotion": "sad",
+     "to": "mark_delhi"
+    },
+    {
+     "who": "mark_delhi",
+     "say": "Nobody believed it. Not my bosses. Not even me. Now ten thousand people are dead.",
+     "emotion": "sad",
+     "to": "deepak"
+    },
+    {
+     "who": "mark_delhi",
+     "say": "But here's the strange part, Deepak. Give your model big data... a whole ocean, a whole season... and it is perfect.",
+     "emotion": "worried",
+     "to": "deepak"
+    },
+    {
+     "who": "mark_delhi",
+     "say": "Give it small data... one village, one week... and it does nothing. Just noise. Like today's AI.",
+     "emotion": "calm",
+     "to": "deepak"
+    },
+    {
+     "who": "deepak",
+     "say": "Haan... feedback loops chhote data mein dikhte hi nahi. Unhe poora system chahiye.",
+     "emotion": "sad",
+     "to": "mark_delhi"
+    },
+    {
+     "wait": 0.6
+    },
+    {
+     "who": "mark_delhi",
+     "say": "And last night, your model ran again. For India.",
+     "emotion": "worried",
+     "to": "deepak"
+    },
+    {
+     "who": "deepak",
+     "say": "Aur... kya kehta hai?",
+     "emotion": "scared",
+     "to": "mark_delhi"
+    },
+    {
+     "who": "mark_delhi",
+     "say": "That's why you're here.",
+     "emotion": "worried"
+    }
+   ]
+  },
+  {
+   "id": "m4_call",
+   "stick_place": "auditorium",
+   "stick_spot": "panel",
+   "stick_shot": "panel",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "rao",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "sci9",
+     "x": 684,
+     "z": 120
+    },
+    {
+     "id": "sci10",
+     "x": 1236,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rao",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rao",
+     "do": "stand",
+     "at": 0.2
+    },
+    {
+     "who": "rao",
+     "say": "Mr. Meena. Please... come up. Tell us what your model says about the next five years.",
+     "emotion": "calm"
+    }
+   ]
+  },
+  {
+   "id": "m4_up",
+   "stick_place": "auditorium",
+   "stick_spot": "aisle",
+   "stick_shot": "hall_back",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "sci1",
+     "x": 751,
+     "z": 1492
+    },
+    {
+     "id": "sci2",
+     "x": 633,
+     "z": 1492
+    },
+    {
+     "id": "sci3",
+     "x": 1169,
+     "z": 1492
+    },
+    {
+     "id": "sci4",
+     "x": 1287,
+     "z": 1492
+    },
+    {
+     "id": "sci5",
+     "x": 751,
+     "z": 1249
+    },
+    {
+     "id": "sci6",
+     "x": 633,
+     "z": 1249
+    },
+    {
+     "id": "sci7",
+     "x": 1169,
+     "z": 1249
+    },
+    {
+     "id": "sci8",
+     "x": 1287,
+     "z": 1249
+    },
+    {
+     "id": "sci9",
+     "x": 751,
+     "z": 1007
+    },
+    {
+     "id": "sci10",
+     "x": 633,
+     "z": 1007
+    },
+    {
+     "id": "rao",
+     "x": 295,
+     "z": 2864
+    },
+    {
+     "id": "mark_delhi",
+     "x": 633,
+     "z": 278
+    },
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 278
+    }
+   ],
+   "events": [
+    {
+     "who": "sci1",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci2",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci3",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci4",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci5",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci6",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci7",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci8",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci9",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "sci10",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "rao",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "mark_delhi",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 1758,
+      "z": 2189
+     },
+     "at": 0.3
+    },
+    {
+     "wait": 3.6,
+     "at": 0.3
+    }
+   ],
+   "stick_watch": [
+    {
+     "target": "deepak",
+     "at": 0
+    }
+   ],
+   "stick_whispers": {
+    "at": 0,
+    "volume": 0.5
+   },
+   "stick_shot_hold": true,
+   "stick_bigscreen": {
+    "kind": "mp_map"
+   }
+  },
+  {
+   "id": "m4_lectern",
+   "stick_place": "auditorium",
+   "stick_spot": "lectern",
+   "stick_shot": "lectern",
+   "mood": "hall",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "stand",
+     "at": 0
+    },
+    {
+     "wait": 1.6
+    },
+    {
+     "sound": "heartbeat"
+    },
+    {
+     "who": "deepak",
+     "say": "Main...",
+     "emotion": "scared"
+    },
+    {
+     "wait": 1.4
+    }
+   ],
+   "stick_bigscreen": {
+    "kind": "mp_map"
+   }
+  }
+ ],
+ "end": {
+  "text": "To be continued...",
+  "sub": "The Last Signal"
+ }
+}

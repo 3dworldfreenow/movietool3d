@@ -1,0 +1,170 @@
+{
+ "title": "Farm test",
+ "settings": {
+  "language": "hi-IN",
+  "art": "stick3d",
+  "stick_look": "flat"
+ },
+ "characters": {
+  "deepak": {
+   "name": "Deepak",
+   "shirt": "#4f9aad",
+   "pants": "#36435f"
+  },
+  "raghav": {
+   "name": "Raghav",
+   "shirt": "#7aa84a",
+   "pants": "#e9e2cf",
+   "mustache": true
+  }
+ },
+ "scenes": [
+  {
+   "id": "gate",
+   "stick_place": "farm_2026",
+   "stick_spot": "path",
+   "stick_shot": "farm_wide",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "raghav",
+     "x": 900,
+     "z": 0
+    }
+   ],
+   "events": [
+    {
+     "narrate": "Raghav ka khet. Aur khet ke beech, ek purana ghar."
+    },
+    {
+     "who": "raghav",
+     "do": "walk",
+     "to": {
+      "x": 700,
+      "z": 900
+     }
+    }
+   ]
+  },
+  {
+   "id": "khidki",
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_shot": "through_window",
+   "stick_shot_move": 6,
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "narrate": "Khidki ke andar, Deepak ka naya daftar."
+    },
+    {
+     "who": "deepak",
+     "say": "Station sau... sab online.",
+     "emotion": "happy"
+    }
+   ]
+  },
+  {
+   "id": "andar",
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_shot": "inside_wide",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    },
+    {
+     "id": "raghav",
+     "x": 675,
+     "z": 20
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "who": "raghav",
+     "do": "walk",
+     "to": {
+      "x": 1000,
+      "z": 380
+     }
+    },
+    {
+     "who": "raghav",
+     "say": "Deepak, chai pi lo. Aur yeh farsh mein darwaza kya hai?",
+     "emotion": "surprised",
+     "do": "point"
+    },
+    {
+     "who": "deepak",
+     "say": "Neeche jaane ka raasta. Ek din yahin se teen sau acre ka ghar shuru hoga.",
+     "emotion": "happy"
+    }
+   ],
+   "props": [
+    {
+     "id": "chai_cup",
+     "type": "cup",
+     "held_by": "raghav"
+    }
+   ]
+  },
+  {
+   "id": "bahar_dekho",
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_shot": "window_out",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "raghav",
+     "x": 1300,
+     "z": 60
+    }
+   ],
+   "events": [
+    {
+     "who": "raghav",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "raghav",
+     "say": "Kitna hara bhara hai sab. Kaun sochega ki yeh sab badal jayega?",
+     "emotion": "sad",
+     "do": "look_around"
+    }
+   ]
+  }
+ ]
+}

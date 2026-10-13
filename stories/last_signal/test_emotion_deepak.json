@@ -1,0 +1,232 @@
+{
+ "title": "Deepak - emotion test",
+ "settings": {
+  "language": "en-IN",
+  "art": "stick3d",
+  "stick_look": "flat",
+  "music": "calm",
+  "subtitle": "Emotion test: dream, memory, tears",
+  "stick_cinema": true
+ },
+ "characters": {
+  "deepak": {
+   "name": "Deepak",
+   "shirt": "#4f9aad",
+   "pants": "#36435f",
+   "voice": {
+    "name": "en-IN-PrabhatNeural"
+   },
+   "hood": false,
+   "cloth": "#1e2125",
+   "cap": false
+  }
+ },
+ "scenes": [
+  {
+   "id": "e1_dream",
+   "stick_place": "corn_field",
+   "stick_spot": "track",
+   "stick_shot": [
+    [
+     0.4,
+     1.6,
+     -3.0
+    ],
+    [
+     0.0,
+     1.45,
+     0.0
+    ]
+   ],
+   "stick_time": "sunset",
+   "mood": "warm",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "look_up",
+     "at": 0.2
+    },
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "say": "Yaar... kaash mera project poori duniya mein ho.",
+     "emotion": "happy",
+     "do": "think"
+    },
+    {
+     "who": "deepak",
+     "say": "Har paanch kilometre ke grid mein ek station! Har gaon, har khet, har pahaad pe!",
+     "emotion": "excited",
+     "do": "wave"
+    },
+    {
+     "who": "deepak",
+     "say": "Maza aa jayega!",
+     "emotion": "laugh",
+     "do": "celebrate"
+    },
+    {
+     "who": "deepak",
+     "do": "laugh",
+     "at": 0
+    },
+    {
+     "wait": 1.2
+    }
+   ],
+   "stick_shot_hold": true,
+   "stick_to_camera": [
+    "deepak"
+   ]
+  },
+  {
+   "id": "e2_memory",
+   "stick_place": "corn_field",
+   "stick_spot": "track",
+   "stick_shot": [
+    [
+     0.2,
+     1.68,
+     -1.35
+    ],
+    [
+     0.0,
+     1.62,
+     0.0
+    ]
+   ],
+   "stick_time": "sunset",
+   "mood": "sad",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "look_down",
+     "at": 0
+    },
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "say": "Pehla station... ek plastic ka dabba tha.",
+     "emotion": "sad"
+    },
+    {
+     "who": "deepak",
+     "say": "Sab hanste the. Pagal hai ladka, mausam ka dabba bana raha hai.",
+     "emotion": "sad"
+    },
+    {
+     "wait": 0.8
+    },
+    {
+     "who": "deepak",
+     "say": "Zero se shuru kiya tha... ek. Phir das. Phir sau...",
+     "emotion": "proud"
+    },
+    {
+     "wait": 0.8
+    }
+   ],
+   "props": [
+    {
+     "id": "first_station",
+     "type": "box",
+     "held_by": "deepak"
+    }
+   ],
+   "stick_shot_hold": true,
+   "stick_to_camera": [
+    "deepak"
+   ]
+  },
+  {
+   "id": "e3_tears",
+   "stick_place": "corn_field",
+   "stick_spot": "track",
+   "stick_shot": [
+    [
+     0.25,
+     1.2,
+     -1.6
+    ],
+    [
+     0.0,
+     1.1,
+     0.0
+    ]
+   ],
+   "stick_time": "sunset",
+   "mood": "sad",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "say": "Aaj... teen sau stations hain, yaar. Teen sau.",
+     "emotion": "cry",
+     "do": "cry"
+    },
+    {
+     "who": "deepak",
+     "say": "Kisi ne yakeen nahi kiya... par maine haar nahi maani.",
+     "emotion": "cry",
+     "do": "cry"
+    },
+    {
+     "who": "deepak",
+     "do": "cry",
+     "at": 0
+    },
+    {
+     "wait": 3.0
+    },
+    {
+     "who": "deepak",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "wait": 1.5
+    },
+    {
+     "who": "deepak",
+     "say": "Ab... poori duniya.",
+     "emotion": "happy",
+     "close": true
+    },
+    {
+     "wait": 1.5
+    }
+   ],
+   "stick_shot_hold": true,
+   "stick_to_camera": [
+    "deepak"
+   ]
+  }
+ ]
+}

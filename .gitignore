@@ -1,0 +1,9 @@
+# never in git: keys, voices, renders, caches, people's stories
+config.json
+assets/voices/
+output/
+cache/
+logs/
+stories/mine/
+__pycache__/
+*.pyc

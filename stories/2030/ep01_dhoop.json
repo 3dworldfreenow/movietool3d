@@ -1,0 +1,634 @@
+{
+ "title": "2030 · Episode 1: Dhoop",
+ "settings": {
+  "language": "hi-IN",
+  "art": "stick3d",
+  "stick_look": "flat",
+  "stick_place": "village_2030",
+  "music": "mystery",
+  "subtitle": "Na ozone. Na chumbakiya kavach. Sirf dhoop."
+ },
+ "characters": {
+  "amma": {
+   "name": "Amma",
+   "gender": "female",
+   "shirt": "#e8742c",
+   "cloth": [
+    0.85,
+    0.32,
+    0.3
+   ]
+  },
+  "dadaji": {
+   "name": "Dadaji",
+   "age": "old",
+   "beard": true,
+   "shirt": "#e9e2cf",
+   "pants": "#8a7d6b",
+   "cloth": [
+    0.95,
+    0.95,
+    0.92
+   ]
+  },
+  "ravi": {
+   "name": "Ravi",
+   "age": "teen",
+   "shirt": "#4f86c6",
+   "pants": "#6b5a4a"
+  },
+  "chhotu": {
+   "name": "Chhotu",
+   "age": "child",
+   "shirt": "#f2d43c",
+   "pants": "#3f5aa6",
+   "hood": false
+  },
+  "meena": {
+   "name": "Meena",
+   "gender": "female",
+   "age": "teen",
+   "shirt": "#3fa66b",
+   "cloth": [
+    0.25,
+    0.55,
+    0.45
+   ]
+  },
+  "kaka": {
+   "name": "Ramu Kaka",
+   "shirt": "#8a5a3c",
+   "pants": "#e9e2cf",
+   "mustache": true,
+   "cloth": [
+    0.9,
+    0.85,
+    0.7
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "id": "bhor",
+   "background": {
+    "preset": "village_2030",
+    "time": "dawn"
+   },
+   "characters": [
+    {
+     "id": "dadaji",
+     "x": 1150
+    },
+    {
+     "id": "amma",
+     "x": 900
+    },
+    {
+     "id": "ravi",
+     "x": 700
+    }
+   ],
+   "events": [
+    {
+     "narrate": "Saal 2030. Dharti ke upar ki ozone ki parat khatam ho chuki thi."
+    },
+    {
+     "narrate": "Aur dharti ka chumbakiya kavach bhi. Ab suraj ki roshni seedhe jalati thi."
+    },
+    {
+     "narrate": "Is gaon mein log sirf subah aur shaam ko bahar nikalte the. Dopahar maut thi."
+    },
+    {
+     "who": "dadaji",
+     "say": "Ravi beta, suraj chadhne se pehle laut aana.",
+     "emotion": "worried"
+    },
+    {
+     "who": "ravi",
+     "say": "Haan Dadaji. Ramu Kaka ke saath nadi tak jaunga.",
+     "emotion": "neutral",
+     "do": "nod"
+    },
+    {
+     "who": "amma",
+     "say": "Chashma, mask, sab pehna? Ek inch bhi khula mat chhodna.",
+     "emotion": "worried",
+     "do": "point"
+    },
+    {
+     "who": "ravi",
+     "say": "Sab pehna hai, Amma. Dekho.",
+     "emotion": "happy",
+     "do": "turn"
+    },
+    {
+     "who": "dadaji",
+     "do": "look_up"
+    },
+    {
+     "who": "dadaji",
+     "say": "Mere bachpan mein aasmaan neela hota tha. Hum dhoop mein khelte the.",
+     "emotion": "sad"
+    },
+    {
+     "who": "amma",
+     "say": "Babuji, woh zamana gaya. Ab dhoop dushman hai.",
+     "emotion": "sad"
+    },
+    {
+     "who": "ravi",
+     "do": "walk",
+     "to": {
+      "x": 1900
+     }
+    }
+   ]
+  },
+  {
+   "id": "gali",
+   "background": {
+    "preset": "village_2030",
+    "time": "dawn"
+   },
+   "characters": [
+    {
+     "id": "kaka",
+     "x": 1300
+    },
+    {
+     "id": "meena",
+     "x": 500
+    },
+    {
+     "id": "ravi",
+     "x": -100
+    }
+   ],
+   "events": [
+    {
+     "who": "ravi",
+     "do": "walk",
+     "to": {
+      "x": 950
+     }
+    },
+    {
+     "who": "meena",
+     "say": "Ravi! Panel ki safai kar rahi thi. Raat bhar tufaan ki dhool jami hai.",
+     "emotion": "happy",
+     "do": "wave"
+    },
+    {
+     "who": "ravi",
+     "say": "Meena, aaj bijli kitni bachi?",
+     "emotion": "neutral"
+    },
+    {
+     "who": "meena",
+     "say": "Do ghante ka pankha. Bas.",
+     "emotion": "sad",
+     "do": "shrug"
+    },
+    {
+     "who": "meena",
+     "say": "Aur sun. Mere radio pe khabar aayi. Dopahar ko bada tufaan aayega.",
+     "emotion": "worried"
+    },
+    {
+     "who": "ravi",
+     "say": "Kitna bada?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "meena",
+     "say": "Itna ki aasmaan laal ho jayega. Jaldi lautna.",
+     "emotion": "scared",
+     "do": "point"
+    },
+    {
+     "who": "kaka",
+     "say": "Chalo Ravi! Gaadi taiyaar hai. Nadi har saal aur door jaati hai.",
+     "emotion": "neutral",
+     "do": "wave"
+    },
+    {
+     "who": "ravi",
+     "say": "Aa raha hoon Kaka!",
+     "emotion": "happy"
+    },
+    {
+     "who": "kaka",
+     "do": "walk",
+     "to": {
+      "x": 2600
+     }
+    },
+    {
+     "who": "ravi",
+     "do": "walk",
+     "to": {
+      "x": 2500
+     },
+     "with": "prev"
+    },
+    {
+     "who": "meena",
+     "say": "Pagal hai sab. Paani ke liye jaan daav pe.",
+     "emotion": "sad"
+    }
+   ]
+  },
+  {
+   "id": "chhotu_bahar",
+   "background": {
+    "preset": "village_2030",
+    "time": "day"
+   },
+   "characters": [
+    {
+     "id": "chhotu",
+     "x": 300
+    }
+   ],
+   "events": [
+    {
+     "narrate": "Ghar mein Chhotu ka mann nahi lag raha tha."
+    },
+    {
+     "who": "chhotu",
+     "do": "look_around"
+    },
+    {
+     "who": "chhotu",
+     "say": "Bhaiya akele nadi dekh aayega. Main bhi jaunga!",
+     "emotion": "happy"
+    },
+    {
+     "who": "chhotu",
+     "say": "Yeh chashma bahut bhaari hai. Thodi der mein kya hoga?",
+     "emotion": "neutral",
+     "do": "shrug"
+    },
+    {
+     "narrate": "Chhotu ne chashma ghar par hi chhod diya."
+    },
+    {
+     "who": "chhotu",
+     "do": "run",
+     "to": {
+      "x": 1500
+     },
+     "emotion": "happy"
+    },
+    {
+     "who": "chhotu",
+     "do": "jump",
+     "emotion": "happy"
+    },
+    {
+     "who": "chhotu",
+     "say": "Kitni roshni hai! Sab kuch chamak raha hai!",
+     "emotion": "happy",
+     "do": "look_up"
+    },
+    {
+     "who": "chhotu",
+     "say": "Aah... aankhen jal rahi hain...",
+     "emotion": "scared",
+     "do": "cover_head"
+    }
+   ]
+  },
+  {
+   "id": "talaash",
+   "background": {
+    "preset": "village_2030",
+    "time": "day"
+   },
+   "characters": [
+    {
+     "id": "amma",
+     "x": 600
+    },
+    {
+     "id": "dadaji",
+     "x": 350
+    },
+    {
+     "id": "meena",
+     "x": 1400
+    }
+   ],
+   "events": [
+    {
+     "who": "amma",
+     "say": "Chhotu! Chhotu! Kahan ho?",
+     "emotion": "scared",
+     "do": "shout"
+    },
+    {
+     "who": "dadaji",
+     "say": "Iska chashma yahin pada hai, bahu!",
+     "emotion": "scared",
+     "do": "point"
+    },
+    {
+     "who": "amma",
+     "say": "Hey Bhagwan! Bina chashme ke dhoop mein!",
+     "emotion": "scared",
+     "do": "cry"
+    },
+    {
+     "who": "meena",
+     "do": "run",
+     "to": {
+      "x": 900
+     }
+    },
+    {
+     "who": "meena",
+     "say": "Maine use khet ki taraf bhaagte dekha. Netting ke paas.",
+     "emotion": "worried",
+     "do": "point"
+    },
+    {
+     "who": "meena",
+     "say": "Aasmaan dekho... tufaan time se pehle aa raha hai.",
+     "emotion": "scared",
+     "do": "look_up"
+    },
+    {
+     "who": "dadaji",
+     "say": "Main jaata hoon.",
+     "emotion": "angry",
+     "do": "walk",
+     "to": {
+      "x": 700
+     }
+    },
+    {
+     "who": "amma",
+     "say": "Nahi Babuji! Aap ki umar mein yeh dhoop... main jaati hoon.",
+     "emotion": "scared",
+     "do": "push"
+    },
+    {
+     "who": "meena",
+     "say": "Ruko! Ravi aur Kaka laut rahe hain!",
+     "emotion": "surprised",
+     "do": "point"
+    }
+   ]
+  },
+  {
+   "id": "khet",
+   "background": {
+    "preset": "village_2030",
+    "time": "day"
+   },
+   "characters": [
+    {
+     "id": "chhotu",
+     "x": 1300
+    },
+    {
+     "id": "ravi",
+     "x": -200
+    },
+    {
+     "id": "kaka",
+     "x": -500
+    }
+   ],
+   "events": [
+    {
+     "who": "chhotu",
+     "do": "sit",
+     "emotion": "sad"
+    },
+    {
+     "who": "chhotu",
+     "say": "Kuch dikh nahi raha... sab safed hai...",
+     "emotion": "scared",
+     "do": "cry"
+    },
+    {
+     "who": "ravi",
+     "do": "walk",
+     "to": {
+      "x": 400
+     }
+    },
+    {
+     "who": "kaka",
+     "do": "walk",
+     "to": {
+      "x": 200
+     },
+     "with": "prev"
+    },
+    {
+     "who": "kaka",
+     "say": "Nadi aur aadha kos door chali gayi. Aadha drum hi mila.",
+     "emotion": "sad"
+    },
+    {
+     "who": "ravi",
+     "say": "Kaka... woh khet mein... Chhotu?!",
+     "emotion": "surprised",
+     "do": "point"
+    },
+    {
+     "who": "ravi",
+     "do": "run",
+     "to": {
+      "x": 1150
+     },
+     "emotion": "scared"
+    },
+    {
+     "who": "ravi",
+     "say": "Chhotu! Tera chashma kahan hai?!",
+     "emotion": "angry",
+     "do": "reach"
+    },
+    {
+     "who": "chhotu",
+     "say": "Bhaiya... maaf karna... main bas nadi dekhna chahta tha.",
+     "emotion": "sad",
+     "do": "cry"
+    },
+    {
+     "who": "ravi",
+     "say": "Le, mera chashma pehen. Aankhen band rakh.",
+     "emotion": "worried",
+     "do": "give"
+    },
+    {
+     "who": "chhotu",
+     "say": "Par tum? Tumhari aankhen?",
+     "emotion": "scared"
+    },
+    {
+     "who": "ravi",
+     "say": "Main hood se dhak lunga. Ab bhaag, tufaan aa raha hai!",
+     "emotion": "scared"
+    },
+    {
+     "who": "chhotu",
+     "do": "stand"
+    },
+    {
+     "who": "ravi",
+     "do": "run",
+     "to": {
+      "x": -300
+     },
+     "emotion": "scared"
+    },
+    {
+     "who": "chhotu",
+     "do": "run",
+     "to": {
+      "x": -200
+     },
+     "emotion": "scared",
+     "with": "prev"
+    }
+   ]
+  },
+  {
+   "id": "tufaan",
+   "background": {
+    "preset": "village_2030",
+    "time": "day"
+   },
+   "characters": [
+    {
+     "id": "amma",
+     "x": 1100
+    },
+    {
+     "id": "dadaji",
+     "x": 1300
+    },
+    {
+     "id": "meena",
+     "x": 900
+    },
+    {
+     "id": "ravi",
+     "x": -200
+    },
+    {
+     "id": "chhotu",
+     "x": -100
+    }
+   ],
+   "events": [
+    {
+     "who": "ravi",
+     "do": "run",
+     "to": {
+      "x": 650
+     },
+     "emotion": "scared"
+    },
+    {
+     "who": "chhotu",
+     "do": "run",
+     "to": {
+      "x": 750
+     },
+     "emotion": "scared",
+     "with": "prev"
+    },
+    {
+     "who": "amma",
+     "say": "Chhotu! Mera baccha!",
+     "emotion": "overjoyed",
+     "do": "run",
+     "to": {
+      "x": 850
+     }
+    },
+    {
+     "who": "amma",
+     "do": "hug",
+     "target": "chhotu"
+    },
+    {
+     "who": "dadaji",
+     "say": "Sab andar chalo! Tufaan sar par hai!",
+     "emotion": "scared",
+     "do": "shout"
+    },
+    {
+     "who": "meena",
+     "say": "Panel dhak diye hain. Darwaza band karo!",
+     "emotion": "worried",
+     "do": "point"
+    },
+    {
+     "narrate": "Us din aasmaan laal ho gaya. Roshni ki baarish poore din hoti rahi."
+    },
+    {
+     "narrate": "Shaam ko, jab tufaan thama, sab ghar ke bahar baithe."
+    },
+    {
+     "who": "chhotu",
+     "say": "Amma, ab main kabhi chashma nahi utarunga. Pakka.",
+     "emotion": "sad"
+    },
+    {
+     "who": "amma",
+     "say": "Teri aankhen bach gayi, bas yahi kaafi hai.",
+     "emotion": "happy"
+    },
+    {
+     "who": "dadaji",
+     "say": "Ravi ne aaj apni aankhen daav par lagayi. Yahi parivaar hai.",
+     "emotion": "happy",
+     "do": "nod"
+    },
+    {
+     "who": "ravi",
+     "say": "Main theek hoon, Dadaji. Bas thodi jalan hai.",
+     "emotion": "happy"
+    },
+    {
+     "who": "meena",
+     "say": "Ek baat bataun? Radio pe ek aur khabar thi.",
+     "emotion": "surprised"
+    },
+    {
+     "who": "meena",
+     "say": "Kehte hain pahadon ke paar ek jagah hai, jahan aasmaan ab bhi neela hai.",
+     "emotion": "happy",
+     "do": "point"
+    },
+    {
+     "who": "chhotu",
+     "say": "Neela aasmaan? Dadaji wala?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "ravi",
+     "do": "look_up"
+    },
+    {
+     "who": "ravi",
+     "say": "Agar woh jagah sach mein hai... toh hum use dhoondhenge.",
+     "emotion": "happy"
+    },
+    {
+     "narrate": "Aur yahin se shuru hui unki sabse lambi yatra."
+    }
+   ]
+  }
+ ],
+ "end": {
+  "text": "Episode 2 jald aa raha hai",
+  "sub": "2030"
+ }
+}

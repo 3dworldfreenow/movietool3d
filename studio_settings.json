@@ -1,0 +1,9 @@
+{
+  "_help": "Your own defaults for Parts & final mix and for every render. Change a number, save the file - no restart needed. A choice on the web page wins over this file; a story's own \"settings\" win over this file too.",
+  "cut_parts": 0,
+  "_cut_parts_help": "0 = one part per scene. A number = cut long scenes into parts of this many seconds (5 or more), e.g. 5, 10, 15.",
+  "save_every": 30,
+  "_save_every_help": "While a part / video renders, save it every this many seconds (5 or more) so Stop / Resume loses little work. \"n4\" = in 4 pieces. 0 = in one go.",
+  "world_detail": "",
+  "_world_detail_help": "Stories in a big world map: \"low\" (fastest, least RAM), \"medium\" or \"high\" (the whole world). Empty = low for quick previews, high for the real video."
+}

@@ -1,0 +1,673 @@
+{
+ "about": "Ghatti Nagar - the TV series cast (a small town / big village like Furfuri Nagar). Use any id in ANY story (\"golu_dada\": {}) and they look, sound and dress the same in every episode. Their homes and shops are in worlds/ghatti_nagar.json. 3D looks: assets/code/ghatti_people_3d.py Sculpted 3D look: each character's \"sculpt\" card (engine/sculpt_people.py); \"look3d\": \"sculpt\" uses it - put \"look3d_classic\" back in \"look3d\" for the older look.",
+ "characters": {
+  "golu_dada": {
+   "name": "Golu Dada",
+   "about": "the genius - knows a little of everything (science, machines, maths, cooking); invents gadgets that half work; everyone runs to him with problems",
+   "gender": "male",
+   "age": "adult",
+   "build": "chubby",
+   "height": 0.94,
+   "skin": "#c49a72",
+   "hair": "short",
+   "hair_color": "#1b1410",
+   "mustache": true,
+   "outfit": "kurta",
+   "outfit_color": "#f6c445",
+   "pants": "#f3ecdc",
+   "accent": "#7a4a2a",
+   "shoes": "#5a3a22",
+   "face": {
+    "shape": "round",
+    "chubby": 0.9,
+    "cheek": 1.5,
+    "jaw": 0.6,
+    "chin": 0.7,
+    "nose": 1.35,
+    "nose_w": 1.25,
+    "mouth": 1.25,
+    "eyes": 1.1,
+    "ears": 1.25,
+    "brows": 1.15,
+    "talk": {
+     "jaw": 1.15,
+     "wide": 1.2,
+     "brow": 1.5,
+     "nod": 1.3
+    }
+   },
+   "voice": {
+    "edge": "hi-IN-MadhurNeural",
+    "pitch": 3,
+    "rate": 8
+   },
+   "look3d": "sculpt",
+   "look3d_state": "golu",
+   "home": "golu_workshop",
+   "palette": "sunflower yellow",
+   "look3d_classic": "ghatti_people_3d",
+   "sculpt": {
+    "preset": "chubby_uncle",
+    "skin": "#c49a72",
+    "body": {
+     "height": 0.94,
+     "build": "chubby"
+    },
+    "face": {
+     "shape": "round",
+     "chubby": 0.9,
+     "cheek": 1.5,
+     "nose": 1.35,
+     "nose_w": 1.25,
+     "mouth": 1.25,
+     "eyes": 1.1,
+     "ears": 1.25,
+     "brows": 1.15
+    },
+    "hair": {
+     "style": "short",
+     "color": "#1b1410"
+    },
+    "facial_hair": {
+     "mustache": "thick"
+    },
+    "top": {
+     "type": "kurta",
+     "color": "#f6c445",
+     "color2": "#7a4a2a"
+    },
+    "bottom": {
+     "type": "pyjama",
+     "color": "#f3ecdc"
+    },
+    "shoes": {
+     "type": "shoes",
+     "color": "#5a3a22"
+    },
+    "accessories": [
+     {
+      "type": "glasses",
+      "color": "#3a2416"
+     },
+     {
+      "type": "pens",
+      "colors": [
+       "#1d4ed8",
+       "#dc2626"
+      ]
+     },
+     {
+      "type": "watch"
+     }
+    ]
+   }
+  },
+  "rahul_sen": {
+   "name": "Rahul Sen",
+   "about": "the barber of Sen Hair Cutting Saloon - chatty, knows all the town's news; secretly a historian with a back room full of old books, coins and maps",
+   "gender": "male",
+   "age": "adult",
+   "build": "slim",
+   "height": 1.02,
+   "skin": "#b38a64",
+   "hair": "spiky",
+   "hair_color": "#1d1611",
+   "mustache": true,
+   "outfit": "shirt",
+   "outfit_color": "#1f8a8a",
+   "pants": "#4a3b2f",
+   "accent": "#f1e9d8",
+   "shoes": "#2b2d42",
+   "face": {
+    "shape": "long",
+    "chin_len": 0.8,
+    "jaw": 1.0,
+    "chin": 1.2,
+    "cheek": 0.8,
+    "nose": 1.35,
+    "nose_len": 1.35,
+    "mouth": 1.25,
+    "ears": 1.55,
+    "brows": 1.2,
+    "lips": 0.85,
+    "talk": {
+     "jaw": 1.0,
+     "wide": 1.3,
+     "brow": 1.3,
+     "nod": 1.4
+    }
+   },
+   "voice": {
+    "edge": "hi-IN-MadhurNeural",
+    "pitch": 6,
+    "rate": 12
+   },
+   "look3d": "sculpt",
+   "look3d_state": "rahul",
+   "home": "sen_saloon",
+   "palette": "teal",
+   "look3d_classic": "ghatti_people_3d",
+   "sculpt": {
+    "gender": "male",
+    "skin": "#b38a64",
+    "body": {
+     "height": 1.02,
+     "build": "slim"
+    },
+    "face": {
+     "shape": "long",
+     "chin": 1.2,
+     "cheek": 0.8,
+     "nose": 1.35,
+     "nose_shape": "pointed",
+     "mouth": 1.25,
+     "ears": 1.55,
+     "brows": 1.2
+    },
+    "hair": {
+     "style": "spiky",
+     "color": "#1d1611"
+    },
+    "facial_hair": {
+     "mustache": "thin"
+    },
+    "top": {
+     "type": "shirt",
+     "color": "#1f8a8a",
+     "color2": "#f1e9d8",
+     "sleeves": "half",
+     "pocket": true
+    },
+    "bottom": {
+     "type": "pants",
+     "color": "#4a3b2f"
+    },
+    "shoes": {
+     "type": "shoes",
+     "color": "#2b2d42"
+    },
+    "accessories": [
+     {
+      "type": "comb_scissors"
+     }
+    ]
+   }
+  },
+  "siyaram": {
+   "name": "Siyaram",
+   "about": "the strongman - can fight anyone, lifts anything, protects the town; but sleeps all the time (on his charpai, standing, anywhere) and wakes up only for food or a fight",
+   "gender": "male",
+   "age": "adult",
+   "build": "muscular",
+   "height": 1.12,
+   "skin": "#8c6448",
+   "hair": "bald_sides",
+   "hair_color": "#140f0c",
+   "mustache": true,
+   "outfit": "dhoti",
+   "outfit_color": "#b5452f",
+   "accent": "#3f7d3a",
+   "shoes": "#5a3a22",
+   "face": {
+    "shape": "square",
+    "jaw": 1.5,
+    "chin": 1.4,
+    "jowls": 0.25,
+    "cheek": 1.0,
+    "nose": 1.45,
+    "nose_w": 1.35,
+    "eyes": 0.9,
+    "brows": 1.5,
+    "brow_ridge": 1.6,
+    "mouth": 1.15,
+    "ears": 1.2,
+    "forehead": 0.25,
+    "talk": {
+     "jaw": 0.7,
+     "wide": 0.8,
+     "brow": 0.6,
+     "nod": 0.5
+    }
+   },
+   "voice": {
+    "edge": "hi-IN-MadhurNeural",
+    "pitch": -8,
+    "rate": -12
+   },
+   "look3d": "sculpt",
+   "look3d_state": "siyaram",
+   "home": "siyaram_akhada",
+   "pants": "#f6f1e3",
+   "sleeves": "none",
+   "palette": "brick red",
+   "look3d_classic": "ghatti_people_3d",
+   "sculpt": {
+    "gender": "male",
+    "skin": "#8c6448",
+    "body": {
+     "height": 1.12,
+     "build": "strong",
+     "shoulders": 1.3
+    },
+    "face": {
+     "shape": "square",
+     "jaw": 1.4,
+     "chin": 1.3,
+     "nose": 1.45,
+     "nose_w": 1.35,
+     "eyes": 0.9,
+     "brows": 1.6,
+     "mouth": 1.15,
+     "ears": 1.2
+    },
+    "hair": {
+     "style": "bald_sides",
+     "color": "#140f0c"
+    },
+    "facial_hair": {
+     "mustache": "handlebar"
+    },
+    "top": {
+     "type": "vest",
+     "color": "#b5452f",
+     "sleeves": "none"
+    },
+    "bottom": {
+     "type": "dhoti",
+     "color": "#f6f1e3"
+    },
+    "shoes": {
+     "type": "chappal",
+     "color": "#5a3a22"
+    },
+    "accessories": [
+     {
+      "type": "gamchha",
+      "color": "#3f7d3a"
+     },
+     {
+      "type": "kada"
+     }
+    ],
+    "expression": "neutral"
+   }
+  },
+  "dr_shubham": {
+   "name": "Doctor Shubham Bengali",
+   "about": "MBBS doctor from Kolkata who settled in Ghatti Nagar - kind, careful, a little nervous; treats everyone, often for free; loves fish curry and Rabindra sangeet",
+   "gender": "male",
+   "age": "adult",
+   "build": "normal",
+   "height": 1.0,
+   "skin": "#d9b590",
+   "hair": "short",
+   "hair_color": "#241a14",
+   "mustache": false,
+   "profession": "doctor",
+   "outfit": "labcoat",
+   "outfit_color": "#fbfbfb",
+   "pants": "#2f4a66",
+   "accent": "#7fb8dc",
+   "shoes": "#3a2a1f",
+   "face": {
+    "shape": "oval",
+    "eyes": 1.05,
+    "nose": 1.15,
+    "nose_len": 1.1,
+    "cheek": 1.05,
+    "mouth": 1.1,
+    "ears": 1.15,
+    "forehead": 0.5,
+    "talk": {
+     "jaw": 0.85,
+     "wide": 0.9,
+     "brow": 1.1,
+     "nod": 0.9
+    }
+   },
+   "voice": {
+    "edge": "hi-IN-MadhurNeural",
+    "pitch": 2,
+    "rate": -4
+   },
+   "look3d": "sculpt",
+   "look3d_state": "doctor",
+   "home": "bengali_clinic",
+   "palette": "white + sky blue",
+   "look3d_classic": "ghatti_people_3d",
+   "sculpt": {
+    "gender": "male",
+    "skin": "#d9b590",
+    "body": {
+     "height": 1.0,
+     "build": "normal"
+    },
+    "face": {
+     "shape": "oval",
+     "eyes": 1.05,
+     "nose": 1.15,
+     "cheek": 1.05,
+     "mouth": 1.1,
+     "ears": 1.15
+    },
+    "hair": {
+     "style": "side_part",
+     "color": "#241a14"
+    },
+    "top": {
+     "type": "coat",
+     "color": "#fbfbfb",
+     "inner": "#7fb8dc",
+     "length": "thigh"
+    },
+    "bottom": {
+     "type": "pants",
+     "color": "#2f4a66"
+    },
+    "shoes": {
+     "type": "shoes",
+     "color": "#3a2a1f"
+    },
+    "accessories": [
+     {
+      "type": "stethoscope"
+     },
+     {
+      "type": "glasses",
+      "color": "#8a8f96"
+     }
+    ]
+   }
+  },
+  "kallu_bhaiya": {
+   "name": "Kallu Bhaiya",
+   "about": "Sarpanch ji - the head of the panchayat; big belly, big mustache, big speeches; loves his chair and his town; means well but wants credit for everything",
+   "gender": "male",
+   "age": "adult",
+   "build": "fat",
+   "height": 0.98,
+   "skin": "#6c4a38",
+   "hair": "short",
+   "hair_color": "#2a2420",
+   "mustache": true,
+   "outfit": "kurta",
+   "outfit_color": "#fbfbf6",
+   "pants": "#fbfbf6",
+   "accent": "#1f6b45",
+   "shoes": "#3a2a1f",
+   "face": {
+    "shape": "round",
+    "jowls": 1.0,
+    "cheek": 1.4,
+    "jaw": 0.5,
+    "chin": 0.8,
+    "nose": 1.5,
+    "nose_w": 1.4,
+    "mouth": 1.3,
+    "eyes": 0.95,
+    "brows": 1.3,
+    "ears": 1.25,
+    "lips": 1.1,
+    "age_lines": true,
+    "talk": {
+     "jaw": 1.4,
+     "wide": 1.25,
+     "brow": 1.3,
+     "nod": 1.5
+    }
+   },
+   "voice": {
+    "edge": "hi-IN-MadhurNeural",
+    "pitch": -4,
+    "rate": -6
+   },
+   "look3d": "sculpt",
+   "look3d_state": "sarpanch",
+   "home": "panchayat_bhawan",
+   "palette": "khadi green jacket on white",
+   "look3d_classic": "ghatti_people_3d",
+   "sculpt": {
+    "gender": "male",
+    "skin": "#6c4a38",
+    "body": {
+     "height": 0.98,
+     "build": "fat",
+     "belly": 1.0
+    },
+    "face": {
+     "shape": "round",
+     "cheek": 1.4,
+     "jaw": 0.8,
+     "chin": 0.8,
+     "nose": 1.5,
+     "nose_w": 1.4,
+     "mouth": 1.3,
+     "eyes": 0.95,
+     "brows": 1.3,
+     "ears": 1.25
+    },
+    "hair": {
+     "style": "short",
+     "color": "#2a2420"
+    },
+    "facial_hair": {
+     "mustache": "thick"
+    },
+    "top": {
+     "type": "kurta",
+     "color": "#fbfbf6"
+    },
+    "bottom": {
+     "type": "pyjama",
+     "color": "#fbfbf6"
+    },
+    "shoes": {
+     "type": "chappal",
+     "color": "#3a2a1f"
+    },
+    "accessories": [
+     {
+      "type": "nehru_jacket",
+      "color": "#1f6b45"
+     },
+     {
+      "type": "gandhi_topi"
+     },
+     {
+      "type": "chain"
+     }
+    ]
+   }
+  },
+  "dinesh_khiladi": {
+   "name": "Dinesh Khiladi",
+   "about": "the town lawyer (vakil sahab) in a black coat - sharp, smooth-talking; secretly a jasoos (spy) who solves the town's mysteries in disguise",
+   "gender": "male",
+   "age": "adult",
+   "build": "slim",
+   "height": 1.05,
+   "skin": "#bd936c",
+   "hair": "short",
+   "hair_color": "#0f0c0a",
+   "mustache": true,
+   "outfit": "suit",
+   "outfit_color": "#17171c",
+   "pants": "#17171c",
+   "accent": "#5b2a4e",
+   "shoes": "#111111",
+   "face": {
+    "shape": "heart",
+    "chin_len": 0.55,
+    "chin": 1.4,
+    "cheek": 0.75,
+    "jaw": 1.1,
+    "nose": 1.2,
+    "nose_len": 1.35,
+    "eyes": 0.95,
+    "mouth": 1.05,
+    "ears": 1.05,
+    "brows": 1.05,
+    "lips": 0.85,
+    "talk": {
+     "jaw": 0.75,
+     "wide": 1.1,
+     "brow": 0.8,
+     "nod": 0.6
+    }
+   },
+   "voice": {
+    "edge": "hi-IN-MadhurNeural",
+    "pitch": 0,
+    "rate": 4
+   },
+   "look3d": "sculpt",
+   "look3d_state": "lawyer",
+   "home": "khiladi_chamber",
+   "palette": "black + plum",
+   "look3d_classic": "ghatti_people_3d",
+   "sculpt": {
+    "gender": "male",
+    "skin": "#bd936c",
+    "body": {
+     "height": 1.05,
+     "build": "slim"
+    },
+    "face": {
+     "shape": "oval",
+     "chin": 1.3,
+     "cheek": 0.75,
+     "jaw": 1.1,
+     "nose": 1.2,
+     "nose_shape": "pointed",
+     "eyes": 0.95,
+     "mouth": 1.05,
+     "brows": 1.05
+    },
+    "hair": {
+     "style": "side_part",
+     "color": "#0f0c0a",
+     "volume": 0.9
+    },
+    "facial_hair": {
+     "mustache": "thin"
+    },
+    "top": {
+     "type": "coat",
+     "color": "#17171c",
+     "inner": "#fbfbfb"
+    },
+    "bottom": {
+     "type": "pants",
+     "color": "#17171c"
+    },
+    "shoes": {
+     "type": "shoes",
+     "color": "#111111"
+    },
+    "accessories": [
+     {
+      "type": "lawyer_bands"
+     }
+    ],
+    "expression": "happy"
+   }
+  },
+  "sophie": {
+   "name": "Sophie Hart",
+   "about": "24, a travel vlogger from London (\"Sophie Goes Desi\") who came to Ghatti for one week on her way to Pachmarhi - and keeps not leaving. Modern, confident, curious, laughs easily; films everything on her camera, tries every food, speaks cheerful broken Hindi. Stays at the Ghatti Homestay.",
+   "gender": "female",
+   "age": "adult",
+   "build": "slim",
+   "height": 1.0,
+   "skin": "#f3dccb",
+   "hair": "long",
+   "hair_color": "#c99236",
+   "profession": "vlogger",
+   "outfit": "tshirt",
+   "outfit_color": "#fbfbfb",
+   "pants": "#6f93c4",
+   "accent": "#86b6e8",
+   "shoes": "#f5f5f2",
+   "face": {
+    "shape": "oval",
+    "eyes": 1.15,
+    "nose": 0.9,
+    "cheek": 1.0,
+    "mouth": 1.05,
+    "ears": 0.95,
+    "talk": {
+     "jaw": 1.0,
+     "wide": 1.1,
+     "brow": 1.2,
+     "nod": 1.1
+    }
+   },
+   "voice": {
+    "edge": "en-GB-SoniaNeural",
+    "pitch": 2,
+    "rate": 2
+   },
+   "look3d": "sculpt",
+   "home": "homestay",
+   "palette": "white + denim blue + blonde",
+   "sculpt": {
+    "gender": "female",
+    "skin": "#f3dccb",
+    "body": {
+     "height": 1.04,
+     "build": "slim",
+     "proportions": "real",
+     "leg_length": 1.03
+    },
+    "face": {
+     "shape": "oval",
+     "eyes": 1.22,
+     "eye_color": "#4a86b8",
+     "lashes": true,
+     "nose": 0.75,
+     "nose_shape": "button",
+     "cheek": 0.8,
+     "chin": 0.9,
+     "jaw": 0.85,
+     "mouth": 1.0,
+     "lips": "#d4566b",
+     "brows": 0.8,
+     "brow_color": "#8a6430",
+     "blush": "#efb3a6",
+     "ears": 0.9
+    },
+    "hair": {
+     "style": "long",
+     "color": "#c99236"
+    },
+    "top": {
+     "type": "tshirt",
+     "color": "#fbfbfb",
+     "length": "hip",
+     "sleeves": "half",
+     "collar": "v"
+    },
+    "bottom": {
+     "type": "jeans",
+     "color": "#6f93c4"
+    },
+    "shoes": {
+     "type": "sneakers",
+     "color": "#f5f5f2",
+     "sole": "#ffffff"
+    },
+    "accessories": [
+     {
+      "type": "earrings",
+      "color": "#e6c35c"
+     },
+     {
+      "type": "chain",
+      "color": "#e6c35c"
+     }
+    ]
+   }
+  }
+ },
+ "palette_notes": "Each person has ONE signature colour so you know them at a glance (like Motu red / Patlu yellow), chosen for the personality: warm = cheerful / energetic, cool = calm / clever / mysterious. Skin tones are real human tones (Monk scale 4-8), different for each person."
+}

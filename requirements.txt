@@ -1,0 +1,12 @@
+numpy>=1.24
+scipy>=1.10
+pycairo>=1.23
+pillow>=10.0       # images, previews, Studio
+edge-tts>=6.1        # best voices (online, free)
+pyttsx3>=2.90        # offline voices on Windows/macOS
+piper-tts>=1.2       # offline natural voices (Piper); voice files: python tools/get_piper_voices.py
+flask>=3.0           # web app + Asset Studio (webapp.py)
+imageio-ffmpeg>=0.4  # optional: bundled FFmpeg if you don't have one installed
+psutil>=5.9          # live CPU / RAM / temperature + the "Max usage" limit while rendering
+# optional: act a move yourself on video (engine/videomocap.py); Linux also needs the system package libegl1
+mediapipe>=0.10

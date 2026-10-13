@@ -1,0 +1,16 @@
+{
+ "A1": "head",
+ "A2": "torso",
+ "A3": "upper_arm",
+ "A4": "lower_arm",
+ "A5": "hand",
+ "A6": "thigh",
+ "A7": "lower_leg",
+ "A8": "foot",
+ "B1": "head_front",
+ "B2": "torso_front",
+ "B3": "head_back",
+ "B4": "torso_back",
+ "B5": "head_talk",
+ "B6": "head_blink"
+}

@@ -1,0 +1,19 @@
+{
+ "title": "Corn field test", "settings": {"language": "en-IN", "art": "stick3d", "stick_look": "flat", "stick_cinema": true},
+ "characters": {"deepak": {"name": "Deepak", "shirt": "#4f9aad", "pants": "#36435f"}},
+ "scenes": [
+  {"id": "drone", "stick_place": "corn_field", "stick_spot": "track", "mood": "calm", "background": {"preset": "plain"},
+   "stick_follow": {"car": "car", "side": "drone", "height": 11},
+   "stick_cars": [{"id": "car", "kind": "car", "color": "#a9b0b8", "rider": "deepak", "path": [{"x": -1500, "z": 0}, {"x": 900, "z": 0}], "start": 0, "end": 6}],
+   "characters": [{"id": "deepak", "x": 0, "z": 0}], "events": [{"weather": "rain_comes", "over": 5, "react": false}, {"wait": 5}]},
+  {"id": "driver", "stick_place": "corn_field", "stick_spot": "track", "mood": "warm", "background": {"preset": "plain"},
+   "stick_follow": {"car": "car", "side": "driver"},
+   "stick_cars": [{"id": "car", "kind": "car", "color": "#a9b0b8", "rider": "deepak", "path": [{"x": -800, "z": 0}, {"x": 900, "z": 0}], "start": 0, "end": 6, "ease": 0}],
+   "characters": [{"id": "deepak", "x": 0, "z": 0}], "events": [{"weather": "rain", "over": 0.5, "react": false},
+     {"who": "deepak", "say": "Baarish aayi, baarish aayi... mitti ki khushboo laayi...", "emotion": "happy"}]},
+  {"id": "pov", "stick_place": "corn_field", "stick_spot": "track", "mood": "calm", "background": {"preset": "plain"},
+   "stick_follow": {"car": "car", "side": "pov"},
+   "stick_cars": [{"id": "car", "kind": "car", "color": "#a9b0b8", "rider": "deepak", "path": [{"x": -700, "z": 0}, {"x": 600, "z": 0}], "start": 0, "end": 5}],
+   "characters": [{"id": "deepak", "x": 0, "z": 0}], "events": [{"weather": "rain", "over": 0.5, "react": false}, {"wait": 5}]}
+ ]
+}

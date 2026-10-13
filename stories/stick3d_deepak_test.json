@@ -1,0 +1,21 @@
+{
+ "title": "Deepak - look test",
+ "settings": { "language": "hi-IN", "art": "stick3d", "stick_look": "flat", "stick_place": "village" },
+ "characters": {
+  "deepak": { "name": "Deepak", "shirt": "#4f9aad", "pants": "#36435f", "skin": "wheat" },
+  "anita":  { "name": "Anita", "gender": "female", "shirt": "#d9577a", "pants": "#f1e2c4", "outfit": "salwar" },
+  "chhotu": { "name": "Chhotu", "age": "child", "shirt": "#f2d43c" }
+ },
+ "scenes": [ {
+  "id": "s1",
+  "background": { "preset": "village", "time": "day" },
+  "characters": [ { "id": "deepak", "x": 600 }, { "id": "anita", "x": 1300 }, { "id": "chhotu", "x": 1050 } ],
+  "events": [
+   { "who": "deepak", "do": "walk", "to": { "x": 850 } },
+   { "who": "deepak", "say": "Anita, yeh dekho. Mera naya weather station.", "emotion": "happy", "do": "point" },
+   { "who": "anita", "say": "Itna chhota? Yeh kya naapta hai?", "emotion": "surprised" },
+   { "who": "deepak", "say": "Garmi, hawa, UV, aur dharti ka magnetic field.", "emotion": "happy", "do": "talk" },
+   { "who": "chhotu", "say": "Chacha, mujhe bhi sikhao!", "emotion": "happy", "do": "jump" }
+  ]
+ } ]
+}

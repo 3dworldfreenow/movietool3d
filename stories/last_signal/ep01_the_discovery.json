@@ -1,0 +1,3742 @@
+{
+ "title": "The Last Signal",
+ "settings": {
+  "language": "en-IN",
+  "art": "stick3d",
+  "stick_look": "flat",
+  "music": "mystery",
+  "subtitle": "Episode 1 · The Discovery",
+  "stick_cinema": true
+ },
+ "characters": {
+  "deepak": {
+   "name": "Deepak",
+   "shirt": "#4f9aad",
+   "pants": "#36435f",
+   "voice": {
+    "name": "en-IN-PrabhatNeural"
+   }
+  },
+  "mark": {
+   "name": "Mark",
+   "shirt": "#c0504d",
+   "pants": "#3a3a3a",
+   "skin": "light",
+   "voice": {
+    "name": "en-US-GuyNeural"
+   }
+  },
+  "carlos": {
+   "name": "Carlos",
+   "shirt": "#e0a33a",
+   "pants": "#3a3a3a",
+   "voice": {
+    "name": "en-US-DavisNeural"
+   }
+  },
+  "rathore": {
+   "name": "Agent Rathore",
+   "shirt": "#1b1d22",
+   "pants": "#1b1d22",
+   "shades": true,
+   "mustache": true,
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -10
+   }
+  },
+  "agent2": {
+   "name": "Agent",
+   "shirt": "#1b1d22",
+   "pants": "#1b1d22",
+   "shades": true
+  },
+  "agent3": {
+   "name": "Agent",
+   "shirt": "#1b1d22",
+   "pants": "#1b1d22",
+   "shades": true
+  },
+  "raghav": {
+   "name": "Raghav",
+   "shirt": "#7aa84a",
+   "pants": "#e9e2cf",
+   "mustache": true,
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -4
+   }
+  },
+  "kavya": {
+   "name": "Dr. Kavya Iyer",
+   "gender": "female",
+   "shirt": "#ffffff",
+   "pants": "#3b4252",
+   "voice": {
+    "name": "en-IN-NeerjaNeural"
+   }
+  },
+  "verma": {
+   "name": "Mr. Verma",
+   "age": "old",
+   "shirt": "#2e3440",
+   "pants": "#2e3440",
+   "mustache": true,
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": -8
+   }
+  },
+  "anchor": {
+   "name": "News anchor",
+   "gender": "female",
+   "voice": {
+    "name": "en-US-JennyNeural"
+   }
+  },
+  "worker": {
+   "name": "Worker",
+   "shirt": "#e0a33a",
+   "pants": "#4a4a4a",
+   "voice": {
+    "name": "en-IN-PrabhatNeural",
+    "pitch": 4
+   }
+  }
+ },
+ "scenes": [
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_drive",
+   "stick_spot": "track",
+   "mood": "calm",
+   "music": "calm",
+   "stick_follow": {
+    "car": "car",
+    "side": "drone",
+    "height": 11
+   },
+   "stick_cars": [
+    {
+     "id": "car",
+     "kind": "car",
+     "color": "#a9b0b8",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -1700,
+       "z": 0
+      },
+      {
+       "x": 200,
+       "z": 0
+      }
+     ],
+     "start": 0,
+     "end": 5.5,
+     "ease": 0.05
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": 0
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain_comes",
+     "over": 4,
+     "react": false
+    },
+    {
+     "wait": 5.0
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_sing",
+   "stick_spot": "track",
+   "mood": "warm",
+   "music": "happy",
+   "transition": "cut",
+   "stick_follow": {
+    "car": "car",
+    "side": "driver"
+   },
+   "stick_cars": [
+    {
+     "id": "car",
+     "kind": "car",
+     "color": "#a9b0b8",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -1200,
+       "z": 0
+      },
+      {
+       "x": 400,
+       "z": 0
+      }
+     ],
+     "start": 0,
+     "end": 6.5,
+     "ease": 0
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": 0
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "wait": 0.5
+    },
+    {
+     "who": "deepak",
+     "say": "Baarish aayi... baarish aayi... mitti ki khushboo laayi...",
+     "emotion": "happy"
+    },
+    {
+     "who": "deepak",
+     "say": "Hmm hmm hmm... la la la...",
+     "emotion": "happy"
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_pov",
+   "stick_spot": "track",
+   "mood": "calm",
+   "music": "happy",
+   "transition": "cut",
+   "stick_follow": {
+    "car": "car",
+    "side": "pov"
+   },
+   "stick_cars": [
+    {
+     "id": "car",
+     "kind": "car",
+     "color": "#a9b0b8",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -600,
+       "z": 0
+      },
+      {
+       "x": 1100,
+       "z": 0
+      }
+     ],
+     "start": 0,
+     "end": 4.5,
+     "ease": 0.3
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": 0
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "wait": 4.5
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_stop",
+   "stick_spot": "track",
+   "stick_shot": "track_side",
+   "stick_shot_hold": true,
+   "mood": "calm",
+   "transition": "cut",
+   "stick_cars": [
+    {
+     "id": "car2",
+     "kind": "car",
+     "color": "#a9b0b8",
+     "rider": null,
+     "path": [
+      {
+       "x": 300,
+       "z": 0
+      },
+      {
+       "x": 1340,
+       "z": 0
+      }
+     ],
+     "start": 0,
+     "end": 3.2,
+     "ease": 0.4
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1283,
+     "z": -91
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "disappear",
+     "at": 0
+    },
+    {
+     "wait": 3.6
+    },
+    {
+     "sfx": "car_door"
+    },
+    {
+     "who": "deepak",
+     "do": "appear"
+    },
+    {
+     "who": "deepak",
+     "do": "cover_head"
+    },
+    {
+     "who": "deepak",
+     "say": "Arrey baba! Proper rain today!",
+     "emotion": "happy"
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_run",
+   "stick_spot": "track",
+   "stick_shot": "corn_edge",
+   "mood": "warm",
+   "transition": "cut",
+   "stick_cars": [
+    {
+     "id": "car2",
+     "kind": "car",
+     "color": "#a9b0b8",
+     "rider": null,
+     "to": {
+      "x": 1340,
+      "z": 0
+     },
+     "heading": 0
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1300,
+     "z": -60
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "run",
+     "to": {
+      "x": 2050,
+      "z": 330
+     }
+    },
+    {
+     "wait": 0.6
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_box",
+   "stick_spot": "station",
+   "stick_shot": "station_close",
+   "mood": "calm",
+   "transition": "cut",
+   "props": [
+    {
+     "id": "tablet",
+     "type": "phone",
+     "held_by": "deepak"
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 860,
+     "z": 230
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "right",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "touch"
+    },
+    {
+     "who": "deepak",
+     "say": "Okay, one-three-three. Show me what you saw today.",
+     "emotion": "neutral"
+    },
+    {
+     "who": "deepak",
+     "do": "put",
+     "prop": "tablet"
+    }
+   ]
+  },
+  {
+   "id": "s1_inside",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "calm",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "station_box",
+    "open": 1.0
+   },
+   "events": [
+    {
+     "sound": "door"
+    },
+    {
+     "wait": 1.6
+    },
+    {
+     "who": "deepak",
+     "say": "Dry inside. Battery full... and there, the blink. Still talking to the next station.",
+     "emotion": "happy"
+    },
+    {
+     "wait": 0.8
+    }
+   ]
+  },
+  {
+   "id": "s1_log",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "hope",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "station_log",
+    "station": 133
+   },
+   "events": [
+    {
+     "wait": 1.2
+    },
+    {
+     "who": "deepak",
+     "say": "Temperature... humidity... rain, fourteen millimetres...",
+     "emotion": "neutral"
+    },
+    {
+     "wait": 0.4
+    },
+    {
+     "who": "deepak",
+     "say": "All correct.",
+     "emotion": "happy"
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_ok",
+   "stick_spot": "station",
+   "stick_shot": "station_close",
+   "mood": "warm",
+   "transition": "cut",
+   "props": [
+    {
+     "id": "phone",
+     "type": "phone",
+     "held_by": "deepak"
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "Perfect readings. Good boy.",
+     "emotion": "happy"
+    },
+    {
+     "sound": "phone"
+    },
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "do": "look_down"
+    },
+    {
+     "who": "deepak",
+     "say": "Mark? It's six in the morning in Texas...",
+     "emotion": "surprised"
+    }
+   ]
+  },
+  {
+   "stick_place": "texas_lab",
+   "stick_spot": "desk",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "mood": "tense",
+   "id": "s1_mark1",
+   "stick_shot": "desk",
+   "characters": [
+    {
+     "id": "mark",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "mark",
+     "do": "sit",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "mark",
+     "say": "Deepak! Thank God. Are you watching the news?",
+     "emotion": "scared"
+    }
+   ]
+  },
+  {
+   "id": "s1_news",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "anchor",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "news",
+    "channel": "WNN 24",
+    "headline": "HURRICANE DELIA SLAMS TEXAS COAST",
+    "place": "Galveston, Texas",
+    "ticker": "UV index 14 in Austin · Ozone alert for twelve states · Schools closed in Houston",
+    "footage": "hurricane"
+   },
+   "events": [
+    {
+     "who": "anchor",
+     "say": "Hurricane Delia has made landfall in Texas, months before the hurricane season."
+    },
+    {
+     "who": "anchor",
+     "say": "Forecasters say they have never seen a storm grow this fast."
+    },
+    {
+     "who": "mark",
+     "say": "Turn it up... That's twenty miles from my lab.",
+     "emotion": "scared"
+    }
+   ]
+  },
+  {
+   "id": "s1_txstorm",
+   "stick_place": "highway",
+   "stick_spot": "road",
+   "stick_shot": "roadside",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "danger",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "pickup",
+     "kind": "suv",
+     "color": "red",
+     "from": {
+      "x": -1500,
+      "z": 0
+     },
+     "to": {
+      "x": 300,
+      "z": 0
+     },
+     "start": 0,
+     "end": 4.5
+    }
+   ],
+   "events": [
+    {
+     "weather": "cyclone",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "effect": "lightning",
+     "x": 900
+    },
+    {
+     "effect": "dust",
+     "x": 600,
+     "z": 200,
+     "duration": 5
+    },
+    {
+     "wait": 1.2
+    },
+    {
+     "who": "mark",
+     "say": "The whole coast is under water, Deepak. And the UV readings... they make no sense.",
+     "emotion": "scared"
+    },
+    {
+     "effect": "lightning",
+     "x": 1300
+    },
+    {
+     "wait": 1.0
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "stick_spot": "station",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_dk1",
+   "stick_shot": "station_close",
+   "mood": "tense",
+   "transition": "cut",
+   "props": [
+    {
+     "id": "phone",
+     "type": "phone",
+     "held_by": "deepak"
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "It's pouring here too, Mark. But my station is fine. Everything reads normal.",
+     "emotion": "worried"
+    }
+   ]
+  },
+  {
+   "stick_place": "texas_lab",
+   "stick_spot": "desk",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "mood": "tense",
+   "id": "s1_mark2",
+   "stick_shot": "side",
+   "characters": [
+    {
+     "id": "mark",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "mark",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "mark",
+     "do": "point"
+    },
+    {
+     "who": "mark",
+     "say": "Our UV sensors jumped forty percent overnight. Ten sensors. I sent you everything on WhatsApp.",
+     "emotion": "worried"
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "stick_spot": "station",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_dk2",
+   "stick_shot": "station_close",
+   "mood": "tense",
+   "transition": "cut",
+   "props": [
+    {
+     "id": "phone",
+     "type": "phone",
+     "held_by": "deepak"
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "Ten sensors can't all be wrong...",
+     "emotion": "worried"
+    }
+   ]
+  },
+  {
+   "stick_place": "texas_lab",
+   "stick_spot": "desk",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "mood": "tense",
+   "id": "s1_mark3",
+   "stick_shot": "close",
+   "characters": [
+    {
+     "id": "mark",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "mark",
+     "do": "sit",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "mark",
+     "say": "Promise me you'll look at it tonight. It's important.",
+     "emotion": "scared"
+    }
+   ]
+  },
+  {
+   "stick_place": "corn_field",
+   "stick_spot": "station",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s1_dk3",
+   "stick_shot": "station_close",
+   "mood": "tense",
+   "transition": "cut",
+   "props": [
+    {
+     "id": "phone",
+     "type": "phone",
+     "held_by": "deepak"
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "I promise. I'll call you back.",
+     "emotion": "worried"
+    }
+   ]
+  },
+  {
+   "id": "s1_end",
+   "stick_place": "corn_field",
+   "stick_camera": {
+    "move": "pull",
+    "height": "eye",
+    "yaw": -25
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "raghav",
+     "x": 1500,
+     "z": 40
+    }
+   ],
+   "events": [
+    {
+     "weather": "rain",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "who": "raghav",
+     "do": "run",
+     "to": {
+      "x": 1180,
+      "z": 80
+     }
+    },
+    {
+     "who": "raghav",
+     "say": "Deepak! In this rain? Are you mad?",
+     "emotion": "scared"
+    },
+    {
+     "who": "deepak",
+     "say": "The station is fine. It's the rest of the world I'm worried about.",
+     "emotion": "worried"
+    },
+    {
+     "who": "raghav",
+     "say": "Look at you! Wet like a fish!",
+     "emotion": "happy",
+     "do": "laugh"
+    },
+    {
+     "who": "deepak",
+     "say": "Station one-three-three is online, Raghav. And something is very wrong with the weather.",
+     "emotion": "worried"
+    },
+    {
+     "who": "raghav",
+     "say": "Come home. Eat first. Save the world after dinner.",
+     "emotion": "happy"
+    },
+    {
+     "who": "deepak",
+     "do": "put",
+     "prop": "phone"
+    }
+   ],
+   "props": [
+    {
+     "id": "phone",
+     "type": "phone",
+     "held_by": "deepak"
+    }
+   ],
+   "stick_spot": "station",
+   "mood": "warm"
+  },
+  {
+   "id": "s2_home",
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_shot": "through_window",
+   "stick_shot_move": 7,
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "All right, Mark. Let's see what you found.",
+     "emotion": "neutral"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s2_messages",
+   "stick_screen": {
+    "kind": "chat",
+    "title": "WhatsApp · 312 unread",
+    "me": "Deepak",
+    "every": 1.6,
+    "messages": [
+     [
+      "Dr. Rao (IMD)",
+      "Your station 47 shows UV way above normal. Ours too."
+     ],
+     [
+      "Farmer Group",
+      "Bahut garmi, phir achanak thand. Kya ho raha hai?"
+     ],
+     [
+      "Ana (Brazil)",
+      "Storm forming near Recife. Nothing like it in our records."
+     ],
+     [
+      "Station Bot",
+      "ALERT: 10.2 °C recorded at Station 12. Expected 31 °C."
+     ],
+     [
+      "Mark (USA)",
+      "Deepak, look beyond the official reports. The patterns don't make sense."
+     ]
+    ]
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "say": "Three hundred and twelve messages? Farmers... researchers... Rao from the weather office...",
+     "emotion": "surprised"
+    },
+    {
+     "who": "deepak",
+     "say": "They're all saying the same thing.",
+     "emotion": "worried"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s2_data",
+   "stick_screen": {
+    "kind": "data",
+    "grow": 8,
+    "title": "Comparing stations · 3 continents",
+    "warn": "ANOMALY",
+    "series": [
+     {
+      "name": "UV index",
+      "from": 7,
+      "to": 12.5
+     },
+     {
+      "name": "Ozone (DU)",
+      "from": 295,
+      "to": 255,
+      "unit": "Dobson units"
+     },
+     {
+      "name": "Temperature anomaly (°C)",
+      "from": 0.4,
+      "to": 3.1,
+      "bad_up": true
+     }
+    ]
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "say": "UV index twelve. In March.",
+     "emotion": "surprised"
+    },
+    {
+     "who": "deepak",
+     "say": "Ozone dropping. Temperature jumping. This is not one bad sensor.",
+     "emotion": "worried"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s2_storms",
+   "stick_screen": {
+    "kind": "world_map",
+    "title": "Storm reports · this week",
+    "storms": [
+     [
+      -60,
+      25
+     ],
+     [
+      -140,
+      14
+     ],
+     [
+      -35,
+      -10
+     ],
+     [
+      -88,
+      26
+     ]
+    ]
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "sound": "phone"
+    },
+    {
+     "who": "mark",
+     "say": "You see it now? Look at the Atlantic. And the Pacific. Cyclones forming at the same time.",
+     "emotion": "worried"
+    },
+    {
+     "who": "deepak",
+     "say": "El Niño is getting stronger. Heat here, sudden cold there... It's everywhere, Mark.",
+     "emotion": "scared"
+    },
+    {
+     "who": "mark",
+     "say": "That's why I called you first."
+    }
+   ],
+   "mood": "danger"
+  },
+  {
+   "id": "s2_whisper",
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_shot": "desk",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "This can't be happening everywhere. Something is wrong with these readings... or something is happening that we don't understand.",
+     "emotion": "worried"
+    },
+    {
+     "who": "deepak",
+     "do": "think"
+    },
+    {
+     "who": "deepak",
+     "say": "No more guessing. I need proof.",
+     "emotion": "angry"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s2_alert",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "danger",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "stick_screen": {
+    "kind": "mp_map",
+    "grow": 0,
+    "alarm": 0.01,
+    "title": "LoRa network · station 47 not reporting"
+   },
+   "events": [
+    {
+     "sound": "ding"
+    },
+    {
+     "wait": 1.2
+    },
+    {
+     "who": "deepak",
+     "say": "Station forty-seven... offline? It never goes offline.",
+     "emotion": "surprised"
+    },
+    {
+     "who": "deepak",
+     "say": "Fifty kilometres. I can be there in an hour.",
+     "emotion": "worried"
+    }
+   ]
+  },
+  {
+   "id": "s2_ride",
+   "stick_place": "highway",
+   "stick_spot": "road",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "tense",
+   "transition": "cut",
+   "stick_follow": {
+    "car": "bike",
+    "side": "behind",
+    "dist": 5,
+    "height": 1.6
+   },
+   "stick_cars": [
+    {
+     "id": "bike",
+     "kind": "bike",
+     "color": "red",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -2500,
+       "z": -60
+      },
+      {
+       "x": 3500,
+       "z": -60
+      }
+     ],
+     "start": 0,
+     "end": 7
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": -60
+    }
+   ],
+   "events": [
+    {
+     "wait": 7.0
+    }
+   ]
+  },
+  {
+   "stick_place": "field_2026",
+   "stick_spot": "station",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s2_burnt",
+   "stick_shot": "station_close",
+   "mood": "secret",
+   "stick_burnt": true,
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 860,
+     "z": 230
+    }
+   ],
+   "events": [
+    {
+     "effect": "smoke",
+     "x": 960,
+     "y": 330,
+     "z": 209,
+     "duration": 9
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "right",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "touch"
+    },
+    {
+     "who": "deepak",
+     "say": "Melted. From the inside.",
+     "emotion": "scared"
+    },
+    {
+     "who": "deepak",
+     "say": "This was not lightning. Something burned it out from the inside.",
+     "emotion": "scared"
+    }
+   ]
+  },
+  {
+   "stick_place": "field_2026",
+   "stick_spot": "station",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s2_lights",
+   "stick_shot": "station_wide",
+   "mood": "danger",
+   "transition": "cut",
+   "stick_cars": [
+    {
+     "id": "tail",
+     "kind": "agent",
+     "path": [
+      {
+       "x": -2600,
+       "z": -671
+      },
+      {
+       "x": 300,
+       "z": -671
+      }
+     ],
+     "start": 0.5,
+     "end": 4.5
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 860,
+     "z": 230
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "left",
+     "at": 0
+    },
+    {
+     "wait": 2.0
+    },
+    {
+     "who": "deepak",
+     "say": "Headlights? Out here? At this hour?",
+     "emotion": "scared"
+    },
+    {
+     "wait": 0.6
+    },
+    {
+     "who": "deepak",
+     "say": "Who's there?!",
+     "emotion": "scared"
+    },
+    {
+     "sfx": "car_door"
+    },
+    {
+     "who": "deepak",
+     "do": "run",
+     "to": {
+      "x": 200,
+      "z": 120
+     }
+    }
+   ]
+  },
+  {
+   "id": "s2_chase1",
+   "stick_place": "highway",
+   "stick_spot": "road",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "danger",
+   "transition": "cut",
+   "stick_follow": {
+    "car": "bike",
+    "side": "side",
+    "dist": 6,
+    "height": 1.2
+   },
+   "stick_shake": [
+    {
+     "start": 0,
+     "end": 6,
+     "amount": 0.25
+    }
+   ],
+   "stick_cars": [
+    {
+     "id": "bike",
+     "kind": "bike",
+     "color": "red",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -2500,
+       "z": -60
+      },
+      {
+       "x": 3200,
+       "z": -60
+      }
+     ],
+     "start": 0,
+     "end": 6,
+     "ease": 0.02
+    },
+    {
+     "id": "tail",
+     "kind": "agent",
+     "path": [
+      {
+       "x": -4000,
+       "z": 60
+      },
+      {
+       "x": 2400,
+       "z": 60
+      }
+     ],
+     "start": 0,
+     "end": 6,
+     "ease": 0.02
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": -60
+    },
+    {
+     "id": "rathore",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.5
+    },
+    {
+     "who": "deepak",
+     "say": "Come on, come on, come on!",
+     "emotion": "scared"
+    },
+    {
+     "wait": 3.0
+    }
+   ]
+  },
+  {
+   "id": "s2_chase2",
+   "stick_place": "highway",
+   "stick_spot": "road",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "danger",
+   "transition": "cut",
+   "stick_follow": {
+    "car": "bike",
+    "side": "behind",
+    "dist": 6,
+    "height": 2.0
+   },
+   "stick_cars": [
+    {
+     "id": "bike",
+     "kind": "bike",
+     "color": "red",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": -2500,
+       "z": -60
+      },
+      {
+       "x": 800,
+       "z": -60
+      },
+      {
+       "x": 1600,
+       "z": -900
+      },
+      {
+       "x": 2200,
+       "z": -1500
+      }
+     ],
+     "start": 0,
+     "end": 6.5,
+     "ease": 0.05
+    },
+    {
+     "id": "tail",
+     "kind": "agent",
+     "path": [
+      {
+       "x": -3600,
+       "z": 60
+      },
+      {
+       "x": 4500,
+       "z": 60
+      }
+     ],
+     "start": 0,
+     "end": 6.5,
+     "ease": 0.02
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 0,
+     "z": -60
+    }
+   ],
+   "events": [
+    {
+     "wait": 7.0
+    }
+   ]
+  },
+  {
+   "stick_place": "field_2026",
+   "stick_spot": "station",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "id": "s2_lost",
+   "stick_shot": "station_wide",
+   "mood": "tense",
+   "transition": "cut",
+   "stick_cars": [
+    {
+     "id": "bike",
+     "kind": "bike",
+     "color": "red",
+     "rider": "deepak",
+     "path": [
+      {
+       "x": 300,
+       "z": -300
+      },
+      {
+       "x": 800,
+       "z": 120
+      }
+     ],
+     "start": 0,
+     "end": 3.0
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 800,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "wait": 3.4
+    },
+    {
+     "who": "deepak",
+     "say": "They're gone...",
+     "emotion": "worried"
+    },
+    {
+     "who": "deepak",
+     "say": "Who knows about station forty-seven? Who else is watching my network?",
+     "emotion": "scared"
+    }
+   ]
+  },
+  {
+   "id": "s3_days",
+   "stick_screen": {
+    "kind": "mp_map",
+    "grow": 0,
+    "alarm": 0.35,
+    "title": "Deepak's LoRa network · compared with satellite data"
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "say": "Day four. Station forty-seven. Station eighty-eight. The same jump, every night.",
+     "emotion": "worried"
+    },
+    {
+     "who": "deepak",
+     "say": "And the government archives for those dates... empty. Who deleted them?",
+     "emotion": "angry"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "id": "s3_ring",
+   "stick_shot": "desk",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    },
+    {
+     "id": "carlos",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "sound": "phone"
+    },
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "say": "Hello? Who is this?",
+     "emotion": "surprised"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "stick_place": "panama_office",
+   "stick_spot": "desk",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "id": "s3_carlos1",
+   "stick_shot": "desk",
+   "characters": [
+    {
+     "id": "carlos",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "carlos",
+     "do": "sit",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "carlos",
+     "say": "Deepak? My name is Carlos. I'm calling from Panama. I heard you're investigating the atmospheric anomalies."
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "id": "s3_dk1",
+   "stick_shot": "inside_wide",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    },
+    {
+     "id": "carlos",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "Who told you that?",
+     "emotion": "worried"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "stick_place": "panama_office",
+   "stick_spot": "desk",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "id": "s3_carlos2",
+   "stick_shot": "close",
+   "characters": [
+    {
+     "id": "carlos",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "carlos",
+     "do": "sit",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "carlos",
+     "say": "That doesn't matter. Some of the data I've collected isn't public. I think you need to see it.",
+     "emotion": "worried"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "id": "s3_dk2",
+   "stick_shot": "desk",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    },
+    {
+     "id": "carlos",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "What exactly have you found?",
+     "emotion": "worried"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "stick_place": "panama_office",
+   "stick_spot": "desk",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "transition": "cut",
+   "id": "s3_carlos3",
+   "stick_shot": "side",
+   "characters": [
+    {
+     "id": "carlos",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "carlos",
+     "do": "sit",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "carlos",
+     "do": "point"
+    },
+    {
+     "who": "carlos",
+     "say": "I'm sending you a document. Read page three. Carefully."
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s3_doc",
+   "stick_screen": {
+    "kind": "doc",
+    "title": "Long-Term Crisis Scenarios",
+    "stamp": "RESTRICTED",
+    "every": 2.4,
+    "highlight": 3,
+    "lines": [
+     "1. Environmental observations, 1990-2026",
+     "2. Projected disruption to food production and infrastructure",
+     "3. Preparation scenarios for human settlements",
+     "4. Under extreme combined disasters, large populations may lose reliable food, water, electricity and habitable land."
+    ]
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.5
+    },
+    {
+     "who": "deepak",
+     "say": "Continuity of population... deep shelters... ten thousand people?",
+     "emotion": "scared"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s3_office",
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_shot": "inside_wide",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    },
+    {
+     "id": "carlos",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "say": "They're not just studying how to survive disasters. They're thinking about how people could survive if the systems supporting civilization stopped working.",
+     "emotion": "worried"
+    },
+    {
+     "who": "carlos",
+     "say": "That's why I contacted you. You understand weather, electronics, remote monitoring, and how to build systems that work on their own."
+    },
+    {
+     "who": "deepak",
+     "do": "put",
+     "prop": "phone"
+    },
+    {
+     "who": "deepak",
+     "say": "My little weather boxes... part of something this big?",
+     "emotion": "worried"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "stick_place": "farm_2026",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "calm",
+   "id": "s4_wake",
+   "stick_spot": "yard",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "camera",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "stretch"
+    },
+    {
+     "wait": 0.5
+    },
+    {
+     "who": "deepak",
+     "say": "Two hours of sleep... Okay. Okay.",
+     "emotion": "sad"
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 1150,
+      "z": 60
+     }
+    }
+   ]
+  },
+  {
+   "stick_place": "farm_2026",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "calm",
+   "id": "s4_toilet",
+   "stick_spot": "toilet",
+   "stick_shot": "toilet",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1150,
+     "z": 60
+    },
+    {
+     "id": "raghav",
+     "x": 600,
+     "z": 0
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 960,
+      "z": 200
+     }
+    },
+    {
+     "who": "deepak",
+     "do": "disappear"
+    },
+    {
+     "sfx": "door"
+    },
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "raghav",
+     "do": "walk",
+     "to": {
+      "x": 880,
+      "z": 60
+     }
+    },
+    {
+     "sfx": "knock"
+    },
+    {
+     "who": "raghav",
+     "say": "Deepak! Your tea is getting cold!",
+     "emotion": "happy"
+    },
+    {
+     "who": "deepak",
+     "say": "Two minutes, Raghav! Two minutes!",
+     "emotion": "angry"
+    },
+    {
+     "who": "raghav",
+     "do": "laugh"
+    }
+   ]
+  },
+  {
+   "stick_place": "farm_2026",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "calm",
+   "id": "s4_pump",
+   "stick_spot": "well",
+   "stick_shot": "well",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 80
+    },
+    {
+     "id": "raghav",
+     "x": 1250,
+     "z": 40
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "brush_teeth"
+    },
+    {
+     "who": "raghav",
+     "do": "sweep",
+     "with": "prev"
+    },
+    {
+     "who": "raghav",
+     "say": "Did you sleep at all? Your eyes look like tomatoes.",
+     "emotion": "happy"
+    },
+    {
+     "who": "deepak",
+     "do": "wash_face"
+    },
+    {
+     "who": "deepak",
+     "say": "The numbers kept me awake. Hail in March, Raghav. UV forty percent up in Texas.",
+     "emotion": "worried"
+    },
+    {
+     "who": "raghav",
+     "say": "Texas is far away. Here, the cows still want breakfast.",
+     "emotion": "happy"
+    }
+   ]
+  },
+  {
+   "stick_place": "farm_2026",
+   "stick_time": "morning",
+   "background": {
+    "preset": "plain"
+   },
+   "mood": "calm",
+   "id": "s4_bath",
+   "stick_spot": "well",
+   "stick_shot": "well",
+   "transition": "cut",
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 80
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "bathe"
+    },
+    {
+     "sfx": "car"
+    },
+    {
+     "wait": 0.6
+    },
+    {
+     "who": "deepak",
+     "do": "stand",
+     "facing": "away"
+    },
+    {
+     "who": "deepak",
+     "say": "Cars? Who comes here at this hour?",
+     "emotion": "surprised"
+    }
+   ]
+  },
+  {
+   "id": "s4_arrive",
+   "stick_place": "farm_2026",
+   "stick_spot": "path",
+   "stick_shot": "farm_wide",
+   "stick_time": "morning",
+   "stick_shot_hold": true,
+   "stick_cars": [
+    {
+     "id": "suv1",
+     "color": "black",
+     "from": {
+      "x": -1700,
+      "z": 200
+     },
+     "to": {
+      "x": 1100,
+      "z": 200
+     },
+     "start": 0.5,
+     "end": 5.5,
+     "kind": "agent"
+    },
+    {
+     "id": "suv2",
+     "color": "black",
+     "from": {
+      "x": -2500,
+      "z": 150
+     },
+     "to": {
+      "x": -700,
+      "z": 150
+     },
+     "start": 1.2,
+     "end": 6.4,
+     "kind": "agent"
+    }
+   ],
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [],
+   "events": [
+    {
+     "wait": 6.5
+    }
+   ],
+   "mood": "tense"
+  },
+  {
+   "id": "s4_agents",
+   "stick_place": "farm_2026",
+   "stick_spot": "path",
+   "stick_time": "morning",
+   "stick_shot": [
+    [
+     2.2,
+     0.5,
+     -5.5
+    ],
+    [
+     -1.5,
+     1.6,
+     1.5
+    ]
+   ],
+   "stick_cars": [
+    {
+     "id": "suv1",
+     "color": "black",
+     "to": {
+      "x": 1100,
+      "z": 200
+     },
+     "heading": 0,
+     "kind": "agent"
+    },
+    {
+     "id": "suv2",
+     "color": "black",
+     "to": {
+      "x": -700,
+      "z": 150
+     },
+     "heading": 0,
+     "kind": "agent"
+    }
+   ],
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "rathore",
+     "x": 600,
+     "z": -60
+    },
+    {
+     "id": "agent2",
+     "x": 400,
+     "z": -100
+    },
+    {
+     "id": "agent3",
+     "x": -220,
+     "z": -160
+    }
+   ],
+   "events": [
+    {
+     "who": "rathore",
+     "do": "walk",
+     "to": {
+      "x": 300,
+      "z": 420
+     }
+    },
+    {
+     "who": "agent2",
+     "do": "walk",
+     "to": {
+      "x": 120,
+      "z": 380
+     },
+     "with": "prev"
+    },
+    {
+     "who": "agent3",
+     "do": "walk",
+     "to": {
+      "x": -80,
+      "z": 300
+     },
+     "with": "prev"
+    },
+    {
+     "who": "rathore",
+     "say": "Check the back. Nobody leaves."
+    },
+    {
+     "who": "agent2",
+     "do": "nod"
+    }
+   ],
+   "mood": "danger"
+  },
+  {
+   "id": "s4_door",
+   "stick_place": "farm_2026",
+   "stick_spot": "porch",
+   "stick_time": "morning",
+   "stick_shot": [
+    [
+     3.0,
+     1.5,
+     -5.5
+    ],
+    [
+     0.0,
+     1.5,
+     0.0
+    ]
+   ],
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "rathore",
+     "x": 1060,
+     "z": -260
+    },
+    {
+     "id": "agent2",
+     "x": 820,
+     "z": -380
+    },
+    {
+     "id": "raghav",
+     "x": 600,
+     "z": 60
+    }
+   ],
+   "events": [
+    {
+     "who": "raghav",
+     "say": "Deepak... who are these people?",
+     "emotion": "scared"
+    },
+    {
+     "who": "rathore",
+     "say": "Mr. Deepak Meena?"
+    },
+    {
+     "who": "deepak",
+     "say": "Yes. Who's asking?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "rathore",
+     "say": "Agent Rathore. Ministry of Home Affairs. You need to come with us. Now."
+    },
+    {
+     "who": "raghav",
+     "say": "Now? What has he done? He fixes weather boxes!",
+     "emotion": "angry"
+    },
+    {
+     "who": "raghav",
+     "do": "shove",
+     "target": "rathore"
+    },
+    {
+     "who": "agent2",
+     "say": "Stay back, sir!",
+     "emotion": "angry"
+    },
+    {
+     "who": "agent2",
+     "do": "stop"
+    },
+    {
+     "who": "deepak",
+     "say": "Raghav, stop! It's okay. It's okay.",
+     "emotion": "scared"
+    },
+    {
+     "who": "rathore",
+     "say": "Government business, sir. Please stay inside."
+    },
+    {
+     "who": "deepak",
+     "say": "Am I under arrest?",
+     "emotion": "scared"
+    },
+    {
+     "who": "rathore",
+     "say": "No, sir. Consider it an invitation. One you cannot decline."
+    },
+    {
+     "who": "deepak",
+     "say": "My stations... my data...",
+     "emotion": "worried"
+    },
+    {
+     "who": "rathore",
+     "say": "Your data is already in Delhi, Mr. Meena. We have been reading it for weeks."
+    },
+    {
+     "who": "deepak",
+     "say": "Raghav, look after the stations. I'll call you.",
+     "emotion": "worried"
+    }
+   ],
+   "mood": "danger"
+  },
+  {
+   "id": "s4_leave",
+   "stick_place": "farm_2026",
+   "stick_spot": "path",
+   "stick_time": "morning",
+   "stick_shot": "farm_wide",
+   "stick_shot_hold": true,
+   "stick_cars": [
+    {
+     "id": "suv1",
+     "color": "black",
+     "from": {
+      "x": 1100,
+      "z": 200
+     },
+     "to": {
+      "x": -2600,
+      "z": 200
+     },
+     "start": 5.5,
+     "end": 10.0,
+     "kind": "agent"
+    },
+    {
+     "id": "suv2",
+     "color": "black",
+     "from": {
+      "x": -700,
+      "z": 150
+     },
+     "to": {
+      "x": -3300,
+      "z": 150
+     },
+     "start": 6.0,
+     "end": 10.2,
+     "kind": "agent"
+    }
+   ],
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 260,
+     "z": 520
+    },
+    {
+     "id": "rathore",
+     "x": 420,
+     "z": 500
+    },
+    {
+     "id": "agent2",
+     "x": 120,
+     "z": 480
+    },
+    {
+     "id": "raghav",
+     "x": 980,
+     "z": 620
+    }
+   ],
+   "events": [
+    {
+     "who": "raghav",
+     "say": "Deepak! Call me when you get there!",
+     "emotion": "scared"
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 860,
+      "z": -210
+     }
+    },
+    {
+     "who": "rathore",
+     "do": "walk",
+     "to": {
+      "x": 1040,
+      "z": -230
+     },
+     "with": "prev"
+    },
+    {
+     "who": "agent2",
+     "do": "walk",
+     "to": {
+      "x": -640,
+      "z": -260
+     },
+     "with": "prev"
+    },
+    {
+     "who": "deepak",
+     "say": "Look after the stations, Raghav!",
+     "emotion": "worried"
+    },
+    {
+     "who": "deepak",
+     "do": "disappear"
+    },
+    {
+     "who": "rathore",
+     "do": "disappear",
+     "with": "prev"
+    },
+    {
+     "who": "agent2",
+     "do": "disappear",
+     "with": "prev"
+    }
+   ],
+   "mood": "sad"
+  },
+  {
+   "id": "s4_road",
+   "stick_place": "highway",
+   "stick_time": "morning",
+   "stick_shot": [
+    [
+     0,
+     1.2,
+     -9
+    ],
+    [
+     0,
+     1.0,
+     4
+    ]
+   ],
+   "stick_shot_hold": true,
+   "stick_cars": [
+    {
+     "id": "escort",
+     "kind": "police",
+     "from": {
+      "x": -1500,
+      "z": 20
+     },
+     "to": {
+      "x": 700,
+      "z": 20
+     },
+     "start": 0.0,
+     "end": 3.6
+    },
+    {
+     "id": "suv1",
+     "kind": "agent",
+     "color": "black",
+     "from": {
+      "x": -2600,
+      "z": 20
+     },
+     "to": {
+      "x": -350,
+      "z": 20
+     },
+     "start": 0.0,
+     "end": 3.8
+    },
+    {
+     "id": "suv2",
+     "kind": "agent",
+     "color": "black",
+     "from": {
+      "x": -3800,
+      "z": 20
+     },
+     "to": {
+      "x": -1400,
+      "z": 20
+     },
+     "start": 0.3,
+     "end": 4.1
+    }
+   ],
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "rathore",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "weather": "storm",
+     "over": 0.5,
+     "react": false
+    },
+    {
+     "wait": 2.5
+    },
+    {
+     "effect": "lightning",
+     "x": 1800
+    },
+    {
+     "effect": "explosion",
+     "x": 1750,
+     "z": 40,
+     "intensity": 0.9
+    },
+    {
+     "effect": "fire",
+     "x": 1750,
+     "z": 40,
+     "duration": 6
+    },
+    {
+     "who": "rathore",
+     "say": "Hold on!",
+     "emotion": "angry"
+    },
+    {
+     "who": "deepak",
+     "say": "Lightning hit the tree! In this season?!",
+     "emotion": "scared"
+    },
+    {
+     "who": "rathore",
+     "say": "Go around it. Nobody stops. Delhi by noon.",
+     "emotion": "angry"
+    }
+   ],
+   "stick_spot": "road",
+   "mood": "danger",
+   "stick_shake": [
+    {
+     "start": 3.5,
+     "end": 4.3,
+     "amount": 0.8
+    }
+   ]
+  },
+  {
+   "id": "s4_delhi",
+   "stick_place": "city_street",
+   "stick_spot": "road",
+   "stick_shot": "street",
+   "stick_cars": [
+    {
+     "id": "suv1",
+     "kind": "agent",
+     "from": {
+      "x": -2600,
+      "z": 20
+     },
+     "to": {
+      "x": -150,
+      "z": 20
+     },
+     "start": 0.0,
+     "end": 4.2
+    },
+    {
+     "id": "suv2",
+     "kind": "agent",
+     "from": {
+      "x": -3600,
+      "z": 20
+     },
+     "to": {
+      "x": -1200,
+      "z": 20
+     },
+     "start": 0.3,
+     "end": 4.6
+    }
+   ],
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "rathore",
+     "x": 20,
+     "z": 420
+    },
+    {
+     "id": "deepak",
+     "x": -200,
+     "z": 430
+    }
+   ],
+   "events": [
+    {
+     "who": "rathore",
+     "do": "disappear",
+     "at": 0
+    },
+    {
+     "who": "deepak",
+     "do": "disappear",
+     "at": 0,
+     "with": "prev"
+    },
+    {
+     "wait": 4.5
+    },
+    {
+     "who": "rathore",
+     "do": "appear",
+     "at": 5.2
+    },
+    {
+     "who": "deepak",
+     "do": "appear",
+     "with": "prev"
+    },
+    {
+     "who": "deepak",
+     "say": "The Ministry? For a few weather stations?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "rathore",
+     "say": "Not for your stations, Mr. Meena. For what they found."
+    },
+    {
+     "who": "rathore",
+     "say": "This way. Keep your head down. There are cameras everywhere."
+    },
+    {
+     "who": "rathore",
+     "do": "walk",
+     "to": {
+      "x": 1000,
+      "z": 1900
+     }
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 880,
+      "z": 1880
+     },
+     "with": "prev"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s4_room7",
+   "stick_place": "meeting_room",
+   "stick_spot": "front",
+   "stick_shot": "room",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "rathore",
+     "x": 820,
+     "z": 40
+    },
+    {
+     "id": "deepak",
+     "x": 980,
+     "z": 0
+    },
+    {
+     "id": "kavya",
+     "x": 1150,
+     "z": 520
+    }
+   ],
+   "events": [
+    {
+     "who": "rathore",
+     "do": "walk",
+     "to": {
+      "x": 820,
+      "z": 300
+     }
+    },
+    {
+     "who": "deepak",
+     "do": "walk",
+     "to": {
+      "x": 980,
+      "z": 260
+     },
+     "with": "prev"
+    },
+    {
+     "who": "rathore",
+     "say": "Welcome to Room Seven. Officially, this room does not exist."
+    },
+    {
+     "who": "deepak",
+     "say": "What is this place? Why am I here?",
+     "emotion": "surprised",
+     "do": "look_around"
+    },
+    {
+     "who": "kavya",
+     "do": "walk",
+     "to": {
+      "x": 1150,
+      "z": 330
+     }
+    },
+    {
+     "who": "kavya",
+     "say": "Because your little weather stations saw what our satellites missed. I'm Dr. Kavya Iyer, climate division.",
+     "emotion": "happy"
+    },
+    {
+     "who": "deepak",
+     "say": "You've been watching my network?",
+     "emotion": "surprised"
+    },
+    {
+     "who": "kavya",
+     "say": "One hundred and thirty three stations, Mr. Meena. Every reading. Every night you stayed awake.",
+     "emotion": "neutral"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s4_verma",
+   "stick_place": "meeting_room",
+   "stick_spot": "front",
+   "stick_shot": "table",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "verma",
+     "x": 670,
+     "z": 260
+    },
+    {
+     "id": "kavya",
+     "x": 1150,
+     "z": 330
+    },
+    {
+     "id": "deepak",
+     "x": 980,
+     "z": 260
+    }
+   ],
+   "events": [
+    {
+     "who": "verma",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "kavya",
+     "say": "And this is Mr. Verma. He decides what the country is told... and what it is not."
+    },
+    {
+     "who": "verma",
+     "say": "Sit down, Mr. Meena. Everything said in this room is classified. Do you understand?"
+    },
+    {
+     "who": "deepak",
+     "say": "I understand. But if this is real, people deserve to know.",
+     "emotion": "worried"
+    },
+    {
+     "who": "verma",
+     "say": "People deserve the truth when we are sure of it. Panic can kill faster than any storm."
+    },
+    {
+     "who": "deepak",
+     "do": "nod"
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s4_meeting",
+   "stick_place": "meeting_room",
+   "stick_spot": "front",
+   "stick_shot": "room",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "verma",
+     "x": 670,
+     "z": 260
+    },
+    {
+     "id": "kavya",
+     "x": 1250,
+     "z": 420
+    },
+    {
+     "id": "deepak",
+     "x": 1185,
+     "z": 1000
+    }
+   ],
+   "events": [
+    {
+     "who": "verma",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "who": "kavya",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "verma",
+     "say": "Mr. Meena, we have reviewed your work. We want you to explain your findings in your own words."
+    },
+    {
+     "who": "deepak",
+     "say": "I'll tell you which data I trust, which readings may be faulty, and which patterns need more study.",
+     "do": "point"
+    },
+    {
+     "who": "deepak",
+     "say": "I cannot tell you that the world will end. No honest scientist can. But we should prepare for scenarios that most people don't want to consider.",
+     "emotion": "worried"
+    },
+    {
+     "who": "kavya",
+     "say": "And what do you think we should do?"
+    }
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": "s5_bigger",
+   "stick_place": "meeting_room",
+   "stick_spot": "screen",
+   "stick_shot": "screen",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "say": "We need to think much bigger.",
+     "do": "point"
+    },
+    {
+     "who": "deepak",
+     "say": "A deep underground settlement. Not a bunker with a few rooms. A complete community, designed for ten thousand people."
+    }
+   ],
+   "mood": "wonder"
+  },
+  {
+   "id": "s5_plan",
+   "stick_screen": {
+    "kind": "plan",
+    "grow": 9,
+    "depth": 100,
+    "people": 10000,
+    "year": 2035,
+    "acres": 500
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "kavya",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "say": "Its own water, protected food production, renewable and backup power, a hospital, workshops, communications, recycling."
+    },
+    {
+     "who": "deepak",
+     "say": "About a hundred metres down, if the geology, groundwater and ventilation studies allow it."
+    },
+    {
+     "who": "kavya",
+     "say": "Not just a shelter. A way to keep everything we know alive.",
+     "emotion": "neutral"
+    }
+   ],
+   "mood": "wonder"
+  },
+  {
+   "id": "s5_ask",
+   "stick_place": "meeting_room",
+   "stick_spot": "front",
+   "stick_shot": "table",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "verma",
+     "x": 670,
+     "z": 260
+    },
+    {
+     "id": "kavya",
+     "x": 1250,
+     "z": 420
+    },
+    {
+     "id": "deepak",
+     "x": 1050,
+     "z": 900
+    }
+   ],
+   "events": [
+    {
+     "who": "verma",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "who": "kavya",
+     "do": "sit",
+     "at": 0
+    },
+    {
+     "who": "verma",
+     "say": "When do you think we might need something like this?"
+    },
+    {
+     "who": "deepak",
+     "say": "It could be unnecessary for a hundred years. Or a serious crisis could arrive within ten. The point is not to wait until we have no time left."
+    },
+    {
+     "who": "verma",
+     "say": "If we approved your proposal, what would you need?"
+    },
+    {
+     "who": "deepak",
+     "say": "Five hundred acres of land. A secure research facility. Engineers, geologists, climate scientists, doctors, farmers, systems designers. And the freedom to build a prototype first."
+    },
+    {
+     "who": "verma",
+     "say": "And you believe you can lead this project?"
+    },
+    {
+     "who": "deepak",
+     "say": "I can lead the technical vision. But no one person can build this alone. If we do it, we do it properly.",
+     "emotion": "happy"
+    },
+    {
+     "who": "verma",
+     "say": "We will evaluate your proposal. If approved, it stays confidential. And unverified conclusions must never be shared as facts."
+    },
+    {
+     "who": "deepak",
+     "do": "nod"
+    }
+   ],
+   "mood": "hope"
+  },
+  {
+   "id": "s6_site",
+   "stick_screen": {
+    "kind": "land",
+    "from": 500,
+    "to": 500,
+    "grow": 0,
+    "from_year": 2026,
+    "to_year": 2026,
+    "title": "Project site · 500 acres · confidential"
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "verma",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "sound": "phone"
+    },
+    {
+     "who": "verma",
+     "say": "Mr. Meena. Your proposal is approved. Five hundred acres. Code name: Deep Earth."
+    },
+    {
+     "who": "deepak",
+     "say": "Ten thousand people... by twenty thirty-five. Thank you, sir.",
+     "emotion": "happy"
+    },
+    {
+     "who": "verma",
+     "say": "Don't thank me yet. Start digging."
+    }
+   ],
+   "mood": "hope"
+  },
+  {
+   "id": "s6_survey",
+   "stick_place": "land_2027",
+   "stick_camera": {
+    "move": "crane",
+    "height": "high"
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 900
+    },
+    {
+     "id": "agent2",
+     "x": 1200
+    }
+   ],
+   "props": [
+    {
+     "id": "site_map",
+     "type": "crate",
+     "held_by": "deepak"
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "point"
+    },
+    {
+     "who": "deepak",
+     "say": "The rock is solid here. We start the survey from this corner."
+    },
+    {
+     "who": "agent2",
+     "say": "And if the villagers ask?"
+    },
+    {
+     "who": "deepak",
+     "say": "Tell them I'm fixing weather sensors. That's what I always do.",
+     "emotion": "happy"
+    }
+   ],
+   "mood": "hope"
+  },
+  {
+   "id": "s6_vision",
+   "stick_place": "site_2027",
+   "stick_shot": "pit_wide",
+   "stick_shot_move": true,
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "kavya",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "kavya",
+     "say": "A hundred metres down? Are you sure about this, Deepak?",
+     "emotion": "worried"
+    },
+    {
+     "who": "deepak",
+     "say": "Cranes by summer. Tunnels by winter. We don't stop.",
+     "emotion": "neutral"
+    }
+   ],
+   "mood": "wonder"
+  },
+  {
+   "id": "s6_collapse",
+   "stick_place": "site_2027",
+   "stick_shot": "edge",
+   "mood": "danger",
+   "background": {
+    "preset": "plain"
+   },
+   "stick_shake": [
+    {
+     "start": 2.6,
+     "end": 4.6,
+     "amount": 0.9
+    }
+   ],
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 700,
+     "z": 60
+    },
+    {
+     "id": "worker",
+     "x": 1150,
+     "z": 160
+    }
+   ],
+   "events": [
+    {
+     "who": "worker",
+     "say": "Sir! The wall... it's cracking!",
+     "emotion": "scared"
+    },
+    {
+     "effect": "rocks",
+     "x": 1200,
+     "z": 300,
+     "duration": 2.0,
+     "intensity": 1.2
+    },
+    {
+     "effect": "dust",
+     "x": 1200,
+     "z": 300,
+     "duration": 3.0
+    },
+    {
+     "who": "worker",
+     "do": "fall"
+    },
+    {
+     "who": "deepak",
+     "say": "Watch out!",
+     "emotion": "scared"
+    },
+    {
+     "who": "deepak",
+     "do": "run",
+     "to": {
+      "x": 1050,
+      "z": 120
+     }
+    },
+    {
+     "who": "deepak",
+     "do": "reach"
+    },
+    {
+     "who": "deepak",
+     "say": "Grab my hand! Come on!",
+     "emotion": "scared"
+    },
+    {
+     "who": "worker",
+     "do": "stand"
+    },
+    {
+     "who": "worker",
+     "say": "Thank you, sir... thank you.",
+     "emotion": "sad"
+    },
+    {
+     "who": "deepak",
+     "say": "The ground is too soft here. Move the shaft fifty metres north. Nobody digs here again.",
+     "emotion": "angry"
+    }
+   ]
+  },
+  {
+   "id": "s6_mine",
+   "stick_screen": {
+    "kind": "mine",
+    "grow": 11,
+    "depth": 100,
+    "title": "Project Deep Earth · cut-away (concept)"
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "kavya",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.0
+    },
+    {
+     "who": "deepak",
+     "say": "The lift goes down here. The first tunnel here. Then we keep digging."
+    },
+    {
+     "who": "kavya",
+     "say": "Day and night?"
+    },
+    {
+     "who": "deepak",
+     "say": "Day and night."
+    }
+   ],
+   "mood": "wonder"
+  },
+  {
+   "id": "s6_tunnel",
+   "stick_place": "tunnel_2030",
+   "stick_shot": "tunnel",
+   "stick_shot_move": true,
+   "stick_cars": [
+    {
+     "id": "carts",
+     "kind": "loader",
+     "from": {
+      "x": -1800,
+      "z": 530
+     },
+     "to": {
+      "x": 900,
+      "z": 530
+     },
+     "start": 0.5,
+     "end": 7.0
+    }
+   ],
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "kavya",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.5
+    },
+    {
+     "who": "deepak",
+     "say": "One day, ten thousand people will walk through here.",
+     "emotion": "neutral"
+    },
+    {
+     "who": "kavya",
+     "say": "Let's hope they never need to.",
+     "emotion": "sad"
+    }
+   ],
+   "stick_spot": "tunnel",
+   "mood": "wonder"
+  },
+  {
+   "id": "s6_night",
+   "stick_place": "farm_2026",
+   "stick_spot": "room",
+   "stick_shot": "desk",
+   "stick_time": "night",
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 1074,
+     "z": 654
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "deepak",
+     "do": "sit",
+     "facing": "away",
+     "at": 0
+    },
+    {
+     "sound": "phone"
+    },
+    {
+     "who": "deepak",
+     "say": "Mark? It's two in the morning...",
+     "emotion": "surprised"
+    },
+    {
+     "who": "mark",
+     "say": "Deepak, there's something else you need to see. The latest data just came in."
+    }
+   ],
+   "mood": "secret"
+  },
+  {
+   "id": "s6_dark",
+   "stick_screen": {
+    "kind": "world_map",
+    "dark_at": 3,
+    "dark_share": 0.4,
+    "alert": "ATMOSPHERIC ANOMALY — MULTIPLE REGIONS",
+    "title": "Global monitoring network · live"
+   },
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    },
+    {
+     "id": "mark",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "who": "mark",
+     "say": "Open the global map. Thousands of stations."
+    },
+    {
+     "who": "mark",
+     "say": "Look. Several stopped transmitting at the same moment. The exact same moment.",
+     "emotion": "scared"
+    },
+    {
+     "who": "deepak",
+     "say": "No... this isn't possible.",
+     "emotion": "scared"
+    }
+   ],
+   "mood": "danger"
+  },
+  {
+   "id": "s6_end",
+   "stick_place": "farm_2026",
+   "stick_spot": "path",
+   "stick_shot": "farm_wide",
+   "stick_time": "night",
+   "mood": "doom",
+   "background": {
+    "preset": "plain"
+   },
+   "stick_stormwall": {
+    "start": 0,
+    "end": 14
+   },
+   "stick_blackout": {
+    "at": 8.5
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": 960,
+     "z": 120
+    },
+    {
+     "id": "raghav",
+     "x": 500,
+     "z": 400
+    }
+   ],
+   "events": [
+    {
+     "weather": "wind_picks_up",
+     "over": 10,
+     "react": false
+    },
+    {
+     "who": "deepak",
+     "do": "look_up"
+    },
+    {
+     "wait": 3.0
+    },
+    {
+     "who": "deepak",
+     "say": "That's not a cloud...",
+     "emotion": "scared"
+    },
+    {
+     "who": "raghav",
+     "do": "run",
+     "to": {
+      "x": 820,
+      "z": 140
+     }
+    },
+    {
+     "who": "raghav",
+     "say": "Deepak! What is that? The whole sky is moving!",
+     "emotion": "scared"
+    },
+    {
+     "wait": 1.2
+    },
+    {
+     "sfx": "zap"
+    },
+    {
+     "who": "raghav",
+     "say": "The power... the whole village just went dark!",
+     "emotion": "scared"
+    },
+    {
+     "who": "deepak",
+     "say": "That's what my stations were trying to tell us.",
+     "emotion": "scared"
+    },
+    {
+     "who": "deepak",
+     "say": "Twenty thirty-five... might be much too late.",
+     "emotion": "scared"
+    }
+   ],
+   "stick_talk": false,
+   "stick_shot_hold": true,
+   "stick_shot_move": true
+  },
+  {
+   "id": "s6_tease",
+   "stick_place": "ruined_city",
+   "stick_shot": "down_road",
+   "stick_shot_move": true,
+   "background": {
+    "preset": "plain"
+   },
+   "characters": [
+    {
+     "id": "deepak",
+     "x": -900,
+     "hidden": true
+    }
+   ],
+   "events": [
+    {
+     "wait": 1.5
+    },
+    {
+     "who": "deepak",
+     "say": "If my stations are right...",
+     "emotion": "scared"
+    },
+    {
+     "wait": 0.8
+    },
+    {
+     "who": "deepak",
+     "say": "...this is what's coming.",
+     "emotion": "scared"
+    },
+    {
+     "wait": 2.0
+    }
+   ],
+   "mood": "doom"
+  }
+ ],
+ "end": {
+  "text": "To be continued...",
+  "sub": "The Last Signal"
+ }
+}

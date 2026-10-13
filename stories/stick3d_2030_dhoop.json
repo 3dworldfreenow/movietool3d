@@ -1,0 +1,27 @@
+{
+ "title": "2030: Dhoop",
+ "settings": { "language": "hi-IN", "art": "stick3d", "stick_look": "flat", "stick_place": "village_2030", "music": "mystery",
+               "subtitle": "Na ozone, na chumbakiya kavach" },
+ "characters": {
+  "amma": { "name": "Amma", "gender": "female", "shirt": "#e8742c", "cloth": [0.85, 0.32, 0.30] },
+  "ravi": { "name": "Ravi", "age": "teen", "shirt": "#4f86c6", "pants": "#6b5a4a" },
+  "chhotu": { "name": "Chhotu", "age": "child", "shirt": "#f2d43c", "pants": "#3f5aa6", "hood": false }
+ },
+ "scenes": [ {
+  "id": "subah",
+  "background": { "preset": "village", "time": "day" },
+  "characters": [ { "id": "amma", "x": 700 }, { "id": "chhotu", "x": 850 }, { "id": "ravi", "x": -200 } ],
+  "events": [
+   { "narrate": "Saal 2030. Ozone ki parat khatam ho chuki thi. Dharti ka chumbakiya kavach bhi." },
+   { "narrate": "Ab suraj sirf roshni nahi deta tha. Woh jalata tha." },
+   { "who": "ravi", "do": "walk", "to": { "x": 1050 } },
+   { "who": "chhotu", "say": "Bhaiya! Paani mila?", "emotion": "happy", "do": "jump" },
+   { "who": "ravi", "say": "Aadha drum. Nadi aur door chali gayi hai.", "emotion": "sad" },
+   { "who": "amma", "say": "Chashma theek se pehno. Dhoop aankhen kha jaati hai.", "emotion": "worried", "do": "point" },
+   { "who": "chhotu", "say": "Amma, bahar khelne jaun?", "emotion": "happy" },
+   { "who": "amma", "say": "Nahi! Dekho aasmaan. Aaj phir tufaan aa raha hai.", "emotion": "scared", "do": "point" },
+   { "who": "ravi", "say": "Sab andar chalo. Jaldi!", "emotion": "scared" },
+   { "who": "chhotu", "do": "run", "to": { "x": 300 }, "emotion": "scared" }
+  ]
+ } ]
+}

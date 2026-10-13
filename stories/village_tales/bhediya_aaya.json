@@ -1,0 +1,1224 @@
+{
+  "title": "Bhediya Aaya! (The Boy Who Cried Wolf)",
+  "settings": {
+    "language": "en-IN",
+    "art": "stick3d",
+    "stick_look": "flat",
+    "music": "raga_happy",
+    "subtitle": "Gaon ki kahani",
+    "stick_cinema": true
+  },
+  "characters": {
+    "raju": {
+      "name": "Raju",
+      "age": "child",
+      "gender": "male",
+      "shirt": "#e8b23a",
+      "pants": "#3e5f8a",
+      "skin": "brown",
+      "voice": {
+        "pitch": 6
+      }
+    },
+    "dadaji": {
+      "name": "Dadaji",
+      "age": "old",
+      "gender": "male",
+      "shirt": "#efe9dc",
+      "pants": "#efe9dc",
+      "mustache": true,
+      "skin": "brown"
+    },
+    "ramu": {
+      "name": "Ramu kaka",
+      "gender": "male",
+      "shirt": "#4f8a5b",
+      "pants": "#3b3b42",
+      "mustache": true,
+      "skin": "brown"
+    },
+    "kamla": {
+      "name": "Kamla kaki",
+      "gender": "female",
+      "dress": "#b8452f",
+      "shirt": "#b8452f",
+      "skin": "brown"
+    },
+    "sheep1": {
+      "name": "Sheep",
+      "species": "sheep"
+    },
+    "sheep2": {
+      "name": "Sheep",
+      "species": "sheep"
+    },
+    "sheep3": {
+      "name": "Sheep",
+      "species": "sheep"
+    },
+    "goat1": {
+      "name": "Goat",
+      "species": "goat"
+    },
+    "wolf": {
+      "name": "Wolf",
+      "species": "wolf",
+      "size": 1.1
+    }
+  },
+  "scenes": [
+    {
+      "id": "b1_village",
+      "stick_place": "village_road",
+      "stick_spot": "road",
+      "stick_shot": "village_high",
+      "stick_time": "morning",
+      "mood": "warm",
+      "stick_title": "BHEDIYA AAYA!",
+      "stick_shot_hold": true,
+      "characters": [
+        {
+          "id": "raju",
+          "x": 300,
+          "z": 120
+        },
+        {
+          "id": "sheep1",
+          "x": -200,
+          "z": 120
+        },
+        {
+          "id": "sheep2",
+          "x": 150,
+          "z": 145
+        },
+        {
+          "id": "sheep3",
+          "x": 450,
+          "z": 170
+        },
+        {
+          "id": "goat1",
+          "x": 700,
+          "z": 195
+        }
+      ],
+      "events": [
+        {
+          "who": "raju",
+          "do": "walk",
+          "to": {
+            "x": 1900,
+            "z": 120
+          },
+          "at": 0.3
+        },
+        {
+          "who": "sheep1",
+          "do": "walk",
+          "to": {
+            "x": 2200,
+            "z": 120
+          },
+          "at": 0.1
+        },
+        {
+          "who": "sheep2",
+          "do": "walk",
+          "to": {
+            "x": 2320,
+            "z": 145
+          },
+          "at": 0.1
+        },
+        {
+          "who": "sheep3",
+          "do": "walk",
+          "to": {
+            "x": 2440,
+            "z": 170
+          },
+          "at": 0.1
+        },
+        {
+          "who": "goat1",
+          "do": "walk",
+          "to": {
+            "x": 2560,
+            "z": 195
+          },
+          "at": 0.1
+        },
+        {
+          "sound": "bleat",
+          "at": 1.0
+        },
+        {
+          "wait": 4.5
+        }
+      ]
+    },
+    {
+      "id": "b2_bored",
+      "stick_place": "corn_field",
+      "stick_spot": "track",
+      "stick_shot": [
+        [
+          0.9,
+          1.15,
+          -2.6
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "stick_time": "day",
+      "mood": "calm",
+      "stick_shot_hold": true,
+      "stick_to_camera": [
+        "raju"
+      ],
+      "characters": [
+        {
+          "id": "raju",
+          "x": 960,
+          "z": 60
+        },
+        {
+          "id": "sheep1",
+          "x": 1250,
+          "z": 360
+        },
+        {
+          "id": "sheep2",
+          "x": 1480,
+          "z": 430
+        },
+        {
+          "id": "sheep3",
+          "x": 1700,
+          "z": 350
+        },
+        {
+          "id": "goat1",
+          "x": 1880,
+          "z": 420
+        }
+      ],
+      "events": [
+        {
+          "who": "sheep1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep2",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep3",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "goat1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "raju",
+          "do": "sit",
+          "at": 0
+        },
+        {
+          "wait": 1.0
+        },
+        {
+          "who": "raju",
+          "say": "Uff... roz wahi bakriyan, wahi khet. Kitna bore ho raha hai!",
+          "emotion": "sad"
+        },
+        {
+          "wait": 0.6
+        },
+        {
+          "who": "raju",
+          "say": "Ek mazedaar idea! Thoda mazaak karta hoon...",
+          "emotion": "happy",
+          "do": "think"
+        },
+        {
+          "wait": 0.5
+        }
+      ]
+    },
+    {
+      "id": "b3_cry1",
+      "stick_place": "corn_field",
+      "stick_spot": "track",
+      "stick_shot": [
+        [
+          0.0,
+          1.7,
+          -7.5
+        ],
+        [
+          0.0,
+          1.0,
+          1.5
+        ]
+      ],
+      "stick_time": "day",
+      "mood": "tense",
+      "stick_shot_hold": true,
+      "characters": [
+        {
+          "id": "raju",
+          "x": 960,
+          "z": 60
+        },
+        {
+          "id": "sheep1",
+          "x": 1250,
+          "z": 360
+        },
+        {
+          "id": "sheep2",
+          "x": 1480,
+          "z": 430
+        },
+        {
+          "id": "sheep3",
+          "x": 1700,
+          "z": 350
+        },
+        {
+          "id": "goat1",
+          "x": 1880,
+          "z": 420
+        }
+      ],
+      "events": [
+        {
+          "who": "sheep1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep2",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep3",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "goat1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "raju",
+          "do": "jump",
+          "at": 0
+        },
+        {
+          "who": "raju",
+          "say": "Bachao! Bachao! Bhediya aaya! Bhediya aaya!",
+          "emotion": "scared",
+          "do": "wave"
+        },
+        {
+          "wait": 0.8
+        }
+      ]
+    },
+    {
+      "id": "b4_run1",
+      "stick_place": "village_road",
+      "stick_spot": "road",
+      "stick_shot": [
+        [
+          1.2,
+          1.6,
+          -4.0
+        ],
+        [
+          0.0,
+          1.3,
+          0.4
+        ]
+      ],
+      "stick_time": "day",
+      "mood": "tense",
+      "characters": [
+        {
+          "id": "dadaji",
+          "x": 820,
+          "z": 140
+        },
+        {
+          "id": "ramu",
+          "x": 1060,
+          "z": 100
+        },
+        {
+          "id": "kamla",
+          "x": 1250,
+          "z": 170
+        }
+      ],
+      "props": [
+        {
+          "id": "lathi_ramu",
+          "type": "stick",
+          "held_by": "ramu"
+        },
+        {
+          "id": "lathi_dadaji",
+          "type": "stick",
+          "held_by": "dadaji"
+        }
+      ],
+      "events": [
+        {
+          "who": "ramu",
+          "say": "Raju ki awaaz! Bhediya! Chalo, jaldi!",
+          "emotion": "scared",
+          "do": "point"
+        },
+        {
+          "who": "kamla",
+          "say": "Haaye Ram! Bachche ko bachao!",
+          "emotion": "scared"
+        },
+        {
+          "who": "ramu",
+          "do": "run",
+          "to": {
+            "x": 2600,
+            "z": 120
+          },
+          "at": 0
+        },
+        {
+          "who": "dadaji",
+          "do": "run",
+          "to": {
+            "x": 2500,
+            "z": 120
+          },
+          "at": 0.2
+        },
+        {
+          "who": "kamla",
+          "do": "run",
+          "to": {
+            "x": 2700,
+            "z": 140
+          },
+          "at": 0.4
+        },
+        {
+          "wait": 2.0
+        }
+      ]
+    },
+    {
+      "id": "b5_laugh1",
+      "stick_place": "corn_field",
+      "stick_spot": "track",
+      "stick_shot": [
+        [
+          0.0,
+          1.7,
+          -7.5
+        ],
+        [
+          0.0,
+          1.0,
+          1.5
+        ]
+      ],
+      "stick_time": "day",
+      "mood": "warm",
+      "characters": [
+        {
+          "id": "raju",
+          "x": 960,
+          "z": 60
+        },
+        {
+          "id": "ramu",
+          "x": -200,
+          "z": 120
+        },
+        {
+          "id": "dadaji",
+          "x": -400,
+          "z": 150
+        },
+        {
+          "id": "kamla",
+          "x": -600,
+          "z": 100
+        },
+        {
+          "id": "sheep1",
+          "x": 1250,
+          "z": 360
+        },
+        {
+          "id": "sheep2",
+          "x": 1480,
+          "z": 430
+        },
+        {
+          "id": "sheep3",
+          "x": 1700,
+          "z": 350
+        },
+        {
+          "id": "goat1",
+          "x": 1880,
+          "z": 420
+        }
+      ],
+      "events": [
+        {
+          "who": "sheep1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep2",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep3",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "goat1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "ramu",
+          "do": "run",
+          "to": {
+            "x": 640,
+            "z": 120
+          },
+          "at": 0
+        },
+        {
+          "who": "dadaji",
+          "do": "run",
+          "to": {
+            "x": 460,
+            "z": 160
+          },
+          "at": 0
+        },
+        {
+          "who": "kamla",
+          "do": "run",
+          "to": {
+            "x": 300,
+            "z": 90
+          },
+          "at": 0
+        },
+        {
+          "wait": 2.2
+        },
+        {
+          "who": "ramu",
+          "say": "Kahan hai bhediya? Kahan?",
+          "emotion": "worried",
+          "do": "look_around"
+        },
+        {
+          "who": "raju",
+          "say": "Ha ha ha! Koi bhediya nahi hai! Mazaak tha, mazaak!",
+          "emotion": "laugh",
+          "do": "laugh"
+        },
+        {
+          "who": "kamla",
+          "say": "Besharam! Hum sab kaam chhod ke bhaage!",
+          "emotion": "angry",
+          "do": "point"
+        },
+        {
+          "who": "dadaji",
+          "say": "Beta, aisa mazaak phir mat karna.",
+          "emotion": "sad"
+        },
+        {
+          "who": "ramu",
+          "do": "walk",
+          "to": {
+            "x": -400,
+            "z": 120
+          }
+        },
+        {
+          "who": "dadaji",
+          "do": "walk",
+          "to": {
+            "x": -500,
+            "z": 140
+          },
+          "at": 0
+        },
+        {
+          "who": "kamla",
+          "do": "walk",
+          "to": {
+            "x": -600,
+            "z": 100
+          },
+          "at": 0
+        },
+        {
+          "wait": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b6_cry2",
+      "stick_place": "corn_field",
+      "stick_spot": "track",
+      "stick_shot": [
+        [
+          0.0,
+          1.7,
+          -7.5
+        ],
+        [
+          0.0,
+          1.0,
+          1.5
+        ]
+      ],
+      "stick_time": "day",
+      "mood": "tense",
+      "characters": [
+        {
+          "id": "raju",
+          "x": 960,
+          "z": 60
+        },
+        {
+          "id": "ramu",
+          "x": -200,
+          "z": 120
+        },
+        {
+          "id": "dadaji",
+          "x": -400,
+          "z": 150
+        },
+        {
+          "id": "kamla",
+          "x": -600,
+          "z": 100
+        },
+        {
+          "id": "sheep1",
+          "x": 1250,
+          "z": 360
+        },
+        {
+          "id": "sheep2",
+          "x": 1480,
+          "z": 430
+        },
+        {
+          "id": "sheep3",
+          "x": 1700,
+          "z": 350
+        },
+        {
+          "id": "goat1",
+          "x": 1880,
+          "z": 420
+        }
+      ],
+      "events": [
+        {
+          "who": "sheep1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep2",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep3",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "goat1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "text": "Agle din...",
+          "style": "time",
+          "duration": 2
+        },
+        {
+          "wait": 1.5
+        },
+        {
+          "who": "raju",
+          "say": "Bachao! Bhediya aaya! Iss baar sach mein!",
+          "emotion": "scared",
+          "do": "wave"
+        },
+        {
+          "who": "ramu",
+          "do": "run",
+          "to": {
+            "x": 640,
+            "z": 120
+          },
+          "at": 0
+        },
+        {
+          "who": "dadaji",
+          "do": "run",
+          "to": {
+            "x": 460,
+            "z": 160
+          },
+          "at": 0
+        },
+        {
+          "who": "kamla",
+          "do": "run",
+          "to": {
+            "x": 300,
+            "z": 90
+          },
+          "at": 0
+        },
+        {
+          "wait": 2.2
+        },
+        {
+          "who": "raju",
+          "say": "Ha ha ha! Phir se buddhu ban gaye!",
+          "emotion": "laugh",
+          "do": "laugh"
+        },
+        {
+          "who": "ramu",
+          "say": "Bas! Ab tumhari baat koi nahi sunega.",
+          "emotion": "angry"
+        },
+        {
+          "who": "dadaji",
+          "say": "Jo baar baar jhooth bole, uska sach bhi koi nahi maanta, Raju.",
+          "emotion": "sad",
+          "close": true
+        },
+        {
+          "who": "ramu",
+          "do": "walk",
+          "to": {
+            "x": -400,
+            "z": 120
+          }
+        },
+        {
+          "who": "dadaji",
+          "do": "walk",
+          "to": {
+            "x": -500,
+            "z": 140
+          },
+          "at": 0
+        },
+        {
+          "who": "kamla",
+          "do": "walk",
+          "to": {
+            "x": -600,
+            "z": 100
+          },
+          "at": 0
+        },
+        {
+          "wait": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b7_wolf",
+      "stick_place": "corn_field",
+      "stick_spot": "track",
+      "stick_shot": [
+        [
+          3.5,
+          0.6,
+          -3.0
+        ],
+        [
+          -1.5,
+          0.7,
+          3.0
+        ]
+      ],
+      "stick_time": "sunset",
+      "mood": "danger",
+      "stick_shot_hold": true,
+      "characters": [
+        {
+          "id": "wolf",
+          "x": 900,
+          "z": 820
+        },
+        {
+          "id": "sheep1",
+          "x": 1250,
+          "z": 360
+        },
+        {
+          "id": "sheep2",
+          "x": 1480,
+          "z": 430
+        },
+        {
+          "id": "sheep3",
+          "x": 1700,
+          "z": 350
+        },
+        {
+          "id": "goat1",
+          "x": 1880,
+          "z": 420
+        }
+      ],
+      "events": [
+        {
+          "who": "sheep1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep2",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep3",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "goat1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "text": "Shaam ko... makke ke khet mein kuch chhupa tha.",
+          "style": "time",
+          "duration": 2.5
+        },
+        {
+          "wait": 1.5
+        },
+        {
+          "sound": "growl",
+          "at": 0.3
+        },
+        {
+          "who": "wolf",
+          "do": "walk",
+          "to": {
+            "x": 1000,
+            "z": 420
+          },
+          "at": 0.4
+        },
+        {
+          "wait": 3.0
+        }
+      ]
+    },
+    {
+      "id": "b8_real",
+      "stick_place": "corn_field",
+      "stick_spot": "track",
+      "stick_shot": [
+        [
+          0.9,
+          1.15,
+          -2.6
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "stick_time": "sunset",
+      "mood": "danger",
+      "stick_shot_hold": true,
+      "stick_to_camera": [
+        "raju"
+      ],
+      "characters": [
+        {
+          "id": "raju",
+          "x": 960,
+          "z": 60
+        },
+        {
+          "id": "sheep1",
+          "x": 1250,
+          "z": 360
+        },
+        {
+          "id": "sheep2",
+          "x": 1480,
+          "z": 430
+        },
+        {
+          "id": "sheep3",
+          "x": 1700,
+          "z": 350
+        },
+        {
+          "id": "goat1",
+          "x": 1880,
+          "z": 420
+        }
+      ],
+      "events": [
+        {
+          "who": "sheep1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep2",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "sheep3",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "who": "goat1",
+          "do": "eat",
+          "at": 0
+        },
+        {
+          "sound": "heartbeat",
+          "at": 0
+        },
+        {
+          "who": "raju",
+          "do": "surprised",
+          "at": 0.2
+        },
+        {
+          "wait": 0.8
+        },
+        {
+          "who": "raju",
+          "say": "Bh... bhediya! Sach mein bhediya!",
+          "emotion": "scared"
+        },
+        {
+          "who": "raju",
+          "say": "Bachao! Koi toh aao! Bhediya aaya! Sach bol raha hoon!",
+          "emotion": "scared",
+          "do": "wave"
+        },
+        {
+          "wait": 0.5
+        }
+      ]
+    },
+    {
+      "id": "b9_ignore",
+      "stick_place": "village_road",
+      "stick_spot": "road",
+      "stick_shot": [
+        [
+          1.2,
+          1.6,
+          -4.0
+        ],
+        [
+          0.0,
+          1.3,
+          0.4
+        ]
+      ],
+      "stick_time": "sunset",
+      "mood": "sad",
+      "characters": [
+        {
+          "id": "dadaji",
+          "x": 820,
+          "z": 140
+        },
+        {
+          "id": "ramu",
+          "x": 1060,
+          "z": 100
+        },
+        {
+          "id": "kamla",
+          "x": 1250,
+          "z": 170
+        }
+      ],
+      "events": [
+        {
+          "wait": 0.8
+        },
+        {
+          "who": "kamla",
+          "say": "Suno... phir Raju chilla raha hai.",
+          "emotion": "worried"
+        },
+        {
+          "who": "ramu",
+          "say": "Phir mazaak hoga. Main nahi jaata.",
+          "emotion": "angry",
+          "do": "shrug"
+        },
+        {
+          "who": "dadaji",
+          "do": "look_down",
+          "at": 0
+        },
+        {
+          "wait": 1.6
+        }
+      ]
+    },
+    {
+      "id": "b10_attack",
+      "stick_place": "corn_field",
+      "stick_spot": "track",
+      "stick_shot": [
+        [
+          0.0,
+          1.7,
+          -7.5
+        ],
+        [
+          0.0,
+          1.0,
+          1.5
+        ]
+      ],
+      "stick_time": "sunset",
+      "mood": "danger",
+      "stick_shot_hold": true,
+      "characters": [
+        {
+          "id": "raju",
+          "x": 300,
+          "z": 60
+        },
+        {
+          "id": "wolf",
+          "x": 1000,
+          "z": 420
+        },
+        {
+          "id": "sheep1",
+          "x": 1250,
+          "z": 360
+        },
+        {
+          "id": "sheep2",
+          "x": 1480,
+          "z": 430
+        },
+        {
+          "id": "sheep3",
+          "x": 1700,
+          "z": 350
+        },
+        {
+          "id": "goat1",
+          "x": 1880,
+          "z": 420
+        }
+      ],
+      "events": [
+        {
+          "sound": "growl",
+          "at": 0
+        },
+        {
+          "who": "wolf",
+          "do": "run",
+          "to": {
+            "x": 1200,
+            "z": 200
+          },
+          "at": 0
+        },
+        {
+          "sound": "bleat",
+          "at": 0.4
+        },
+        {
+          "sound": "bleat",
+          "at": 1.0
+        },
+        {
+          "who": "sheep1",
+          "do": "run",
+          "to": {
+            "x": 3200,
+            "z": 120
+          },
+          "at": 0.3
+        },
+        {
+          "who": "sheep2",
+          "do": "run",
+          "to": {
+            "x": 3300,
+            "z": 260
+          },
+          "at": 0.4
+        },
+        {
+          "who": "sheep3",
+          "do": "run",
+          "to": {
+            "x": 3400,
+            "z": 180
+          },
+          "at": 0.5
+        },
+        {
+          "who": "goat1",
+          "do": "run",
+          "to": {
+            "x": 3500,
+            "z": 250
+          },
+          "at": 0.6
+        },
+        {
+          "who": "wolf",
+          "do": "run",
+          "to": {
+            "x": 3600,
+            "z": 220
+          },
+          "at": 1.6
+        },
+        {
+          "who": "raju",
+          "do": "cry",
+          "at": 0.6
+        },
+        {
+          "wait": 3.2
+        }
+      ]
+    },
+    {
+      "id": "b11_moral",
+      "stick_place": "corn_field",
+      "stick_spot": "track",
+      "stick_shot": [
+        [
+          0.9,
+          1.15,
+          -2.6
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "stick_time": "night",
+      "mood": "sad",
+      "stick_to_camera": [
+        "raju"
+      ],
+      "characters": [
+        {
+          "id": "raju",
+          "x": 960,
+          "z": 60
+        },
+        {
+          "id": "dadaji",
+          "x": 640,
+          "z": 120
+        }
+      ],
+      "events": [
+        {
+          "who": "raju",
+          "do": "sit",
+          "at": 0
+        },
+        {
+          "sound": "howl",
+          "at": 0.3,
+          "volume": 0.5
+        },
+        {
+          "who": "raju",
+          "say": "Meri bakriyan... sab bhaag gayi. Kisi ne meri baat nahi maani.",
+          "emotion": "cry"
+        },
+        {
+          "who": "dadaji",
+          "say": "Kyunki tumne do baar jhooth bola tha, beta.",
+          "emotion": "sad"
+        },
+        {
+          "who": "raju",
+          "say": "Main ab kabhi jhooth nahi bolunga, Dadaji. Kabhi nahi.",
+          "emotion": "cry"
+        },
+        {
+          "who": "dadaji",
+          "say": "Chalo, kal subah sab milke dhoondhenge.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Seekh: jhooth bolne waale ka sach bhi koi nahi maanta.",
+          "style": "title",
+          "duration": 3.5
+        },
+        {
+          "wait": 3.5
+        }
+      ]
+    }
+  ]
+}
