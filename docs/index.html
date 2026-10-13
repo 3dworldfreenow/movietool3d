@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>movietool3d · Stick 3D</title>
+<meta name="description" content="Stick 3D: a doodle 3D film engine. A story JSON goes in, a voiced MP4 comes out.">
+<meta property="og:title" content="movietool3d · Stick 3D">
+<meta property="og:description" content="A story JSON goes in, a voiced MP4 comes out.">
+<meta property="og:image" content="img/village.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧊</text></svg>">
+<style>
+:root {
+  --bg: #f6f3ec; --card: #ffffff; --ink: #1d1b18; --muted: #6a645a; --line: #e2dccf;
+  --accent: #d9822b; --accent-ink: #ffffff; --code-bg: #1f1d1a; --code-ink: #f1ead9;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #151412; --card: #1f1d1a; --ink: #eee8dc; --muted: #a59e90; --line: #33302b;
+          --accent: #e7953f; --accent-ink: #151412; --code-bg: #0d0c0b; --code-ink: #f1ead9; }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+       font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+.lead code { overflow-wrap: anywhere; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+nav { display: flex; gap: 20px; align-items: center; padding: 18px 0; flex-wrap: wrap; }
+nav .brand { font-weight: 800; font-size: 20px; color: var(--ink); text-decoration: none; margin-right: auto; }
+nav a { text-decoration: none; color: var(--muted); font-weight: 600; }
+nav a:hover { color: var(--ink); }
+
+.hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 40px; align-items: center; padding: 40px 0 56px; }
+.hero h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.08; margin: 0 0 18px; letter-spacing: -0.02em; }
+.hero p { font-size: 19px; color: var(--muted); margin: 0 0 28px; }
+.hero img { width: 100%; border-radius: 14px; box-shadow: 0 18px 50px rgba(0,0,0,.18); display: block; }
+.btns { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn { display: inline-block; padding: 12px 20px; border-radius: 10px; font-weight: 700; text-decoration: none;
+       background: var(--accent); color: var(--accent-ink); }
+.btn.ghost { background: transparent; color: var(--ink); border: 2px solid var(--line); }
+
+section { padding: 56px 0; border-top: 1px solid var(--line); }
+section h2 { font-size: 32px; margin: 0 0 8px; letter-spacing: -0.01em; }
+section .lead { color: var(--muted); margin: 0 0 28px; max-width: 640px; }
+
+.flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; counter-reset: step; }
+.flow div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+.flow div::before { counter-increment: step; content: counter(step); display: inline-grid; place-items: center;
+       width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: var(--accent-ink);
+       font-weight: 800; margin-bottom: 10px; }
+.flow b { display: block; margin-bottom: 4px; }
+.flow span { color: var(--muted); font-size: 15px; }
+
+.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.gallery figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; cursor: zoom-in; }
+.gallery img { width: 100%; display: block; aspect-ratio: 477 / 197; object-fit: cover; }
+.gallery figcaption { padding: 8px 12px; font-size: 14px; color: var(--muted); }
+
+.features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.features div { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.features h3 { margin: 0 0 6px; font-size: 18px; }
+.features p { margin: 0; color: var(--muted); font-size: 15px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
+.chips span { background: var(--card); border: 1px solid var(--line); border-radius: 99px; padding: 3px 11px; font-size: 14px; }
+
+pre { background: var(--code-bg); color: var(--code-ink); padding: 18px 20px; border-radius: 12px; overflow-x: auto;
+      font: 14px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin: 0 0 18px; position: relative; }
+pre .c { color: #9a927f; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+.two > div, .hero > div { min-width: 0; }
+.two h3 { margin: 0 0 10px; }
+pre:has(.copy) { padding-top: 38px; }
+.copy { position: absolute; top: 8px; right: 8px; background: #3a362f; color: #f1ead9; border: 0; border-radius: 6px;
+        padding: 4px 10px; font-size: 12px; cursor: pointer; }
+
+footer { padding: 36px 0 48px; color: var(--muted); font-size: 15px; border-top: 1px solid var(--line); }
+
+#lb { position: fixed; inset: 0; background: rgba(0,0,0,.88); display: none; place-items: center; padding: 16px; cursor: zoom-out; z-index: 9; }
+#lb.on { display: grid; }
+#lb img { max-width: 100%; max-height: 90vh; border-radius: 8px; }
+
+@media (max-width: 820px) {
+  .hero, .two { grid-template-columns: 1fr; }
+  .flow { grid-template-columns: 1fr 1fr; }
+  .gallery, .features { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 520px) {
+  .flow, .gallery, .features { grid-template-columns: 1fr; }
+  nav a:not(.brand) { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav>
+    <a class="brand" href="#">🧊 movietool3d</a>
+    <a href="#how">How it works</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#start">Get started</a>
+    <a href="https://github.com/3dworldfreenow/movietool3d">GitHub</a>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1>Write a story.<br>Get a voiced 3D cartoon.</h1>
+      <p>Stick 3D is a doodle 3D film engine. A story JSON goes in, a voiced MP4 comes out: places, people,
+         animals, camera moves, voices, music and subtitles. Free, open source, runs on your own computer.</p>
+      <div class="btns">
+        <a class="btn" href="#start">Get started</a>
+        <a class="btn ghost" href="https://github.com/3dworldfreenow/movietool3d">View on GitHub</a>
+      </div>
+    </div>
+    <img src="img/village.jpg" alt="A doodle 3D village with houses, a pond, a road and cows, seen from above">
+  </header>
+</div>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="lead">You describe the film. The engine builds the world, places the camera, acts every line and edits it together.</p>
+    <div class="flow">
+      <div><b>Idea</b><span>Paste the Stick 3D prompt into any AI with your idea, or write the JSON yourself.</span></div>
+      <div><b>Story JSON</b><span>Characters, places, scenes, lines and moods: one plain text file.</span></div>
+      <div><b>Check</b><span><code>validate</code> and <code>storyboard</code> show every shot in seconds, before rendering.</span></div>
+      <div><b>MP4</b><span>Voices, lip sync, music, sound effects and subtitles, rendered to video.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <h2>Made with Stick 3D</h2>
+    <p class="lead">Real frames from <i>Bhediya Aaya!</i> (The Boy Who Cried Wolf), straight out of
+       <code>python main.py storyboard stories/village_tales/bhediya_aaya.json</code>.</p>
+    <div class="gallery">
+      <figure><img loading="lazy" src="img/raju.jpg" alt="Raju beside the sheep in a sugarcane field"><figcaption>Raju: “Kitna bore ho raha hai!”</figcaption></figure>
+      <figure><img loading="lazy" src="img/villagers.jpg" alt="Three villagers in close-up outside a shop"><figcaption>Slow push in on Kamla kaki</figcaption></figure>
+      <figure><img loading="lazy" src="img/two_shot.jpg" alt="Ramu kaka and Dadaji at the field fence"><figcaption>Two-shot: “Kahan hai bhediya?”</figcaption></figure>
+      <figure><img loading="lazy" src="img/laughing.jpg" alt="Raju laughing next to the sheep"><figcaption>“Phir se buddhu ban gaye!”</figcaption></figure>
+      <figure><img loading="lazy" src="img/wolf.jpg" alt="A wolf behind the sheep at dusk"><figcaption>Dusk: the wolf really comes</figcaption></figure>
+      <figure><img loading="lazy" src="img/dusk_crowd.jpg" alt="Villagers standing in the village at sunset"><figcaption>Nobody believes him this time</figcaption></figure>
+      <figure><img loading="lazy" src="img/dusk_close.jpg" alt="Two villagers in close-up at sunset"><figcaption>Mood colour follows the story</figcaption></figure>
+      <figure><img loading="lazy" src="img/night.jpg" alt="Raju crying in the field at night"><figcaption>Night: the lesson</figcaption></figure>
+      <figure><img loading="lazy" src="img/village.jpg" alt="The village from above"><figcaption>The opening wide shot</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What’s in the box</h2>
+    <p class="lead">Everything a short film needs, drawn in code. No 3D models to buy, no editor to learn.</p>
+    <div class="features">
+      <div><h3>🏡 Places</h3><p>Villages, fields, roads, rooms and big 3D world maps, built from a short list.</p></div>
+      <div><h3>🎥 Cinema</h3><p>Wides, two-shots, close-ups, tracking and slow push-ins, chosen for each line.</p></div>
+      <div><h3>🗣️ Voices</h3><p>Offline Piper voices or free online Edge voices, with lip sync and many languages.</p></div>
+      <div><h3>🐺 Animals</h3><p>40 animals and birds that walk, graze, fly and act alongside the people.</p></div>
+      <div><h3>🌅 Mood &amp; light</h3><p>Day, dusk and night, a colour script per scene, sky, grain and effects.</p></div>
+      <div><h3>🌐 Web page</h3><p>Paste or upload a story, press Render, watch or download the video.</p></div>
+    </div>
+    <div class="chips" aria-label="Animals">
+      <span>bear</span><span>buffalo</span><span>camel</span><span>cat</span><span>cheetah</span><span>cow</span><span>deer</span>
+      <span>dog</span><span>donkey</span><span>duck</span><span>eagle</span><span>elephant</span><span>flamingo</span><span>fox</span>
+      <span>giraffe</span><span>goat</span><span>hen</span><span>hippo</span><span>horse</span><span>kingfisher</span><span>leopard</span>
+      <span>lion</span><span>monkey</span><span>mouse</span><span>myna</span><span>owl</span><span>panda</span><span>parrot</span>
+      <span>peacock</span><span>pig</span><span>pigeon</span><span>rabbit</span><span>sheep</span><span>sparrow</span><span>squirrel</span>
+      <span>tiger</span><span>wolf</span><span>zebra</span><span>crow</span><span>bird</span>
+    </div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="wrap">
+    <h2>Get started</h2>
+    <p class="lead">Python 3.10+ and FFmpeg. Linux, macOS or Windows.</p>
+    <div class="two">
+      <div>
+        <h3>1. Install</h3>
+<pre><button class="copy">Copy</button>git clone https://github.com/3dworldfreenow/movietool3d
+cd movietool3d
+pip install -r requirements.txt
+<span class="c"># offline voices (~0.7 GB), or use --tts edge</span>
+python tools/get_piper_voices.py</pre>
+        <h3>2. Render</h3>
+<pre><button class="copy">Copy</button>python main.py render stories/village_tales/bhediya_aaya.json \
+  --tts piper --resolution 1280x720 --no-hook</pre>
+        <h3>3. Or use the web page</h3>
+<pre><button class="copy">Copy</button>STICK3D_PASSWORD=your-secret \
+  python stick3d_server.py --host 0.0.0.0 --port 8000</pre>
+      </div>
+      <div>
+        <h3>A story is just JSON</h3>
+<pre>{
+  "title": "Bhediya Aaya!",
+  "settings": { "language": "en-IN", "art": "stick3d",
+                "music": "raga_happy" },
+  "characters": {
+    "raju": { "name": "Raju", "age": "child",
+              "shirt": "#e8b23a", "skin": "brown" },
+    "wolf": { "name": "Wolf", "species": "wolf" }
+  },
+  "scenes": [
+    { "id": "b1_village",
+      "stick_place": "village_road",
+      "stick_shot": "village_high",
+      ... }
+  ]
+}</pre>
+        <p class="lead" style="margin:0">Don’t want to write it? Paste
+          <a href="https://github.com/3dworldfreenow/movietool3d/blob/main/prompts/story_to_json_prompt_stick3d.md">the Stick 3D prompt</a>
+          into any AI with your idea, then paste the answer into the web page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">🧊 movietool3d · Stick 3D, split out of Stickman Studio ·
+    <a href="https://github.com/3dworldfreenow/movietool3d">github.com/3dworldfreenow/movietool3d</a></div>
+</footer>
+
+<div id="lb"><img alt=""></div>
+
+<script>
+// click a frame to see it big; click again to close
+var lb = document.getElementById("lb"), big = lb.querySelector("img");
+document.querySelectorAll(".gallery figure").forEach(function (f) {
+  f.addEventListener("click", function () {
+    var img = f.querySelector("img");
+    big.src = img.src; big.alt = img.alt; lb.classList.add("on");
+  });
+});
+lb.addEventListener("click", function () { lb.classList.remove("on"); });
+document.addEventListener("keydown", function (e) { if (e.key === "Escape") lb.classList.remove("on"); });
+
+// copy buttons on the commands
+document.querySelectorAll(".copy").forEach(function (b) {
+  b.addEventListener("click", function () {
+    var text = b.parentNode.textContent.replace(/^Copy/, "").trim();
+    navigator.clipboard.writeText(text).then(function () {
+      b.textContent = "Copied"; setTimeout(function () { b.textContent = "Copy"; }, 1200);
+    });
+  });
+});
+</script>
+</body>
+</html>
